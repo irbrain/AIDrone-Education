@@ -1,2 +1,2 @@
 # zeroDrone
-DIY Coding Drone for AI and OpenCV  Education with Raspberry pi Zero 2 W 
+AI Education Drone with Raspberry pi Zero 2 W 
