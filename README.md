@@ -1,6 +1,9 @@
 # zeroDrone
 DIY AI Education Cdoing Drone with Raspberry pi Zero 2 W
 
+ZeroDrone is the main education drone in Seoul Drone Academy
+
+
 ![image](https://user-images.githubusercontent.com/122161666/223139838-021ae03c-4051-4775-9dc8-e55360cdb9d0.png)
 
 
