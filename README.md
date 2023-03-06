@@ -6,7 +6,8 @@ DIY AI Education Cdoing Drone with Raspberry pi Zero 2 W
 
 ZeroDrone Kit  (https://smartstore.naver.com/steammaker/products/8125400867)
 
-![image](https://user-images.githubusercontent.com/122161666/223140884-de3d6d0f-c52b-41e4-8e99-6ae7f3401555.png)
+![image](https://user-images.githubusercontent.com/122161666/223154534-6ad6dd59-ea49-4378-9610-4b98cd6e06e9.png)
+
 
 
 ZeroDrone Flight 
