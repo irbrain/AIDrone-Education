@@ -9,10 +9,30 @@
 ![image](https://user-images.githubusercontent.com/122161666/223643024-d1b56828-5bc2-415a-933f-7c38ab321c80.png)
 
       
-## 3. intall irbrain module 
+## 3. Setting up a developement environment on a PC
+
+### 1) install Anaconda (https://www.anaconda.com)
+    
+### 2) Run anaconda prompt with administrator privileges.
+<br>
+
+![image](https://user-images.githubusercontent.com/122161666/223847583-ee36b5aa-ec12-4583-9f48-5703e987ab20.png)  
+
+
+### 3) Create a python virtual environment in the anaconda prompt
+    
+       conda create -n aidrone python=[version]
+             
+### 4) Install ZeroDrone python Library in the anaconda prompt
+     
        pip install pyirbrain
-       
-## 4. try to excute exmaples
+             
+### 5) Install Visual Studio Code (https://code.visualstudio.com)  
+<br>
+ 
+ 
+
+## 4. Test the exmaples in the Visual Studio Code 
 
 ### 1) each motor contorl for 2 seconds
 
