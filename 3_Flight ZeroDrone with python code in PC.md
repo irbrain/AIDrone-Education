@@ -2,7 +2,7 @@
 
 ## 1. Insert bluetooth dongle in pc
       
-      ![image](https://user-images.githubusercontent.com/122161666/223542276-226a38e1-9eac-45c8-aa3e-4e87c68c033a.png)
+     ![image](https://user-images.githubusercontent.com/122161666/223628848-6b7291ab-ca9b-491f-8598-75f76f32f046.png)
 
 ## 2. Connect with my ZeroDrone
 
