@@ -170,7 +170,7 @@
             sleep(5)
             zerodrone.Close()
             
- ### 6) RC ZeroDrone by keyboard 
+ ### 6) RC ZeroDrone by direction keyboard 
  
       from time import sleep
       from pyirbrain.zerodrone import *
