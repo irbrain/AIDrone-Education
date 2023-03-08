@@ -31,9 +31,14 @@
        pip install pyirbrain
              
 #### 5) Install Visual Studio Code (https://code.visualstudio.com)  
+
+
+#### 6) Let's Programing in the Visual Studio Code
+
 <br>
  
  
+
 
 ## 4. Test the exmaples in the Visual Studio Code 
 
