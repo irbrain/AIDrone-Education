@@ -1,40 +1,43 @@
 # Flight ZeroDrone with python code in PC
 
 ## 1. Insert bluetooth dongle in pc
-      
+<br/>    
+
 ![image](https://user-images.githubusercontent.com/122161666/223629741-4c32b1cb-78ee-418a-94cf-e088cf546f01.png)
 
+
 ## 2. Connect with my ZeroDrone
+<br> 
 
 ![image](https://user-images.githubusercontent.com/122161666/223643024-d1b56828-5bc2-415a-933f-7c38ab321c80.png)
 
-      
+  
 ## 3. Setting up a developement environment on a PC
 
-### 1) install Anaconda (https://www.anaconda.com)
+#### 1) install Anaconda (https://www.anaconda.com)
     
-### 2) Run anaconda prompt with administrator privileges.
+#### 2) Run anaconda prompt with administrator privileges.
 <br>
 
 ![image](https://user-images.githubusercontent.com/122161666/223847583-ee36b5aa-ec12-4583-9f48-5703e987ab20.png)  
 
 
-### 3) Create a python virtual environment in the anaconda prompt
+#### 3) Create a python virtual environment in the anaconda prompt
     
        conda create -n aidrone python=[version]
              
-### 4) Install ZeroDrone python Library in the anaconda prompt
+#### 4) Install ZeroDrone python Library in the anaconda prompt
      
        pip install pyirbrain
              
-### 5) Install Visual Studio Code (https://code.visualstudio.com)  
+#### 5) Install Visual Studio Code (https://code.visualstudio.com)  
 <br>
  
  
 
 ## 4. Test the exmaples in the Visual Studio Code 
 
-### 1) each motor contorl for 2 seconds
+#### 1) each motor contorl for 2 seconds
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -56,7 +59,7 @@
             sleep(2)
             zerodrone.close()
             
-### 2) move ZeroDrone a certain distance
+#### 2) move ZeroDrone a certain distance
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -88,7 +91,7 @@
             sleep(3)
             zerodrone.Close()
             
-### 3) rotate ZeroDrone 
+#### 3) rotate ZeroDrone 
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -120,7 +123,7 @@
             sleep(3)
             zerodrone.Close()
             
- ### 4) up and down ZeroDrone 
+ #### 4) up and down ZeroDrone 
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -154,7 +157,7 @@
             sleep(3)
             zerodrone.Close()
             
- ### 5) flight's velocity change 
+ #### 5) flight's velocity change 
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -190,7 +193,7 @@
             sleep(5)
             zerodrone.Close()
             
- ### 6) RC ZeroDrone by direction keyboard 
+ #### 6) RC ZeroDrone by direction keyboard 
  
       from time import sleep
       from pyirbrain.zerodrone import *
