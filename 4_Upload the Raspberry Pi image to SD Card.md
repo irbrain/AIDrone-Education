@@ -61,7 +61,8 @@
 <br/>
 
 
-### 7) Put the SD card into raspberry pi zero 2W and fower on the drone,  if you wait for several mintes, try to check about connecting hotspot with drone
+## 2. Put SD card into raspberry pi zero 2W and fower on the drone,  if you wait for several minutes, try to check the connection hotspot with drone
+<br/>
 
 ![image](https://user-images.githubusercontent.com/122161666/224354860-65f4cb91-d24f-435a-b95e-86579f07462c.png)
 
