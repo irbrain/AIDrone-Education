@@ -49,9 +49,24 @@
 ![image](https://user-images.githubusercontent.com/122161666/224271505-f72ef45d-c1a8-4095-8cf9-296a207c1404.png)
 
 <br/><br/>
-### 6) Click Imager WRITE  and after Click YES button
+### 6) Click Imager WRITE  and after Click YES button, continue
 
-![image](https://user-images.githubusercontent.com/122161666/224272228-46751289-6bd9-40ab-b44e-97c6191cbb98.png)
+![image](https://user-images.githubusercontent.com/122161666/224353244-ee845e82-fb1b-4efe-9704-67956db89fc7.png)
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/224353819-6f675175-55d7-44b7-8984-4b0cdf1ba539.png)
+
+### * if pop up asking about format, click the cancle
+<br/>
+
+
+### 7) Put the SD card into raspberry pi zero 2W and fower on the drone,  if you wait for several mintes, try to check about connecting hotspot with drone
+
+![image](https://user-images.githubusercontent.com/122161666/224354860-65f4cb91-d24f-435a-b95e-86579f07462c.png)
+
+
+
 
 
 
