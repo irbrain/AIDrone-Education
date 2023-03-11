@@ -38,6 +38,61 @@
 
 ![image](https://user-images.githubusercontent.com/122161666/224472992-c2d1c1d6-3c88-4956-a6ab-6efd18dad982.png)
 
+# 3. Set up Samba service
+
+     sudo apt install samba  samba-common-bin
+     
+     sudo smbpasswd -a  pi  (When User ID is pi.)
+ 
+     write donw password  two times
+     
+###  samba set up 
+
+      sudo nano /e   /samba/smb.conf
+      
+      alt + /  -> cursor move to the last line
+      
+####  write like that
+
+      [UserID]
+              commnet = userID home
+              path = /home/userID
+              valid users = userID
+              guest ok = no
+              browseable = yes
+              writeable = yes
+              create mask = 0777
+              
+#### ctrl+o  -> save
+#### ctrl+x  -> end
+
+#### samba service start
+
+      sudo service smbd restart
+      
+<br/>
+
+# 4. connecting samba on PC
+
+![image](https://user-images.githubusercontent.com/122161666/224478786-c3a66388-0c7c-4635-ad17-22c3629327f4.png)
+
+# 5. Install pip for python programing
+
+     sudo apt install python3-pip
+     
+     pip -V
+     
+#### Upgrade Pip
+
+     python3 -m pip install --upgrade pip
+     
+     
+
+     
+     
+     
+
+
 
 
 
