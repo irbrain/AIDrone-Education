@@ -24,4 +24,25 @@
 
 
 
+# 2. Set up the Raspberry pi Zero 2 W baord
+
+### 1) Update and Upgrade 
+
+![image](https://user-images.githubusercontent.com/122161666/224473071-1a20601c-6ff7-4b31-9580-8694308480c4.png)
+
+### 2) Camera Option is On
+
+![image](https://user-images.githubusercontent.com/122161666/224472969-34e57414-f232-4727-acf6-d2931d07062e.png)
+
+![image](https://user-images.githubusercontent.com/122161666/224472992-c2d1c1d6-3c88-4956-a6ab-6efd18dad982.png)
+
+![image](https://user-images.githubusercontent.com/122161666/224473018-0e025a75-99e8-470e-89d6-e04fb06109a4.png)
+
+
+
+
+       
+
+
+
 
