@@ -53,11 +53,38 @@
     
 <br/>  
      
+###  make mjpg.sh file 
+
      cd ~
      sudo nano mjpg.sh
      =>        export STREAMER_PATH=/home/USER ID/mjpg/mjpg-streamer/mjpg-streamer-experimental
                export LD_LIBRARY_PATH=$STREAMER_PATH
-               $STREAMER_PATH/mjpg_streamer  –i   “input_raspicam.so” –o  “output_http.so –p 8091 –w $STREAMER_PATH/www”
+               $STREAMER_PATH/mjpg_streamer  –i -rot 180  “input_raspicam.so” –o  “output_http.so –p 8091 –w $STREAMER_PATH/www”
+               
+     ctrl + x -> input y and then click Enter (save and out)
+               
+###  execute mjpg.sh
+
+![image](https://user-images.githubusercontent.com/122161666/224519901-50eafb7c-33ef-4070-99dd-613f0caa07f9.png)
+
+
+###  You can see the camera video in Website on PC
+
+     [raspberry pi wifi address]:8091/?action=stream
+     
+ <br/>
+     
+![image](https://user-images.githubusercontent.com/122161666/224520158-66f75c2a-dabd-4cda-baf2-562c72ba2f13.png)
+
+![image](https://user-images.githubusercontent.com/122161666/224520091-6a490660-a6e5-4fd0-883b-810778ed617d.png)
+
+
+
+     
+
+     
+               
+               
 
 
   
