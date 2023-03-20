@@ -18,7 +18,7 @@
         
 <br/>
 
-### 2). show Video
+### 2). Show Video
 
         import cv2
         
@@ -30,7 +30,7 @@
            
         while(True):
            ret, img_frame = cap.read()
-           if ret == False();
+           if ret == False:
               print("fail to capture")
               break;
               
@@ -42,5 +42,13 @@
               
         cv2.release()
         cv2.destroyAllWindows()
-
         
+<br/>
+
+### 3). 
+
+      
+      
+      
+# If you want to leanr OpenCV, please refer to the link below to study
+https://opencv-python.readthedocs.io/en/latest/index.html
