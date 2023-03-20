@@ -15,5 +15,32 @@
          
          cv2.waitKey(0)
          cv2.destroyAllWindows()
+        
+<br/>
+
+### 2). show Video
+
+        import cv2
+        
+        cap = cv2.VideoCapture(0)
+        
+        if cap.isOpened() == False:
+           print("Not open camera")
+           exit(1)
+           
+        while(True):
+           ret, img_frame = cap.read()
+           if ret == False();
+              print("fail to capture")
+              break;
+              
+           cv2.imshow('Color', img_frame)
+           
+           key = cv2.waitKey(1)
+           if key == 27:
+              break
+              
+        cv2.release()
+        cv2.destroyAllWindows()
 
         
