@@ -1,54 +1,32 @@
 # 1. OpemCV Programing
 
-### 1). Show Image file 
+### 1). Show zeroDrone Video Steaming 
 
-         import cv2
-         
-         img_color = cv2.imread("cat on laptop.jpg", cv2.IMREAD_COLOR)
-         
-         if img_color is None:
-            print("Can not read File")
-            exit(1)
-            
-         cv2.nameWindow('Color')
-         cv2.imshow('Color', img_color)
-         
-         cv2.waitKey(0)
-         cv2.destroyAllWindows()
+         import cv2 as cv
+
+         cap = cv.VideoCapture("http:// [rasbperry pi zero 2W WIFI address]/?action=stream")
+         #cap = cv.VideoCapture(0)
+
+         while(True):
+                   ret, frame = cap.read()
+                   frame = cv.rotate(frame, cv.ROTATE_180)
+  
+                   if ret == False:
+                           print("캡쳐 실패")
+                           break;  
+  
+                  img = cv.resize(frame, (640,480))
+                  cv.imshow('Video', img)
+  
+                  key = cv.waitKey(1)
+                  if key == 27:
+                           break;
+  
+         cap.release()
+         cv.destroyAllWindows()
         
 <br/>
 
-### 2). Show Video
-
-        import cv2
-        
-        cap = cv2.VideoCapture(0)
-        
-        if cap.isOpened() == False:
-           print("Not open camera")
-           exit(1)
-           
-        while(True):
-           ret, img_frame = cap.read()
-           if ret == False:
-              print("fail to capture")
-              break;
-              
-           cv2.imshow('Color', img_frame)
-           
-           key = cv2.waitKey(1)
-           if key == 27:
-              break
-              
-        cv2.release()
-        cv2.destroyAllWindows()
-        
-<br/>
-
-### 3). 
-
-      
-      
-      
-# If you want to leanr OpenCV, please refer to the link below to study
+### 2) 
+## If you want to learn OpenCV,  please refer to the link below to study
 https://opencv-python.readthedocs.io/en/latest/index.html
