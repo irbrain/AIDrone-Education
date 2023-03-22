@@ -101,7 +101,48 @@
          cap.release()
          cv.destroyAllWindows()
 
-</br/>
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/226919261-fd904fac-cc84-4f2a-b2fb-b9c3078978e5.png)
+
+<br/>
+
+### 3) Face detecting
+
+         import cv2 as cv
+
+         #cap = cv.VideoCapture(0)
+         cap = cv.VideoCapture("[http://your raspberry pi WiFi address]:8091/?action=stream")
+
+         face_detector = cv.CascadeClassifier(cv.data.haarcascades + "haarcascade_frontalface_default.xml")
+
+         #face_cascade = cv.CascadeClassifier()
+         # face_cascade.load(r"C:\Users\BKY-LG\anaconda3\envs\aidrone\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
+
+
+         while(True):
+                  ret, frame = cap.read()
+                  frame = cv.rotate(frame, cv.ROTATE_180)
+                  gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+                  gray = cv.equalizeHist(gray)
+                  faces = face_detector.detectMultiScale(gray, 1.3, 5)
+
+                  for(x, y, w, h) in faces:
+                           cv.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 3, 4, 0)
+
+                  cv.imshow('Face', frame)
+
+                  if cv.waitKey(10) >= 0:
+                           break
+
+         cap.release()
+         cv.destroyAllWindows()
+         
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/226922767-061ae3de-5ee4-4945-936f-9eb7843b9516.png)
+
+<br/>
 
 ## If you want to learn OpenCV,  please refer to the link below to study
 https://opencv-python.readthedocs.io/en/latest/index.html
