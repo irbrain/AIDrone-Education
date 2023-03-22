@@ -26,6 +26,8 @@
          cv.destroyAllWindows()
         
 <br/>
+![image](https://user-images.githubusercontent.com/122161666/226893707-75650668-9efd-4722-a58a-b231e37a0c18.png)
+<br/>
 
 ### 2) 
 ## If you want to learn OpenCV,  please refer to the link below to study
