@@ -101,7 +101,7 @@
 
 <br/>
 
-### 3) Image Segmentation
+### 4) Image Segmentation
 
 #### It is used as a preprocessing process for object recognition and tracking.
 
