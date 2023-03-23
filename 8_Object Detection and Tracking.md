@@ -37,7 +37,7 @@
 
 <br/>
 
-### 2) Blue Color Detecting
+### 2) Blue Color detcting
 
          import cv2 as cv
 
