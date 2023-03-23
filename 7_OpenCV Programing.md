@@ -105,6 +105,81 @@
 
 #### It is used as a preprocessing process for object recognition and tracking.
 
+#### a. Binary
+
+         import cv2
+
+         def nothing(x):
+                  pass
+
+         cv2.namedWindow('Binary')
+         cv2.createTrackbar('threshold', 'Binary', 0, 255, nothing)
+         cv2.setTrackbarPos('threshold', 'Binary', 127)
+
+         img_color = cv2.imread('F:/AIDrone/Real OpenCV/SourceCode/Ch15/15.1/ball.jpg', cv2.IMREAD_COLOR)
+         img_gray = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
+
+         while(True):
+                  thre = cv2.getTrackbarPos('threshold', 'Binary')
+
+                  ret,img_binary = cv2.threshold(img_gray, thre, 255, 
+                  cv2.THRESH_BINARY_INV)
+
+                  img_result = cv2.bitwise_and(img_color, img_color, mask = img_binary)
+    
+                   cv2.imshow('Result', img_result)
+                   cv2.imshow('Binary', img_binary)
+                  
+                  if cv2.waitKey(1) == 27:
+                           break
+
+
+         cv2.destroyAllWindows()
+                  
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227366562-cb654066-961c-4822-aab8-2f013d4d031e.png)
+
+<br/>
+
+#### b. Detecting Blue Color
+
+         import cv2 as cv
+
+         cap = cv.VideoCapture(0)
+         if cap.isOpened() == False:
+                  print("카메라를 열 수 없습니다.")
+                  exit(1)
+
+         while(True):
+                  ret, img_frame = cap.read()
+                  if ret == False:
+                           print("캡쳐 실패")
+                           break;
+
+                  img_hsv = cv.cvtColor(img_frame, cv.COLOR_BGR2HSV)
+
+                  lower_blue = (120-20, 70, 0)
+                  upper_blue = (120+20, 255, 255)
+                  img_mask = cv.inRange(img_hsv, lower_blue, upper_blue)
+
+                  img_result = cv.bitwise_and(img_frame, img_frame, mask = img_mask)
+
+                  cv.imshow('Color', img_frame)
+                  cv.imshow('Result', img_result)
+
+                  key = cv.waitKey(1) 
+                  if key == 27:
+                           break
+
+         cap.release()
+         cv.destroyAllWindows()
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227366400-8f0eba65-c1b7-45f2-b074-6f1f6f3a4d32.png)
+
+<br/>
 
 ## If you want to learn OpenCV,  please refer to the link below to study
 https://opencv-python.readthedocs.io/en/latest/index.html
