@@ -37,26 +37,25 @@
 
 <br/>
 
-#### 2) Contours
+### 2) Contours
 
-import cv2 as cv
+         import cv2 as cv
 
-img_color = cv.imread('F:/AIDrone/Real OpenCV/SourceCode/Ch16/16.1/test.jpg', cv.IMREAD_COLOR)
-img_gray = cv.cvtColor(img_color, cv.COLOR_BGR2GRAY)
-ret, img_binary = cv.threshold(img_gray, 150, 255, cv.THRESH_BINARY_INV)
+         img_color = cv.imread('F:/AIDrone/Real OpenCV/SourceCode/Ch16/16.1/test.jpg', cv.IMREAD_COLOR)
+         img_gray = cv.cvtColor(img_color, cv.COLOR_BGR2GRAY)
+         ret, img_binary = cv.threshold(img_gray, 150, 255, cv.THRESH_BINARY_INV)
 
-kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (5, 5))
-img_binary = cv.morphologyEx(img_binary, cv.MORPH_CLOSE, kernel)
+         kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (5, 5))
+         img_binary = cv.morphologyEx(img_binary, cv.MORPH_CLOSE, kernel)
 
-contours, hierarchy = cv.findContours(img_binary, cv.RETR_LIST, 
-                        cv.CHAIN_APPROX_SIMPLE)
+         contours, hierarchy = cv.findContours(img_binary, cv.RETR_LIST, cv.CHAIN_APPROX_SIMPLE)
 
-cv.drawContours(img_color, contours, 0, (0, 0, 255), 3)  
-cv.drawContours(img_color, contours, 1, (0, 255, 0), 3)  
+         cv.drawContours(img_color, contours, 0, (0, 0, 255), 3)  
+         cv.drawContours(img_color, contours, 1, (0, 255, 0), 3)  
 
 
-cv.imshow("result", img_color)
-cv.waitKey(0)
+         cv.imshow("result", img_color)
+         cv.waitKey(0)
 
 <br/>
 
@@ -139,96 +138,195 @@ cv.waitKey(0)
 
 <br/>
 
-#### 4)  Meanshift
+### 4)  Meanshift
 
-import cv2 as cv
+         import cv2 as cv
 
-mouse_is_pressing = False
-start_x, start_y, end_x, end_y = -1,-1,-1,-1
-step = 0
-track_window  = None
+         mouse_is_pressing = False
+         start_x, start_y, end_x, end_y = -1,-1,-1,-1
+         step = 0
+         track_window  = None
 
-def mouse_callback(event,x,y,flags,param):
-    global start_x, start_y, end_x, end_y
-    global step, mouse_is_pressing, track_window
+         def mouse_callback(event,x,y,flags,param):
+         global start_x, start_y, end_x, end_y
+         global step, mouse_is_pressing, track_window
 
-    if event == cv.EVENT_LBUTTONDOWN:
-        step = 1
-        mouse_is_pressing = True
-        start_x = x
-        start_y = y
+         if event == cv.EVENT_LBUTTONDOWN:
+                  step = 1
+                  mouse_is_pressing = True
+                  start_x = x
+                  start_y = y
 
-    elif event == cv.EVENT_MOUSEMOVE:
-        if mouse_is_pressing:
-            end_x = x
-            end_y = y
-            step = 2
+         elif event == cv.EVENT_MOUSEMOVE:
+                  if mouse_is_pressing:
+                           end_x = x
+                            end_y = y
+                           step = 2
 
-    elif event == cv.EVENT_LBUTTONUP:
-        mouse_is_pressing = False
-        end_x = x
-        end_y = y
-        step = 3
+         elif event == cv.EVENT_LBUTTONUP:
+                  mouse_is_pressing = False
+                  end_x = x
+                  end_y = y
+                  step = 3
 
 
-cap = cv.VideoCapture(0)
+         cap = cv.VideoCapture(0)
 
-if cap.isOpened() == False:
-    print("카메라를 열 수 없습니다.")
-    exit(1)
+         if cap.isOpened() == False:
+                  print("카메라를 열 수 없습니다.")
+                  exit(1)
 
-cv.namedWindow("Color")
-cv.setMouseCallback("Color", mouse_callback) 
+         cv.namedWindow("Color")
+         cv.setMouseCallback("Color", mouse_callback) 
 
-while True:
-    ret, img_color = cap.read()
-    if ret == False:
-        print("캡쳐 실패")
-        break;
+         while True:
+                  ret, img_color = cap.read()
+                  if ret == False:
+                           print("캡쳐 실패")
+                           break;
 
-    if step == 1: 
-        cv.circle(img_color, (start_x, start_y), 10, (0, 255, 0), -1)
+                  if step == 1: 
+                           cv.circle(img_color, (start_x, start_y), 10, (0, 255, 0), -1)
 
-    elif step == 2: 
-        cv.rectangle(img_color, (start_x, start_y), (end_x, end_y), (0, 255, 0), 3)
+                  elif step == 2: 
+                           cv.rectangle(img_color, (start_x, start_y), (end_x, end_y), (0, 255, 0), 3)
 
-    elif step == 3: 
-        if start_x > end_x:
-            start_x, end_x = end_x, start_x
-            start_y, end_y = end_y, start_x
+                  elif step == 3: 
+                           if start_x > end_x:
+                                    start_x, end_x = end_x, start_x
+                                    start_y, end_y = end_y, start_x
 
-        track_window = (start_x, start_y, end_x-start_x, end_y-start_y)
+                           track_window = (start_x, start_y, end_x-start_x, end_y-start_y)
 
-        img_hsv = cv.cvtColor(img_color, cv.COLOR_BGR2HSV)
-        img_ROI = img_hsv[start_y:end_y, start_x:end_x]
+                           img_hsv = cv.cvtColor(img_color, cv.COLOR_BGR2HSV)
+                           img_ROI = img_hsv[start_y:end_y, start_x:end_x]
 
-        cv.imshow("ROI", img_ROI)
+                           cv.imshow("ROI", img_ROI)
 
-        objectHistogram = cv.calcHist([img_ROI], [0], None, [180], (0, 180))
+                           objectHistogram = cv.calcHist([img_ROI], [0], None, [180], (0, 180))
 
-        cv.normalize(objectHistogram, objectHistogram, alpha=0, beta=255, 
-                norm_type=cv.NORM_MINMAX)
+                           cv.normalize(objectHistogram, objectHistogram, alpha=0, beta=255, norm_type=cv.NORM_MINMAX)
 
-        step = step + 1
+                           step = step + 1
 
-    elif step == 4: 
-        img_hsv = cv.cvtColor(img_color, cv.COLOR_BGR2HSV)
-        bp = cv.calcBackProject([img_hsv], [0], objectHistogram, [0,180], 1)
-        ret, track_window = cv.meanShift(bp, track_window, ( cv.TERM_CRITERIA_EPS | cv.TERM_CRITERIA_COUNT, 10, 1 ))
+                  elif step == 4: 
+                           img_hsv = cv.cvtColor(img_color, cv.COLOR_BGR2HSV)
+                           bp = cv.calcBackProject([img_hsv], [0], objectHistogram, [0,180], 1)
+                           ret, track_window = cv.meanShift(bp, track_window, ( cv.TERM_CRITERIA_EPS | cv.TERM_CRITERIA_COUNT, 10, 1 ))
 
-        x, y, w, h = track_window
-        cv.rectangle(img_color, (x,y), (x+w, y+h), (0, 0, 255), 2)
+                           x, y, w, h = track_window
+                           cv.rectangle(img_color, (x,y), (x+w, y+h), (0, 0, 255), 2)
 
-    cv.imshow("Color", img_color)
+                           cv.imshow("Color", img_color)
  
-    if cv.waitKey(25) >= 0:
-        break
+                           if cv.waitKey(25) >= 0:
+                                    break
         
         
  <br/>
  
- ![image](https://user-images.githubusercontent.com/122161666/227417345-523e4aa3-802d-47ed-aa9d-6c5c82c71512.png)
-
+ ![image](https://user-images.githubusercontent.com/122161666/227417701-7190f986-d030-44c6-8536-b97e20796c3a.png)
  
  <br/>
+ 
 
+### 5) Camshift
+
+         import cv2 as cv
+         import numpy as np 
+
+         mouse_is_pressing = False
+         start_x, start_y, end_x, end_y = -1,-1,-1,-1
+         step = 0
+         track_window  = None
+
+
+         def mouse_callback(event,x,y,flags,param):
+                  global start_x, start_y, end_x, end_y
+                  global step, mouse_is_pressing, track_window
+
+                  if event == cv.EVENT_LBUTTONDOWN:
+                           step = 1
+                           mouse_is_pressing = True
+                           start_x = x
+                           start_y = y
+ 
+                  elif event == cv.EVENT_MOUSEMOVE:
+                           if mouse_is_pressing:
+                                    end_x = x
+                                    end_y = y
+                                    step = 2
+
+                  elif event == cv.EVENT_LBUTTONUP:
+                           mouse_is_pressing = False
+                           end_x = x
+                           end_y = y
+                           step = 3
+
+         cap = cv.VideoCapture(0)
+
+         if cap.isOpened() == False:
+                  print("카메라를 열 수 없습니다.")
+                  exit(1)
+ 
+         cv.namedWindow("Color")
+         cv.setMouseCallback("Color", mouse_callback) 
+
+
+         while True:    
+                  ret, img_color = cap.read()
+                  if ret == False:
+                           print("캡쳐 실패")
+                           break;
+
+                  if step == 1: 
+                           cv.circle(img_color, (start_x, start_y), 10, (0, 255, 0), -1)
+
+                  elif step == 2: 
+                           cv.rectangle(img_color, (start_x, start_y), (end_x, end_y), (0, 255, 0), 3)
+
+                  elif step == 3:  
+                           if start_x > end_x:
+                                    start_x, end_x = end_x, start_x
+                                    start_y, end_y = end_y, start_x
+ 
+                           track_window = (start_x, start_y, end_x-start_x, end_y-start_y)
+ 
+                           img_hsv = cv.cvtColor(img_color, cv.COLOR_BGR2HSV)
+                           img_ROI = img_hsv[start_y:end_y, start_x:end_x]
+
+                           cv.imshow("ROI", img_ROI)
+
+                           objectHistogram = cv.calcHist([img_ROI], [0], None, [180], (0, 180))
+
+                           cv.normalize(objectHistogram, objectHistogram, alpha=0, beta=255, norm_type=cv.NORM_MINMAX)
+
+                           step = step + 1
+
+                  elif step == 4:
+                           img_hsv = cv.cvtColor(img_color, cv.COLOR_BGR2HSV)
+                           bp = cv.calcBackProject([img_hsv], [0], objectHistogram, [0,180], 1)
+
+                           rotatedRect, track_window = cv.CamShift(bp, track_window, ( cv.TERM_CRITERIA_EPS | cv.TERM_CRITERIA_COUNT, 10, 1 ))
+
+                           cv.ellipse(img_color, rotatedRect, (0, 0, 255), 2);
+
+                           pts = cv.boxPoints(rotatedRect)
+                           pts = np.int0(pts)
+
+                           for i in range(4):
+                                    cv.line(img_color, tuple(pts[i]), tuple(pts[(i + 1) % 4]), (0, 255, 0), 2)
+
+        
+                  cv.imshow("Color", img_color)
+ 
+                  if cv.waitKey(25) >= 0:
+                           break
+        
+  <br/>
+  
+  ![image](https://user-images.githubusercontent.com/122161666/227418366-8a72b484-413d-495b-9d20-e9853cc804e4.png)
+
+  
+  <br/>
+  
