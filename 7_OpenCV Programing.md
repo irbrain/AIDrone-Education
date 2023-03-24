@@ -240,7 +240,45 @@
 
 ![image](https://user-images.githubusercontent.com/122161666/227374850-96651a87-92c7-4e0a-9f48-292ce4610904.png)
 
+<br/>
+
+#### d. Background Subtraction
+
+         import cv2 as cv
+         import numpy as np
+         import os
+
+         cap = cv.VideoCapture('F:/AIDrone/Real OpenCV/SourceCode/Ch15/15.4/output.avi')
+
+         foregroundBackground = cv.createBackgroundSubtractorMOG2(history=500, varThreshold=250, detectShadows=False)
+
+         while(1):
+                  ret, img_frame = cap.read()
+                  if ret == False:
+                           break;
+    
+                  blur = cv.GaussianBlur(img_frame, (5,5), 0)
+                  img_mask = foregroundBackground.apply(blur, learningRate=0)
+                  kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (5, 5))
+                  img_mask = cv.morphologyEx(img_mask, cv.MORPH_CLOSE, kernel)    
+
+                  cv.imshow('mask', img_mask)
+                  cv.imshow('color', img_frame)
+ 
+                  key = cv.waitKey(30)
+                  if key == 27:
+                           break
+
+         cap.release()
+         cv.destroyAllWindows()
 
 <br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227406889-8ba726e4-dbd2-46dd-bab4-c39055ebdce1.png)
+
+<br/>
+
+
+
 ## If you want to learn OpenCV,  please refer to the link below to study
 https://opencv-python.readthedocs.io/en/latest/index.html
