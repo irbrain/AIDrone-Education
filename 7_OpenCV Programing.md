@@ -282,3 +282,7 @@
 
 ## If you want to learn OpenCV,  please refer to the link below to study
 https://opencv-python.readthedocs.io/en/latest/index.html
+
+or 
+
+https://076923.github.io/posts/Python-opencv-15/
