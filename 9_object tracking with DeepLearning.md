@@ -1,4 +1,4 @@
-# Control ZeroDrone by Direction Picture Using Teachable Machine
+# Control ZeroDrone Using Teachable Machine
 
 ### 1) Start Teachable Machine
 
