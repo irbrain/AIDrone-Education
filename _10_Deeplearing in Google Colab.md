@@ -2,21 +2,15 @@
 
 <br/>
 
-### 1) Google Login
+### 1) Start Google Colab
 
 <br/>
 
 <img src=https://user-images.githubusercontent.com/122161666/228062485-e734d64e-6f2e-4148-b654-46a48994ed46.png  width="640" height="480"/>
 
-<br/>
+<img src="https://user-images.githubusercontent.com/122161666/228070060-11582c63-0594-4d42-91a9-e74c887b4cb5.png width="640" height="480"/>
 
-<img src="https://user-images.githubusercontent.com/122161666/228062816-b0297366-9860-42c9-bf32-e41dbb9df586.png  width="640" height="480"/>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/122161666/228062852-e34e15d6-e73c-4a44-8ea1-c2e99ae18939.png  width="640" height="480"/>
-
-<br/>
+<img src="https://user-images.githubusercontent.com/122161666/228070089-573c69d1-c114-435c-9750-0b649753a415.png width="640" height="480"/>
 
 <img src="https://user-images.githubusercontent.com/122161666/228063079-289ea76d-191a-4118-a558-421f28b735cd.png  width="640" height="480"/>
 
