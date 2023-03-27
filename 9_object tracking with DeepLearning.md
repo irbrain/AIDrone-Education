@@ -1,6 +1,46 @@
 # Control ZeroDrone by Direction Picture Using Teachable Machine
 
-### 1)
+### 1) Start Teachable Machine
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227948827-521e180a-c1e8-4d4f-a8e4-baf13b29b95c.png)
+
+<br/>
+
+###  Make Class 5  -> Take off, Up, Down, Landing, BackGround
+
+![image](https://user-images.githubusercontent.com/122161666/227949247-011c49d0-adc2-4404-80d6-54166aa11d8a.png)
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227949730-80dd4799-cdd1-418f-8655-f624c121d68c.png)
+
+<br/>
+
+### Click Webcam and  take each direction picture 
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227951687-8ba27cc2-316e-4195-a122-307612070b67.png)
+
+<br/>
+
+### After take direction Picture all and then Click Learning Model, If finished Learning Model, Click exporting the model 
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/122161666/227953634-227318ce-7fee-40fe-a35e-26b4e10d64fd.png)
+
+<br/>
+
+### When download Model from Teachable Machine, it has two file inside(keras_model.h5 and labels.txt)
+
+![image](https://user-images.githubusercontent.com/122161666/227954798-0ae30563-d60e-4185-822b-485fd7caf546.png)
+
+<br/>
+
+### 2)  Code (drone_contorl.py)
 
     import cv2
     import keras
