@@ -44,7 +44,7 @@
         for img in os.listdir(path):
             img_path = os.path.join(path, img)
             img = cv2.imread(img_path)
-            img = cv2.resize(img, (224, 224)) # 이미지 크기를 변경합니다.
+            img = cv2.resize(img, (224, 224)) # change the size of image
             images.append(img)
             labels.append(idx)
     
