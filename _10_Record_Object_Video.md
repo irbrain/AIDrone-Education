@@ -20,7 +20,7 @@
     
 <br/>
 
-## 2. PC Code
+## 2. Record Video in PC 
 
     import cv2 as cv
 
