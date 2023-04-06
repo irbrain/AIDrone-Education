@@ -27,7 +27,7 @@
     SCREEN_WIDTH = 320
     SCREEN_HEIGHT = 240
 
-    cap = cv.VideoCapture("http://192.168.2.5:8091/?action=stream")
+    cap = cv.VideoCapture("http://[your wifi number]:8091/?action=stream")
     #cap = cv.VideoCapture(0)
     cap.set(3, int(SCREEN_WIDTH))
     cap.set(4, int(SCREEN_HEIGHT))
