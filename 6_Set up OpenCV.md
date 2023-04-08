@@ -16,7 +16,7 @@
 
 #  2. Install OpenCV
     
-    pip3 install opencv-python 
+    pip3 install opencv-python==4.7.0.68 
     
     After install, please check the opencv verison
     
@@ -164,46 +164,3 @@ you show like that
 ![image](https://user-images.githubusercontent.com/122161666/227761133-47d129c7-26e1-4a49-aa7f-bca149e3cfd6.png)
 
 <br/>
-
-
-
-     
-     
-
-
-
-
-
-
-
-     
-     
-     
-
-     
-
-
-
-     
-
-     
-               
-               
-
-
-  
-
-
-     
-
-
-
-     
-
-
-
-      
-
-    
-    
-    
