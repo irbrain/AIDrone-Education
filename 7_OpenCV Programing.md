@@ -285,4 +285,4 @@ https://opencv-python.readthedocs.io/en/latest/index.html
 
 or 
 
-https://076923.github.io/posts/Python-opencv-15/
+https://076923.github.io/posts/Python-opencv-1/
