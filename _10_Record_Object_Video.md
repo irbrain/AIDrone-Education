@@ -40,7 +40,7 @@
     except OSError:
 		pass
 
-    video_orig = cv2.VideoWriter('./data/car_video.avi', fourcc, 20.0, (SCREEN_WIDTH, SCREEN_HEIGHT))
+    video_orig = cv2.VideoWriter('./data/object_video.avi', fourcc, 20.0, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
     while(True):
         ret, frame = cap.read()
