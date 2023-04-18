@@ -61,7 +61,7 @@
 
 <br/>
 
-# 1. Object Tracking Example 
+# 1. Object Tracking Example ( Count the Viechle in the high way )
 
     import cv2
     from tracker import *
@@ -116,7 +116,9 @@
     
 <br/>
 
-2. Calculate the distance of Object 
+# 2. Calculate the distance of Object and Find the center of object 
+
+
 
 
 
