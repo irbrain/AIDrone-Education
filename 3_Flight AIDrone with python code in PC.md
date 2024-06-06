@@ -1,9 +1,10 @@
 # Flight AIDrone with python code in PC
 
-## 1. Insert bluetooth dongle in pc
+## 1. Connect Transmitter with PC  by USB Cable
 <br/>    
 
-![image](https://user-images.githubusercontent.com/122161666/223629741-4c32b1cb-78ee-418a-94cf-e088cf546f01.png)
+![KakaoTalk_20240606_085057982](https://github.com/irbrain/AIDrone/assets/122161666/e6effc21-2827-4180-9aa8-3b1d017a3179)
+
 
 
 ## 2. Connect with my AIDrone
