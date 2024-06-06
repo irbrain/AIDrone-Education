@@ -1,4 +1,4 @@
-# Control ZeroDrone Using Teachable Machine
+# Control AIDrone Using Teachable Machine
 
 ### 1) Start Teachable Machine
 
