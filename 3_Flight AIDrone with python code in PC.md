@@ -1,4 +1,4 @@
-# Flight ZeroDrone with python code in PC
+# Flight AIDrone with python code in PC
 
 ## 1. Insert bluetooth dongle in pc
 <br/>    
@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/122161666/223629741-4c32b1cb-78ee-418a-94cf-e088cf546f01.png)
 
 
-## 2. Connect with my ZeroDrone
+## 2. Connect with my AIDrone
 <br> 
 
 ![image](https://user-images.githubusercontent.com/122161666/223643024-d1b56828-5bc2-415a-933f-7c38ab321c80.png)
@@ -26,7 +26,7 @@
     
        conda create -n aidrone python=[version]
              
-#### 4) Install ZeroDrone python Library in the anaconda prompt
+#### 4) Install AIDrone python Library in the anaconda prompt
      
        pip install pyirbrain
              
@@ -64,7 +64,7 @@
             sleep(2)
             zerodrone.close()
             
-#### 2) move ZeroDrone a certain distance
+#### 2) move AIDrone a certain distance
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -96,7 +96,7 @@
             sleep(3)
             zerodrone.Close()
             
-#### 3) rotate ZeroDrone 
+#### 3) rotate AIDrone 
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -128,7 +128,7 @@
             sleep(3)
             zerodrone.Close()
             
- #### 4) up and down ZeroDrone 
+ #### 4) up and down AIDrone 
 
        from time import sleep
        from pyirbrain.zerodrone import *
@@ -198,7 +198,7 @@
             sleep(5)
             zerodrone.Close()
             
- #### 6) RC ZeroDrone by direction keyboard 
+ #### 6) RC AIDrone by direction keyboard 
  
       from time import sleep
       from pyirbrain.zerodrone import *
