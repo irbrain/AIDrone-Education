@@ -1,24 +1,24 @@
-# zeroDrone
+# AIDrone
 DIY AI Education Cdoing Drone with Raspberry pi Zero 2 W
 
-ZeroDrone is the main education drone in Seoul Drone Academy
+AIDrone is the main education drone in Seoul Drone Academy
 
 
-
-![AI Drone and Controller_600](https://github.com/irbrain/zeroDrone/assets/122161666/7c913909-4acb-4de4-9f11-58aba4027f47)
-
-
-
-ZeroDrone Kit  (https://smartstore.naver.com/steammaker/products/8125400867)
-
-
-
-![DIY Parts_600](https://github.com/irbrain/zeroDrone/assets/122161666/41a0eaed-2f3a-4a16-9257-359deba1a2a6)
+![AI Drone and Controller](https://github.com/irbrain/AIDrone/assets/122161666/f4d34586-f199-49d7-bcbd-c92e747c3076)
 
 
 
 
-ZeroDrone Flight 
+AIDrone Kit  
+
+
+
+![KakaoTalk_20240215_114452040](https://github.com/irbrain/AIDrone/assets/122161666/1fc8f2e6-3464-4eae-9aa3-c57d472837df)
+
+
+
+
+AIDrone Flight 
 
 
 
