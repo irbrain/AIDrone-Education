@@ -1,47 +1,71 @@
 # Flight AIDrone with Coding Scratch
 
-### 1. install JCBlock  App in Android and Apple phone 
-
-
-
+### ***1. Download Setup.zip***     
 <br/><br/>
-### 2. Open the JCBlock App and Connect with the bluetooth of  AIDrone's Fight Contorl Board 
+### ***2. After Unzip and Double Click Setup.msi for install***      
 
 
-1) Touch the Bluetooth Button
+         [Icon in Desktop Window]     
 
 
-
-
-2) Delete old Bluetooth Address and click the your drone blutooth address 
-   ( The drone's address above is close to you)
-  
- 
- 
- 
- 3) if your drone is connected, bluetooth button is lightening 
+![image](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/722aa995-16b9-4dc2-bd3f-e0b04bd897d0)
 
 
 
-<br/><br/>
-### 3. drag the red button in App to the right and  show examples and pad, control .. 
+### ***3. At First, Connecting from PC and Drone Transmiiter by USB Cable***    
+
+
+![KakaoTalk_20240606_085057982](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/bf1cfb89-643e-4b01-a932-31e90545f2ce)    
+
+
+***[Check USB port ]***    
+
+
+![스크린샷 2024-06-06 085320](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/41d7ecf7-dccf-40f8-b392-048407b7479f)     
 
 
 
-<br/><br/>
-### 4. Click the examples and click 1 number and then click the 25 number's exmaple(contorl dorne)
+### ***4. Click the AIDroneLink Icon and then Click Connect Button in AIDroneLink***      
 
 
-
-
-<br/><br/>
-### 5. press the triangle button in the top of screen. you can see drone's controler
+   
+![스크린샷 2024-06-06 085620](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/760cbe66-6c1b-4dcc-9a1e-368c91ce651f)     
 
 
 
 
-<br/><br/>
-### 6. flight AIDrone 
+### ***5. Drone turn on and You see the change of Porduct Name from UnKnown to AIDrone (Already transmitter connected with Drone)***            
+
+
+   
+![스크린샷 2024-06-06 090106](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/b7987938-ea90-4f92-9b83-8f802801d2c0)      
+
+
+### ***6. Click Strach3.exe in Destop Window***             
+
+
+![스크린샷 2024-06-06 110436](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/53a02651-5bb0-4c15-af12-8ea8f84ca684)     
+
+
+### ***7. Click the Button of Adding Extention Fuction and Click the AIDrone***             
+
+
+![스크린샷 2024-06-06 111306](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/a3fbbf58-5d78-4810-b805-12e406c00b51)      
+
+### ***8. Click the Connecting with AIDrone***            
+
+
+![스크린샷 2024-06-06 111532](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/c6f19540-a0af-4be5-8648-8f6f50e19c26)      
+
+
+### ***9. Scratch Coding for Control the AIDrone***           
+
+
+![스크린샷 2024-06-06 111759](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/41d84151-fc9b-4f7a-ab78-5dab3d3ba449)     
+
+
+
+
 
 
 
