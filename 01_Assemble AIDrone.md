@@ -2,7 +2,8 @@
 
 ### 1. Insert Motors in Drone Body
 
-![KakaoTalk_20240215_114452040_03](https://github.com/irbrain/AIDrone/assets/122161666/44a3a37b-3b71-445d-82f4-f674f51d8488)
+![KakaoTalk_20240215_114452040_03](https://github.com/irbrain/AIDrone/assets/122161666/34db1828-024a-4a87-9db6-a99c861930f1)
+
 
 <br/>
 
