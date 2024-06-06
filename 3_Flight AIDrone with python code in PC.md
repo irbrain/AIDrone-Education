@@ -7,10 +7,11 @@
 
 
 
-## 2. Connect with my AIDrone
+## 2. How to control Transmitter
 <br> 
 
-![image](https://user-images.githubusercontent.com/122161666/223643024-d1b56828-5bc2-415a-933f-7c38ab321c80.png)
+![스크린샷 2024-06-06 134620](https://github.com/irbrain/AIDrone/assets/122161666/b644e3a0-6b22-44c1-8a6a-f3f92bee0bbd)
+
 
   
 ## 3. Setting up a developement environment on a PC
