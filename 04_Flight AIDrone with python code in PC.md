@@ -18,29 +18,33 @@
 #### 1) install Anaconda (https://www.anaconda.com)
     
 #### 2) Run anaconda prompt with administrator privileges.
-<br>
+
+<br/>
 
 ![image](https://user-images.githubusercontent.com/122161666/223847583-ee36b5aa-ec12-4583-9f48-5703e987ab20.png)  
 
+<br/>
 
 #### 3) Create a python virtual environment in the anaconda prompt
     
        conda create -n aidrone python=[version]
-             
+
+<br/>
+
 #### 4) Install AIDrone python Library in the anaconda prompt
      
        pip install pyirbrain
-             
+
+<br/>
+
 #### 5) Install Visual Studio Code (https://code.visualstudio.com)  
 
+<br/>
 
 #### 6) Let's Programing in the Visual Studio Code
 
-<br>
+<br/>
  
- 
-
-
 ## 4. Test the exmaples in the Visual Studio Code 
 
 #### 1) each motor contorl for 2 seconds
@@ -64,7 +68,9 @@
             zerodrone.motor(3, 20)
             sleep(2)
             zerodrone.close()
-            
+
+<br/>
+
 #### 2) move AIDrone a certain distance
 
        from time import sleep
@@ -96,7 +102,9 @@
             zerodrone.landing()
             sleep(3)
             zerodrone.Close()
-            
+
+<br/>
+
 #### 3) rotate AIDrone 
 
        from time import sleep
@@ -128,7 +136,9 @@
             zerodrone.landing()
             sleep(3)
             zerodrone.Close()
-            
+
+<br/>
+
  #### 4) up and down AIDrone 
 
        from time import sleep
@@ -162,7 +172,9 @@
             zerodrone.landing()
             sleep(3)
             zerodrone.Close()
-            
+
+<br/>
+
  #### 5) flight's velocity change 
 
        from time import sleep
@@ -198,7 +210,9 @@
             zerodrone.landing()
             sleep(5)
             zerodrone.Close()
-            
+
+<br/>
+
  #### 6) RC AIDrone by direction keyboard 
  
       from time import sleep
