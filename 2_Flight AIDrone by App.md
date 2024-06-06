@@ -1,11 +1,11 @@
-# Flight ZeroDrone with Coding App 
+# Flight AIDrone with Coding App 
 
 ### 1. install JCBlock  App in Android and Apple phone 
 
 ![image](https://user-images.githubusercontent.com/122161666/223170312-cce6c5c2-8516-4d83-ad7e-7b22ba26aefd.png)
 
 <br/><br/>
-### 2. Open the JCBlock App and Connect with the bluetooth of  ZeorDrone's Fight Contorl Board 
+### 2. Open the JCBlock App and Connect with the bluetooth of  AIDrone's Fight Contorl Board 
 
 
 1) Touch the Bluetooth Button
@@ -42,7 +42,7 @@
 ![image](https://user-images.githubusercontent.com/122161666/223181054-21a20a22-9043-4778-9036-4803221c92c1.png)
 
 <br/><br/>
-### 6. flight ZeroDrone 
+### 6. flight AIDrone 
 
 ![image](https://user-images.githubusercontent.com/122161666/223181405-137d397b-4f75-480b-9563-ac5fcc261a64.png)
 
