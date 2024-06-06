@@ -2,6 +2,8 @@
 
 ### ***1. Download Setup.zip***     
 
+https://github.com/irbrain/AIDrone-Scratch.git
+
 <br/>
 
 ### ***2. After Unzip and Double Click Setup.msi for install***      
