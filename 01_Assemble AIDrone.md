@@ -4,46 +4,45 @@
 
 ![화면 캡처 2024-06-06 153915](https://github.com/irbrain/AIDrone/assets/122161666/0b12acce-e264-49c1-9323-b3e1c81d0a19)
 
-<br/>
+<br/><br/>
 
 ### 2. Connect Motors with FC Board 
 
-![KakaoTalk_20240215_114452040_04](https://github.com/irbrain/AIDrone/assets/122161666/7114d3f5-fd71-4d65-9172-90a3b6e1d180)
-
+![스크린샷 2024-06-06 155906](https://github.com/irbrain/AIDrone/assets/122161666/9c87efb3-d828-486d-b9eb-1bd19f7861df)
 
 <br/>
 
-1) Touch the Bluetooth Button
+[ FC board Top and Bottom ]
 
+![스크린샷 2024-06-06 160537](https://github.com/irbrain/AIDrone/assets/122161666/85da5282-dcb8-43db-859c-5bbfbca8e3fa)
 
+<br/><br/>
 
+### 3. At First,  Put Battery Connector on the Bottom and Put in the Board
 
-2) Delete old Bluetooth Address and click the your drone blutooth address 
-   ( The drone's address above is close to you)
-  
+![스크린샷 2024-06-06 160739](https://github.com/irbrain/AIDrone/assets/122161666/34f3a266-a8f9-4d05-a1c0-3c884c2a455f)
+
+<br/>
+
+![스크린샷 2024-06-06 160939](https://github.com/irbrain/AIDrone/assets/122161666/cff80b9a-cbcd-47d7-acd6-7044d522db76)
+
+<br/><br/>
+
+### 4. Next Put the Raspberry Pi Zero 2 W with Camera on the FC borad
+
+![스크린샷 2024-06-06 161104](https://github.com/irbrain/AIDrone/assets/122161666/9fc3047a-3c22-4aa0-9f4c-09ad92976dd3)
+
+<br/><br/>
+
+### 5. Cover Top Body with Battery
+
+![스크린샷 2024-06-06 162340](https://github.com/irbrain/AIDrone/assets/122161666/3b6a7763-8778-4e0d-9e11-5b911d69860d)
+
+<br/> 
+
+![스크린샷 2024-06-06 162202](https://github.com/irbrain/AIDrone/assets/122161666/1aa4401d-37b5-4a20-a894-8ec949b2b144)
 
  
- 3) if your drone is connected, bluetooth button is lightening 
-
-
-
-<br/><br/>
-### 3. drag the red button in App to the right and  show examples and pad, control .. 
-
-
-
-<br/><br/>
-### 4. Click the examples and click 1 number and then click the 25 number's exmaple(contorl dorne)
-
-
-
-<br/><br/>
-### 5. press the triangle button in the top of screen. you can see drone's controler
-
-
-
-<br/><br/>
-### 6. flight AIDrone 
 
 
 
