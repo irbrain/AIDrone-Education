@@ -1,18 +1,17 @@
 # Flight AIDrone with Coding App 
 
-### 1. Insert Motors in Drone Body
+### 1. Insert Motors with Propeller in Drone Body 
 
-![KakaoTalk_20240215_114452040_03](https://github.com/irbrain/AIDrone/assets/122161666/34db1828-024a-4a87-9db6-a99c861930f1)
-
-
-<br/>
-
-![화면 캡처 2024-06-06 153915](https://github.com/irbrain/AIDrone/assets/122161666/0536aaf1-a752-41cb-aecc-da851722e280)
+![화면 캡처 2024-06-06 153915](https://github.com/irbrain/AIDrone/assets/122161666/0b12acce-e264-49c1-9323-b3e1c81d0a19)
 
 <br/>
 
-### 2. Open the JCBlock App and Connect with the bluetooth of  AIDrone's Fight Contorl Board 
+### 2. Connect Motors with FC Board 
 
+![KakaoTalk_20240215_114452040_04](https://github.com/irbrain/AIDrone/assets/122161666/7114d3f5-fd71-4d65-9172-90a3b6e1d180)
+
+
+<br/>
 
 1) Touch the Bluetooth Button
 
