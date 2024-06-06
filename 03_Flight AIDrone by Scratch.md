@@ -1,4 +1,4 @@
-# Flight AIDrone with Coding App 
+# Flight AIDrone with Coding Scratch
 
 ### 1. install JCBlock  App in Android and Apple phone 
 
