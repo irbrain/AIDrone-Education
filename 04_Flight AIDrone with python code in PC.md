@@ -5,14 +5,13 @@
 
 ![KakaoTalk_20240606_085057982](https://github.com/irbrain/AIDrone/assets/122161666/e6effc21-2827-4180-9aa8-3b1d017a3179)
 
-
-
 ## 2. How to control Transmitter
-<br> 
+
+<br/> 
 
 ![스크린샷 2024-06-06 134620](https://github.com/irbrain/AIDrone/assets/122161666/b644e3a0-6b22-44c1-8a6a-f3f92bee0bbd)
 
-
+<br/> 
   
 ## 3. Setting up a developement environment on a PC
 
