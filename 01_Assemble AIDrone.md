@@ -1,10 +1,15 @@
 # Flight AIDrone with Coding App 
 
-### 1. install JCBlock  App in Android and Apple phone 
+### 1. Insert Motors in Drone Body
 
+![KakaoTalk_20240215_114452040_03](https://github.com/irbrain/AIDrone/assets/122161666/44a3a37b-3b71-445d-82f4-f674f51d8488)
 
+<br/>
 
-<br/><br/>
+![화면 캡처 2024-06-06 153915](https://github.com/irbrain/AIDrone/assets/122161666/0536aaf1-a752-41cb-aecc-da851722e280)
+
+<br/>
+
 ### 2. Open the JCBlock App and Connect with the bluetooth of  AIDrone's Fight Contorl Board 
 
 
