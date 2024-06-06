@@ -1,6 +1,6 @@
 # 1. OpemCV Programing
 
-### 1). Show zeroDrone Video Steaming 
+### 1). Show AIDrone Video Steaming 
 
          import cv2 as cv
 
