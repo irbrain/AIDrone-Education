@@ -27,6 +27,11 @@
 
 ![스크린샷 2024-06-06 085320](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/41d7ecf7-dccf-40f8-b392-048407b7479f)     
 
+<br/>
+
+***[Explain Transmitter ]*** 
+
+![스크린샷 2024-06-06 134620](https://github.com/irbrain/AIDrone/assets/122161666/03ef05de-c4f1-4a2b-8675-04556fdc70c1)
 
 <br/>
 
