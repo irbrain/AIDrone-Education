@@ -2,13 +2,17 @@
 
 ### 1. Insert Motors with Propeller in Drone Body 
 
+<br/>
+
 ![화면 캡처 2024-06-06 153915](https://github.com/irbrain/AIDrone/assets/122161666/0b12acce-e264-49c1-9323-b3e1c81d0a19)
 
 <br/><br/>
 
 ### 2. Connect Motors with FC Board 
 
-![스크린샷 2024-06-06 155906](https://github.com/irbrain/AIDrone/assets/122161666/9c87efb3-d828-486d-b9eb-1bd19f7861df)
+<br/>
+
+![스크린샷 2024-06-06 162613](https://github.com/irbrain/AIDrone/assets/122161666/e0f1e18f-a964-4cb2-bf82-505a2ec6d3e3)
 
 <br/>
 
@@ -20,6 +24,8 @@
 
 ### 3. At First,  Put Battery Connector on the Bottom and Put in the Board
 
+<br/>
+
 ![스크린샷 2024-06-06 160739](https://github.com/irbrain/AIDrone/assets/122161666/34f3a266-a8f9-4d05-a1c0-3c884c2a455f)
 
 <br/>
@@ -30,11 +36,15 @@
 
 ### 4. Next Put the Raspberry Pi Zero 2 W with Camera on the FC borad
 
+<br/>
+
 ![스크린샷 2024-06-06 161104](https://github.com/irbrain/AIDrone/assets/122161666/9fc3047a-3c22-4aa0-9f4c-09ad92976dd3)
 
 <br/><br/>
 
 ### 5. Cover Top Body with Battery
+
+<br/>
 
 ![스크린샷 2024-06-06 162340](https://github.com/irbrain/AIDrone/assets/122161666/3b6a7763-8778-4e0d-9e11-5b911d69860d)
 
