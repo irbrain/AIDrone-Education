@@ -33,7 +33,7 @@
 
 #### 4) Install AIDrone python Library in the anaconda prompt
      
-       pip install pyirbrain
+       pip install pyaidrone
 
 <br/>
 
@@ -50,31 +50,31 @@
 #### 1) each motor contorl for 2 seconds
 
        from time import sleep
-       from pyirbrain.zerodrone import *
+       from pyirbrain.AIDrone import *
        
        if __name__ == '__main__':    
        
-            zerodrone = ZERODrone()
-            zerodrone.Open("COM3")
-            zerodrone.setOption(0)
+            aidrone = AIDrone()
+            aidrone.Open("COM3")
+            aidrone.setOption(0)
             sleep(0.5)
             
-            zerodroen.motor(0, 10)
+            aidrone.motor(0, 10)
             sleep(2)
-            zerodrone.motor(1, 20)
+            aidrone.motor(1, 20)
             sleep(2)
-            zerodrone.motor(2, 20)
+            aidrone.motor(2, 20)
             sleep(2)
-            zerodrone.motor(3, 20)
+            aidrone.motor(3, 20)
             sleep(2)
-            zerodrone.close()
+            aidrone.close()
 
 <br/>
 
 #### 2) move AIDrone a certain distance
 
        from time import sleep
-       from pyirbrain.zerodrone import *
+       from pyirbrain.AIDrone import *
        from pyirbrain.deflib import *
        
        ready = -1
@@ -85,30 +85,30 @@
             
        if __name__ = '__main__':
        
-            zerodrone = ZERODrone(recevieData)
-            zerodrone.Open("COM3")   # change to the your ports number
-            zerodrone.setOption(0)
+            aidrone = AIDrone(recevieData)
+            aidrone.Open("COM3")   # change to the your ports number
+            aidrone.setOption(0)
             sleep(0.5)
             
             while ready != 0:
                   sleep(0.1)
                   
-            zerodrone.takeoff()
+            aidrone.takeoff()
             sleep(5)
-            zerodrone.move(FRONT, 200)    # 200 means 2m
+            aidrone.move(FRONT, 200)    # 200 means 2m
             sleep(5)
-            zerodrone.move(BACK, 200) 
+            aidrone.move(BACK, 200) 
             sleep(5)
-            zerodrone.landing()
+            aidrone.landing()
             sleep(3)
-            zerodrone.Close()
+            aidrone.Close()
 
 <br/>
 
 #### 3) rotate AIDrone 
 
        from time import sleep
-       from pyirbrain.zerodrone import *
+       from pyirbrain.AIDrone import *
        from pyirbrain.deflib import *
        
        ready = -1
@@ -119,30 +119,30 @@
             
        if __name__ = '__main__':
        
-            zerodrone = ZERODrone(recevieData)
-            zerodrone.Open("COM3")   # change to the your ports number
-            zerodrone.setOption(0)
+            aidrone = AIDrone(recevieData)
+            aidrone.Open("COM3")   # change to the your ports number
+            aidrone.setOption(0)
             sleep(0.5)
             
             while ready != 0:
                   sleep(0.1)
                   
-            zerodrone.takeoff()
+            aidrone.takeoff()
             sleep(5)
-            zerodrone.rotation(90)    # Turn to the right about 90 degree
+            aidrone.rotation(90)    # Turn to the right about 90 degree
             sleep(5)
-            zerodrone.rotation(-90) 
+            aidrone.rotation(-90) 
             sleep(5)
-            zerodrone.landing()
+            aidrone.landing()
             sleep(3)
-            zerodrone.Close()
+            aidrone.Close()
 
 <br/>
 
  #### 4) up and down AIDrone 
 
        from time import sleep
-       from pyirbrain.zerodrone import *
+       from pyirbrain.AIDrone import *
        from pyirbrain.deflib import *
        
        ready = -1
@@ -153,32 +153,32 @@
             
        if __name__ = '__main__':
        
-            zerodrone = ZERODrone(recevieData)
-            zerodrone.Open("COM3")   # change to the your ports number
-            zerodrone.setOption(0)
+            aidrone = AIDrone(recevieData)
+            aidrone.Open("COM3")   # change to the your ports number
+            aidrone.setOption(0)
             sleep(0.5)
             
             while ready != 0:
                   sleep(0.1)
                   
-            zerodrone.takeoff()
+            aidrone.takeoff()
             sleep(5)
-            zerodrone.altitude(150)    # up to the 1.5m. basic altitude is 70cm
+            aidrone.altitude(150)    # up to the 1.5m. basic altitude is 70cm
             sleep(5)
-            zerodrone.altitude(50) 
+            aidrone.altitude(50) 
             sleep(5)
-            zerodrone.altitude(100)
+            aidrone.altitude(100)
             sleep(8)
-            zerodrone.landing()
+            aidrone.landing()
             sleep(3)
-            zerodrone.Close()
+            aidrone.Close()
 
 <br/>
 
  #### 5) flight's velocity change 
 
        from time import sleep
-       from pyirbrain.zerodrone import *
+       from pyirbrain.AIDrone import *
        from pyirbrain.deflib import *
        
        ready = -1
@@ -189,34 +189,34 @@
             
        if __name__ = '__main__':
        
-            zerodrone = ZERODrone(recevieData)
-            zerodrone.Open("COM3")   # change to the your ports number
-            zerodrone.setOption(0)
+            aidrone = AIDrone(recevieData)
+            aidrone.Open("COM3")   # change to the your ports number
+            aidrone.setOption(0)
             sleep(0.5)
             
             while ready != 0:
                   sleep(0.1)
                   
-            zerodrone.takeoff()
+            aidrone.takeoff()
             sleep(5)
-            zerodrone.velocity(FRONT, 100)   
+            aidrone.velocity(FRONT, 100)   
             sleep(2)
-            zerodrone.velocity(FRONT, 0) 
+            aidrone.velocity(FRONT, 0) 
             sleep(5)
-            zerodrone.velocity(BACK, 100)
+            aidrone.velocity(BACK, 100)
             sleep(2)
-            zerodrone.velocity(BACK, 0)
+            aidrone.velocity(BACK, 0)
             sleep(5)
-            zerodrone.landing()
+            aidrone.landing()
             sleep(5)
-            zerodrone.Close()
+            aidrone.Close()
 
 <br/>
 
  #### 6) RC AIDrone by direction keyboard 
  
       from time import sleep
-      from pyirbrain.zerodrone import *
+      from pyirbrain.AIDrone import *
       from pyirbrain.deflib import *
       from pyirbrain.ikeyevent import *
 
@@ -224,47 +224,47 @@
       Degree = 0
 
       if __name__ == '__main__':
-            zerodrone = ZERODrone()
+            aidrone = AIDrone()
             ikey = IKeyEvent()
-            zerodrone.Open("COM3")
-            zerodrone.setOption(0)
+            aidrone.Open("COM3")
+            aidrone.setOption(0)
             sleep(0.5)
 
              while not ikey.isKeyEscPressed():        
         
             if ikey.isKeyEnterPressed():             
-                  zerodrone.takeoff()
+                  aidrone.takeoff()
 
             if ikey.isKeySpacePressed():
-                  zerodrone.landing()
+                  aidrone.landing()
       
             if ikey.isKeyUpPressed():
-                  zerodrone.velocity(FRONT, 100)
+                  aidrone.velocity(FRONT, 100)
             elif ikey.isKeyDownPressed():
-                  zerodrone.velocity(BACK, 100)
+                  aidrone.velocity(BACK, 100)
             else:
-                  zerodrone.velocity(FRONT, 0)
+                  aidrone.velocity(FRONT, 0)
 
             if ikey.isKeyRightPressed():
-                zerodrone.velocity(RIGHT, 100)
+                  aidrone.velocity(RIGHT, 100)
             elif ikey.isKeyLeftPressed():
-                  zerodrone.velocity(LEFT, 100)
+                  aidrone.velocity(LEFT, 100)
             else:
-                  zerodrone.velocity(RIGHT, 0) 
+                  aidrone.velocity(RIGHT, 0) 
         
             if ikey.isKeyWPressed():
                   Height = Height + 10
-                  zerodrone.altitude(Height)
+                  aidrone.altitude(Height)
             elif ikey.isKeyXPressed():
                   Height = Height - 10
-                  zerodrone.altitude(Height)
+                  aidrone.altitude(Height)
 
              if ikey.isKeyDPressed():
                   Degree = Degree + 10
-                  zerodrone.rotation(Degree)            
+                  aidrone.rotation(Degree)            
             elif ikey.isKeyAPressed():
                   Degree = Degree +10
-                  zerodrone.rotation(-Degree)            
+                  aidrone.rotation(-Degree)            
 
             sleep(0.1)
-      zerodrone.Close()
+      aidrone.Close()
