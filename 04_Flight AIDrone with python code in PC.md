@@ -50,7 +50,7 @@
 #### 1) each motor contorl for 2 seconds
 
        from time import sleep
-       from pyirbrain.AIDrone import *
+       from pyaidrone.AIDrone import *
        
        if __name__ == '__main__':    
        
@@ -74,8 +74,8 @@
 #### 2) move AIDrone a certain distance
 
        from time import sleep
-       from pyirbrain.AIDrone import *
-       from pyirbrain.deflib import *
+       from pyaidrone.AIDrone import *
+       from pyaidrone.deflib import *
        
        ready = -1
        
@@ -108,8 +108,8 @@
 #### 3) rotate AIDrone 
 
        from time import sleep
-       from pyirbrain.AIDrone import *
-       from pyirbrain.deflib import *
+       from pyaidrone.AIDrone import *
+       from pyaidrone.deflib import *
        
        ready = -1
        
@@ -142,8 +142,8 @@
  #### 4) up and down AIDrone 
 
        from time import sleep
-       from pyirbrain.AIDrone import *
-       from pyirbrain.deflib import *
+       from pyaidrone.AIDrone import *
+       from pyaidrone.deflib import *
        
        ready = -1
        
@@ -178,8 +178,8 @@
  #### 5) flight's velocity change 
 
        from time import sleep
-       from pyirbrain.AIDrone import *
-       from pyirbrain.deflib import *
+       from pyaidrone.AIDrone import *
+       from pyaidrone.deflib import *
        
        ready = -1
        
@@ -216,9 +216,9 @@
  #### 6) RC AIDrone by direction keyboard 
  
       from time import sleep
-      from pyirbrain.AIDrone import *
-      from pyirbrain.deflib import *
-      from pyirbrain.ikeyevent import *
+      from pyaidrone.AIDrone import *
+      from pyaidrone.deflib import *
+      from pyaidrone.ikeyevent import *
 
       Height = 70
       Degree = 0
