@@ -20,14 +20,14 @@ https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=dri
 ### ***3. At First, Connecting from PC and Drone Transmiiter by USB Cable***    
 
 
-![KakaoTalk_20240606_085057982](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/bf1cfb89-643e-4b01-a932-31e90545f2ce)    
+  
 
 <br/>
 
 ***[Check USB port ]***    
 
 
-![스크린샷 2024-06-06 085320](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/41d7ecf7-dccf-40f8-b392-048407b7479f)     
+     
 
 <br/>
 
@@ -37,7 +37,8 @@ https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=dri
 
 <br/>
 
-### ***4. Click the AIDroneLink Icon and then Click Connect Button in AIDroneLink***      
+### ***4. Click the AIDroneLink Icon and then Click Connect Button in AIDroneLink***
+<br/>
 
 ![image](https://github.com/user-attachments/assets/fa951086-cb7a-46a1-b9e8-a9df0d5c9aa7)
 
