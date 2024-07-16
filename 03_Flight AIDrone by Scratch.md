@@ -39,7 +39,7 @@ https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=dri
 
 ### ***4. Click the AIDroneLink Icon and then Click Connect Button in AIDroneLink***      
 
-![스크린샷 2024-06-06 085620](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/760cbe66-6c1b-4dcc-9a1e-368c91ce651f)     
+![image](https://github.com/user-attachments/assets/fa951086-cb7a-46a1-b9e8-a9df0d5c9aa7)
 
 <br/>
 
