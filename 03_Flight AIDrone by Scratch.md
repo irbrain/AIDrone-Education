@@ -38,39 +38,52 @@ https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=dri
 <br/>
 
 ### ***4. Click the AIDroneLink Icon and then Click Connect Button in AIDroneLink***
-<br/>
-
-![image](https://github.com/user-attachments/assets/fa951086-cb7a-46a1-b9e8-a9df0d5c9aa7)
 
 <br/>
 
-### ***5. Drone turn on and You see the change of Porduct Name from UnKnown to AIDrone (Already transmitter connected with Drone)***            
+
+
+<br/>
+
+### ***5. Drone turn on and You see the change of Porduct Name from UnKnown to AIDrone (Already transmitter connected with Drone)*** 
+
+<br/>
    
-![스크린샷 2024-06-06 090106](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/b7987938-ea90-4f92-9b83-8f802801d2c0)      
+ ![image](https://github.com/user-attachments/assets/fa951086-cb7a-46a1-b9e8-a9df0d5c9aa7)   
 
 <br/>
 
-### ***6. Click Strach3.exe in Destop Window***             
-
-![스크린샷 2024-06-06 110436](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/53a02651-5bb0-4c15-af12-8ea8f84ca684)     
+### ***6. Click Strach3.exe in Destop Window***   
 
 <br/>
 
-### ***7. Click the Button of Adding Extention Fuction and Click the AIDrone***             
+![image](https://github.com/user-attachments/assets/a3e862dd-24f3-4a0b-a7e6-a46c5ff91321)
 
-![스크린샷 2024-06-06 111306](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/a3fbbf58-5d78-4810-b805-12e406c00b51)      
-
-<br/>
-
-### ***8. Click the Connecting with AIDrone***            
-
-![스크린샷 2024-06-06 111532](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/c6f19540-a0af-4be5-8648-8f6f50e19c26)      
 
 <br/>
 
-### ***9. Scratch Coding for Control the AIDrone***           
+### ***7. Click the Button of Adding Extention Fuction and Click the AIDrone***        
 
-![스크린샷 2024-06-06 111759](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/41d84151-fc9b-4f7a-ab78-5dab3d3ba449)     
+<br/>
+
+![image](https://github.com/user-attachments/assets/14c03d60-ee99-483e-b636-9ed252134560)
+
+<br/>
+
+### ***8. Click the Connecting with AIDrone***    
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/81ec4193-596b-4892-a039-1a06ed97a119)
+
+<br/>
+
+### ***9. Scratch Coding for Control the AIDrone***   
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/25a5336a-5f39-4332-ace6-add7962af09f)
+
 
 
 
