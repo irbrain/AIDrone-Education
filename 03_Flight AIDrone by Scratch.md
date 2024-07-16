@@ -41,7 +41,8 @@ https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=dri
 
 <br/>
 
-<img width="408" alt="image" src="https://github.com/user-attachments/assets/177bce32-fe9f-4627-bf04-a11ab5b46ba6">
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/06ea2e5d-7ab6-42bd-b297-fd5fc2507bad">
+
 
 
 <br/>
