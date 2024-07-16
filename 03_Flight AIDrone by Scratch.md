@@ -12,8 +12,8 @@ https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=dri
 
          [Icon in Desktop Window]     
 
+<img width="65" alt="image" src="https://github.com/user-attachments/assets/0155113c-e11c-457f-bc95-20d2a050714c">
 
-![image](https://github.com/irbrain/AIDrone-Scratch/assets/122161666/722aa995-16b9-4dc2-bd3f-e0b04bd897d0)
 
 <br/>
 
