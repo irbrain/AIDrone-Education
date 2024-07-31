@@ -4,17 +4,7 @@
      sudo apt install build-essential cmake git pkg-config libjpeg-dev libtiff-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev  libxvidcore-dev libx264-dev  libgtk2.0-dev libgtk-3-dev 
                       libatlas-base-dev gfortran python3-dev
 
-      
-![image](https://github.com/user-attachments/assets/6e02ca9e-94a1-45c8-b2b8-c8688ad0ae41)
 
-
-
-<br/>
-
-    pip3 install imutils
-    
-    pip3 install --upgrade setuptools wheel numpy
-    
 <br/>
 
 #  2. Install OpenCV
@@ -27,7 +17,17 @@
 
 <br/>
 
-# 3. Check Raspberry Camera 
+# 3. Install Opnecv by Source
+
+   mkdir opencv
+   cd  opencv
+   git clone https://github.com/opencv/opencv.git
+   git clone https://github.com/opencv/opencv_contrib.git
+
+
+<br/>
+
+# 4. Check Raspberry Camera 
 
 ![image](https://user-images.githubusercontent.com/122161666/224483414-ffb3dcab-2260-493f-8f91-f2b3053bea49.png)
 
@@ -36,7 +36,7 @@
 
 <br/>
 
-# 3. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
+# 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
      mkdir mjpg
      
