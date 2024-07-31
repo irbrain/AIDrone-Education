@@ -1,10 +1,13 @@
 # 1. Install python modules
 
-     sudo apt install git build-essential cmake pkg-config 
-     
-     sudo apt install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
-     
-     sudo apt install  libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-103 python3-pyqt5 python3-dev
+     sudo apt update  &&  sudo apt upgrade -y     
+     sudo apt install build-essential cmake git pkg-config libjpeg-dev libtiff-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev  libxvidcore-dev libx264-dev  libgtk2.0-dev libgtk-3-dev 
+                      libatlas-base-dev gfortran python3-dev
+
+      
+![image](https://github.com/user-attachments/assets/6e02ca9e-94a1-45c8-b2b8-c8688ad0ae41)
+
+
 
 <br/>
 
