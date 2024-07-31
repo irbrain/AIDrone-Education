@@ -85,6 +85,36 @@
 #### Upgrade Pip
 
      python3 -m pip install --upgrade pip
+
+<br/>
+
+# 6. Create Python Virtual Environment
+
+     python3  -m  venv  myvenv
+
+<br/>
+
+# 7. Make sure the Python virtual environment starts automatically when the Raspberry Pi starts.
+
+     sudo  nano  ~/.bashrc
+
+     Alt + /   ( cursor move to last line)
+
+     Write down like this : 
+
+            if  [ -d  "$HOME/myvenv" ]; then
+                 source  $HOME/myvenv/bin/activate
+            fi
+
+    Ctrl + x  ->  Y   (Saving File)
+
+    source  ~/.bashrc  (bashrc's change comment applied )
+
+    
+    
+
+             
+     
      
      
 
