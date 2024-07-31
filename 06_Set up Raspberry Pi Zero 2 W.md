@@ -110,6 +110,8 @@
 
     source  ~/.bashrc  (bashrc's change comment applied )
 
+    sudo reboot  
+
     
     
 
