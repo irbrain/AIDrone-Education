@@ -96,9 +96,11 @@
 
 # 7. Make sure the Python virtual environment starts automatically when the Raspberry Pi starts.
 
-    ### 1.  sudo  nano  ~/.bashrc
+<br/>
 
-    ### 2.  Alt + /   ( cursor move to last line)
+    ### 1)  sudo  nano  ~/.bashrc
+
+    ### 2)  Alt + /   ( cursor move to last line)
 
     ### 3.  Write down like this : 
 
