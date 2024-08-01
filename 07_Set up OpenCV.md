@@ -103,31 +103,29 @@
 
 # 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
-     sudo apt update && sudo apt upgrade -y 
-     
-     sudo apt install build-essential cmake git libjpeg-dev libv4l-dev 
+     sudo apt update && sudo apt upgrade -y      
+    
+     git clone https://github.com/jacksonliam/mjpg-streamer.git
 
-     sudo apt install gcc g++ cmake make libjpeg8-dev
+     cd mjpg-streamer/mjpg-streamer-experimental
 
-     cd ~ 
+     make clean
 
-     git clone https://github.com/jacksonliam/mjpg-streamer.git 
-
-     cd mjpg-streamer/mjpg-streamer-experimental 
+     cmake -DENABLE_RASPICAM=ON .
 
      make
 
-     sudo make  install
+     sudo make install
 
-     cd ~
-
-     sudo nano /etc/systemd/system/mjpg-streamer.service
+     cd ~     
     
 <br/>  
      
 ###  Edit mjpg-streamer.service  
 
-     change from user id to your id
+     sudo nano /etc/systemd/system/mjpg-streamer.service
+ 
+     < change from user id to your id >
     
 <br/> 
 
