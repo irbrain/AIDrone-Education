@@ -47,16 +47,17 @@
 
 <br/>
 
-# 4. Check Raspberry Camera 
+# 5. Check Raspberry Camera 
 
 ![image](https://user-images.githubusercontent.com/122161666/224483414-ffb3dcab-2260-493f-8f91-f2b3053bea49.png)
 
 ### if detected =1,  Camera is connected
+
 ### if detected =0, Please check connection of camera with Raspberry Pi
 
 <br/>
 
-# 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
+# 6. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
      sudo apt update && sudo apt upgrade -y 
      
@@ -122,13 +123,13 @@
 
 <br/>
 
-# 4. Gstreamer Install in Raspberry Pi 
+# 7. Gstreamer Install in Raspberry Pi 
 
      sudo apt-get install libx264-dev   libjpeg-dev  libgstreamer-plugins-base1.0-dev libgstreamer-bad1.0-dev  gstreamer1.0-plugins-ugly gstreamer1.-=plugins-good gstreamer1.0-tools -y
      
      
 
-# 5. Gstreamer Install in PC
+# 8. Gstreamer Install in PC
 
      https://gstreamer.freedesktop.org/documentation/installing/on-windows.html?gi-language=c
      
