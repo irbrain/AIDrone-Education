@@ -79,7 +79,7 @@
     
 <br/>  
      
-###  edit mjpg-streamer.service  
+###  Edit mjpg-streamer.service  
 
      [Unit]
      
