@@ -22,7 +22,9 @@
        
 <br/>
 
-#  3. Install OpenCV
+     sudo apt-get install libopencv-dev python3-opencv
+
+#  3. Install OpenCV by PIP
     
     pip3 install opencv-python==4.7.0.68 
     
@@ -32,7 +34,7 @@
 
 <br/>
 
-# 3. Install Opnecv by Source
+# 4. Install Opnecv by Source
 
    mkdir opencv
    
@@ -56,37 +58,56 @@
 
 # 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
-     mkdir mjpg
+     sudo apt update && sudo apt upgrade -y 
      
-     cd mjpg
-     
-     sudo apt install  libjpeg9-dev  imagemagick  libv4l-dev  subversion  python3-pil  
-     
-     sudo ln -s  /usr/include/linux/videodev2.h   /usr/include/linux/videodev.h
-     
-     git clone  https://github.com/neuralassembly/mjpg-streamer.git
-     
-     cd mjpg-streamer/mjpg-streamer-experimental
-     
+     sudo apt install build-essential cmake git libjpeg-dev libv4l-dev 
+
+     sudo apt install gcc g++ cmake make libjpeg8-dev
+
+     cd ~ 
+
+     git clone https://github.com/jacksonliam/mjpg-streamer.git 
+
+     cd mjpg-streamer/mjpg-streamer-experimental 
+
      make
-     
-     sudo make install     
+
+     sudo make  install
+
+     sudo nano /etc/systemd/system/mjpg-streamer.service
     
 <br/>  
      
-###  make mjpg.sh file 
+###  edit mjpg-streamer.service  
 
-     cd ~
-     sudo nano mjpg.sh
-     =>        export STREAMER_PATH=/home/USER ID/mjpg/mjpg-streamer/mjpg-streamer-experimental
-               export LD_LIBRARY_PATH=$STREAMER_PATH
-               $STREAMER_PATH/mjpg_streamer  –i -rot 180  “input_raspicam.so” –o  “output_http.so –p 8091 –w $STREAMER_PATH/www”
-               
-     ctrl + x -> input y and then click Enter (save and out)
-               
-###  execute mjpg.sh
+     [Unit]
+     
+     Description=mjpg-streamer
+     
+     After=network-online.target
 
-![image](https://user-images.githubusercontent.com/122161666/224519901-50eafb7c-33ef-4070-99dd-613f0caa07f9.png)
+     [Service]
+     
+     ExecStart=/home/your's user/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/your's user/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o 
+       "/home/your's user/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/your's user/mjpg-streamer/mjpg-streamer-experimental/www"
+     
+     Restart=always
+     
+     User=pi
+
+     [Install]
+     
+     WantedBy=multi-user.target
+
+               
+###  start  mjpg-streamer service 
+
+    sudo systemctl daemon-reload
+   
+    sudo systemctl enable mjpg-streamer
+
+    sudo systemctl start mjpg-streamer
+
 
 
 ###  You can see the camera video in Website on PC
