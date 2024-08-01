@@ -127,6 +127,10 @@
      
 ###  Edit mjpg-streamer.service  
 
+####   change from user id to your id
+    
+<br/> 
+
      [Unit]
      
      Description=mjpg-streamer
@@ -135,12 +139,12 @@
 
      [Service]
      
-     ExecStart=/home/your's user/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/your's user/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o 
-       "/home/your's user/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/your's user/mjpg-streamer/mjpg-streamer-experimental/www"
+     ExecStart=/home/user id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/user id/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o 
+       "/home/user id/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/user id/mjpg-streamer/mjpg-streamer-experimental/www"
      
      Restart=always
      
-     User=pi
+     User=your's user id
 
      [Install]
      
