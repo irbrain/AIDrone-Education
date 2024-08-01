@@ -42,9 +42,13 @@
 
      sudo  find  /  -type  f  -name  "cv2*.so"
 
-![image](https://github.com/user-attachments/assets/5b24430f-a5b5-43a1-ac94-41208c7a4059)
+![image](https://github.com/user-attachments/assets/130dc82e-efcd-4d02-b157-5281d6fe9548)
 
      cp /usr/lib/python3.11/dist-packages/cv2/python-3.11/cv2*.so    ~/myvenv/lib/python3.11/site-packages/
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/24f83ae2-74d2-4950-8dfb-87fd68dec429)
 
 <br/>
 
