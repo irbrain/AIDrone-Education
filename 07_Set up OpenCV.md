@@ -24,17 +24,7 @@
 
      sudo apt-get install libopencv-dev python3-opencv
 
-#  3. Install OpenCV by PIP
-    
-    pip3 install opencv-python==4.7.0.68 
-    
-    After install, please check the opencv verison
-    
-   ![image](https://user-images.githubusercontent.com/122161666/224481851-8fab6aa2-2839-40be-af89-61292b5279e0.png)
-
-<br/>
-
-# 4. Install Opnecv by Source
+# 3. Install Opnecv by Source
 
    mkdir opencv
    
