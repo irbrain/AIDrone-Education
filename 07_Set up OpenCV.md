@@ -1,10 +1,18 @@
-# 1. Install python modules
+# 1. Install Libraries
 
      sudo apt update  &&  sudo apt upgrade -y     
      sudo apt install build-essential cmake git pkg-config libjpeg-dev libtiff-dev libpng-dev libavcodec-dev libavformat-dev
                       libswscale-dev libv4l-dev  libxvidcore-dev libx264-dev  libgtk2.0-dev libgtk-3-dev 
                       libatlas-base-dev gfortran python3-dev
 
+
+<br/>
+
+# 2. Install python Libraries
+
+<br/>
+
+     pip install setuptools wheel  numpy\<2    ( numpy는  1.X 버젼을 설치한다.)
 
 <br/>
 
@@ -21,9 +29,9 @@
 
        sudo  dphys-wapfile  swapon
        
-<br/>
 
-     sudo apt-get install libopencv-dev python3-opencv
+
+<br/>
 
 # 3. Install Opnecv by Source
 
