@@ -63,9 +63,6 @@
 
   sudo  ldconfig
 
-
-
-
 <br/>
 
 # 5. Check Raspberry Camera 
