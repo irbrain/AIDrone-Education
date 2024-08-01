@@ -6,7 +6,8 @@
 
 
 <br/>
-#  2. Change SWAPSIZE to 2048
+
+# 2. Change SWAPSIZE to 2048
 
 
        sudo dphys-swapfile swapoff
