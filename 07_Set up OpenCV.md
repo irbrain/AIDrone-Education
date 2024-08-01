@@ -48,6 +48,12 @@
 
 <br/>
 
+      sudo  find  /  -type  f  -name  "cv2*.so"
+
+![image](https://github.com/user-attachments/assets/7814852b-9e1e-458c-8fc9-a6c509e4cc3f)
+
+<br/>
+
 ![image](https://github.com/user-attachments/assets/24f83ae2-74d2-4950-8dfb-87fd68dec429)
 
 <br/>
