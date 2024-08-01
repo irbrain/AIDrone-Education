@@ -1,5 +1,7 @@
 # 1. Install Libraries
 
+<br/>
+
      sudo apt update  &&  sudo apt upgrade -y     
      sudo apt install build-essential cmake git pkg-config libjpeg-dev libtiff-dev libpng-dev libavcodec-dev libavformat-dev
                       libswscale-dev libv4l-dev  libxvidcore-dev libx264-dev  libgtk2.0-dev libgtk-3-dev 
@@ -10,14 +12,14 @@
 
 # 2. Install python Libraries
 
+<br/>
+
      < numpy version is under 1.x >
 
-    
-
-    ![image](https://github.com/user-attachments/assets/3a36c866-356e-4163-b98e-7af0a52aa657)
-
-
 <br/>
+
+![image](https://github.com/user-attachments/assets/d5cbfb13-e285-40db-a865-8984ea483158)
+
 
 # 2. Change SWAPSIZE to 2048
 
