@@ -8,6 +8,7 @@
 <br/>
 #  2. Change SWAPSIZE to 2048
 
+
        sudo dphys-swapfile swapoff
        
        sudo nano /etc/dphys-swapfile
