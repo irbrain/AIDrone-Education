@@ -156,7 +156,7 @@
 
     sudo systemctl start mjpg-streamer
 
-
+<br/>
 
 ###  You can see the camera video in Website on PC
 
@@ -164,9 +164,7 @@
      
  <br/>
      
-![image](https://user-images.githubusercontent.com/122161666/224520158-66f75c2a-dabd-4cda-baf2-562c72ba2f13.png)
-
-![image](https://user-images.githubusercontent.com/122161666/224520091-6a490660-a6e5-4fd0-883b-810778ed617d.png)
+![image](https://github.com/user-attachments/assets/e0efa18b-4e01-45f3-a7ef-4f2a5a91d4e7)
 
 <br/>
 
