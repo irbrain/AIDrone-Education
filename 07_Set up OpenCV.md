@@ -157,7 +157,7 @@
 
 ###  You can see the camera video in Website on PC
 
-     [raspberry pi wifi address]:8091/?action=stream
+     [raspberry pi wifi address]:8080/?action=stream
      
  <br/>
      
