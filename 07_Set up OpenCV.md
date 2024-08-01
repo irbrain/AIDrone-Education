@@ -6,14 +6,27 @@
 
 
 <br/>
+#  2. Change SWAPSIZE to 2048
 
-#  2. Install OpenCV
+       sudo dphys-swapfile swapoff
+       
+       sudo nano /etc/dphys-swapfile
+ 
+                CONF_SWAPSIZE =2048 로 변경
+
+       sudo  dphys-wapfile  setup
+
+       sudo  dphys-wapfile  swapon
+       
+<br/>
+
+#  3. Install OpenCV
     
     pip3 install opencv-python==4.7.0.68 
     
     After install, please check the opencv verison
     
-![image](https://user-images.githubusercontent.com/122161666/224481851-8fab6aa2-2839-40be-af89-61292b5279e0.png)
+   ![image](https://user-images.githubusercontent.com/122161666/224481851-8fab6aa2-2839-40be-af89-61292b5279e0.png)
 
 <br/>
 
