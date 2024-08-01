@@ -20,6 +20,7 @@
 
 # 3. Change SWAPSIZE to 2048
 
+<br/>
 
        sudo dphys-swapfile swapoff
        
@@ -31,17 +32,23 @@
 
        sudo  dphys-wapfile  swapon
        
+<br/>
 
+# 4. Install Opencv  (Simple) 
+
+     sudo apt install python3-opencv
+
+### Setup OpenCV in Virtual Python
+
+     sudo  find  /  -type  f  -name  "cv2*.so"
+
+![image](https://github.com/user-attachments/assets/5b24430f-a5b5-43a1-ac94-41208c7a4059)
+
+     cp /usr/lib/python3.11/dist-packages/cv2/python-3.11/cv2*.so    ~/myvenv/lib/python3.11/site-packages/
 
 <br/>
 
-# 4. Install Opencv 
-
-     ###  sudo apt install python3-opencv
-
-<br/>
-
-# 3. Install Opnecv by Source
+# 4. Install Opnecv by Source
 
    mkdir opencv
    
