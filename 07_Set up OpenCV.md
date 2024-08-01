@@ -60,7 +60,7 @@
 
 <br/>
 
-# 4. Install Opnecv by Source  (If using  C/C++ and Python )
+# 5. Install OpneCV by Source  (If using  C/C++ and Python )
 
    mkdir opencv
    
@@ -91,7 +91,7 @@
 
 <br/>
 
-# 5. Check Raspberry Camera 
+# 6. Check Raspberry Camera 
 
 ![image](https://user-images.githubusercontent.com/122161666/224483414-ffb3dcab-2260-493f-8f91-f2b3053bea49.png)
 
@@ -101,7 +101,7 @@
 
 <br/>
 
-# 6. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
+# 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
      sudo apt update && sudo apt upgrade -y 
      
@@ -167,13 +167,13 @@
 
 <br/>
 
-# 7. Gstreamer Install in Raspberry Pi 
+# 8. Gstreamer Install in Raspberry Pi 
 
      sudo apt-get install libx264-dev   libjpeg-dev  libgstreamer-plugins-base1.0-dev libgstreamer-bad1.0-dev  gstreamer1.0-plugins-ugly gstreamer1.-=plugins-good gstreamer1.0-tools -y
      
      
 
-# 8. Gstreamer Install in PC
+# 9. Gstreamer Install in PC
 
      https://gstreamer.freedesktop.org/documentation/installing/on-windows.html?gi-language=c
      
