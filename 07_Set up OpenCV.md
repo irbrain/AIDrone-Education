@@ -14,12 +14,11 @@
 
     < numpy version is under 1.x >
 
-<br/>
-
 # ![image](https://github.com/user-attachments/assets/d5cbfb13-e285-40db-a865-8984ea483158)
 
+<br/>
 
-# 2. Change SWAPSIZE to 2048
+# 3. Change SWAPSIZE to 2048
 
 
        sudo dphys-swapfile swapoff
