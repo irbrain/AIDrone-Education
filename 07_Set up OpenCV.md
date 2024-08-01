@@ -10,13 +10,12 @@
 
 # 2. Install python Libraries
 
-<br/>
+     < numpy version is under 1.x >
 
-     numpy version have to be under 1.x
-
-<br/>     
+    
 
     ![image](https://github.com/user-attachments/assets/3a36c866-356e-4163-b98e-7af0a52aa657)
+
 
 <br/>
 
