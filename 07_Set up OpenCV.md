@@ -101,7 +101,7 @@
      WantedBy=multi-user.target
 
                
-###  start  mjpg-streamer service 
+###  Start  mjpg-streamer service 
 
     sudo systemctl daemon-reload
    
