@@ -131,8 +131,7 @@
 
      [Unit]
      
-     Description=mjpg-streamer
-     
+     Description=mjpg-streamer     
      After=network-online.target
 
      [Service]
@@ -140,14 +139,14 @@
      ExecStart=/home/user id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/user id/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o 
        "/home/user id/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/user id/mjpg-streamer/mjpg-streamer-experimental/www"
      
-     Restart=always
-     
+     Restart=always     
      User= user id
 
      [Install]
      
      WantedBy=multi-user.target
 
+<br/>
                
 ###  Start  mjpg-streamer service 
 
