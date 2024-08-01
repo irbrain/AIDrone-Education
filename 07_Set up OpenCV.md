@@ -34,7 +34,7 @@
        
 <br/>
 
-# 4. Install Opencv  (Simple) 
+# 4. Install Opencv  (Only for Python) 
 
      sudo apt install python3-opencv
 
@@ -60,7 +60,7 @@
 
 <br/>
 
-# 4. Install Opnecv by Source
+# 4. Install Opnecv by Source  (If using  C/C++ and Python )
 
    mkdir opencv
    
