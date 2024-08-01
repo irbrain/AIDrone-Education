@@ -119,6 +119,8 @@
 
      sudo make  install
 
+     cd ~
+
      sudo nano /etc/systemd/system/mjpg-streamer.service
     
 <br/>  
