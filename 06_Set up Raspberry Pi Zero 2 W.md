@@ -74,21 +74,31 @@
 
 # 4. connecting samba on PC
 
+<br/>
+
 ![image](https://user-images.githubusercontent.com/122161666/224478786-c3a66388-0c7c-4635-ad17-22c3629327f4.png)
+
+<br/>
 
 # 5. Install pip for python programing
 
-     sudo apt install python3-pip
+<br/>
+
+     sudo apt install python3-pip   python3-venv
      
      pip -V
      
 #### Upgrade Pip
+
+<br/>
 
      python3 -m pip install --upgrade pip
 
 <br/>
 
 # 6. Create Python Virtual Environment
+
+<br/>
 
      python3  -m  venv  myvenv
 
@@ -112,8 +122,15 @@
 
 ### 5)  source  ~/.bashrc  (bashrc's change comment applied )
 
-### 6) sudo reboot  
+### 6)  sudo reboot  
 
+<br/>
+
+![image](https://github.com/user-attachments/assets/f4480cd5-2670-4328-bb85-20a7a7090933)
+
+
+
+ 
     
     
 
