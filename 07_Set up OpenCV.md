@@ -14,8 +14,9 @@
 
      numpy version have to be under 1.x
 
-     ![image](https://github.com/user-attachments/assets/5aee928d-e75c-486c-a2fa-10457bd5cbe3)
+<br/>     
 
+    ![image](https://github.com/user-attachments/assets/3a36c866-356e-4163-b98e-7af0a52aa657)
 
 <br/>
 
