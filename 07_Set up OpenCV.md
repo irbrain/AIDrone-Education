@@ -127,7 +127,7 @@
      
 ###  Edit mjpg-streamer.service  
 
-####   change from user id to your id
+     change from user id to your id
     
 <br/> 
 
@@ -144,7 +144,7 @@
      
      Restart=always
      
-     User=your's user id
+     User= user id
 
      [Install]
      
