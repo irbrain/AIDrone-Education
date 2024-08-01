@@ -108,11 +108,11 @@
                  source  $HOME/myvenv/bin/activate
             fi
 
-### 4) Ctrl + x  ->  Y   (Saving File)
+### 4)  Ctrl + x  ->  Y   (Saving File)
 
-### 5. source  ~/.bashrc  (bashrc's change comment applied )
+### 5)  source  ~/.bashrc  (bashrc's change comment applied )
 
-### 6. sudo reboot  
+### 6) sudo reboot  
 
     
     
