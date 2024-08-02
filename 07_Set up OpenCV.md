@@ -104,7 +104,25 @@
 # 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
      sudo apt update && sudo apt upgrade -y      
-    
+
+     git clone https://github.com/raspberrypi/userland.git
+     
+     cd userland
+
+     ./buildme
+
+     < This command installs the required libraries and header files to the /opt/vc path >
+
+     < Add this command to your ~/.bashrc file to automatically set it up every time you log in. >
+
+     echo 'export LD_LIBRARY_PATH=/opt/vc/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+     
+     echo 'export CPATH=/opt/vc/include:$CPATH' >> ~/.bashrc
+     
+     source ~/.bashrc
+
+<br/>     
+
      git clone https://github.com/jacksonliam/mjpg-streamer.git
 
      cd mjpg-streamer/mjpg-streamer-experimental
