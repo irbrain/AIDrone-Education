@@ -103,6 +103,10 @@
 
 # 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
+<br/>
+
+###  Download userland Library and Build for raspicam   
+
      sudo apt update && sudo apt upgrade -y      
 
      git clone https://github.com/raspberrypi/userland.git
@@ -111,25 +115,22 @@
 
      ./buildme
 
-     < This command installs the required libraries and header files to the /opt/vc path >
+<br/>
 
+     < This command installs the required libraries and header files to the /opt/vc path >
      < Add this command to your ~/.bashrc file to automatically set it up every time you log in. >
 
-     echo 'export LD_LIBRARY_PATH=/opt/vc/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
-     
-     echo 'export CPATH=/opt/vc/include:$CPATH' >> ~/.bashrc
-     
+     echo 'export LD_LIBRARY_PATH=/opt/vc/lib:$LD_LIBRARY_PATH' >> ~/.bashrc  
+     echo 'export CPATH=/opt/vc/include:$CPATH' >> ~/.bashrc     
      source ~/.bashrc
 
 <br/>     
 
+###  Build  mjpg-streamer source  
+
      git clone https://github.com/jacksonliam/mjpg-streamer.git
 
      cd mjpg-streamer/mjpg-streamer-experimental
-
-     make clean
-
-     cmake -DENABLE_RASPICAM=ON .
 
      make
 
