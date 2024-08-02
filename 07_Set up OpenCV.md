@@ -99,10 +99,6 @@
 
 <br/>
 
- ### In the latest Raspberry Pi OS Bookworm, the camera driver works by default without a camera setup in the raspi-config interface.
-
-<br/>
-
 ![image](https://user-images.githubusercontent.com/122161666/224483414-ffb3dcab-2260-493f-8f91-f2b3053bea49.png)
 
 ### if detected =1,  Camera is connected
