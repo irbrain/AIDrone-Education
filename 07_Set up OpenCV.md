@@ -14,7 +14,7 @@
 
     < numpy version is under 1.x >
 
-    pip install numpy/<2
+    pip install  setuptools  wheel  numpy/<2
 
 <br/>
 
