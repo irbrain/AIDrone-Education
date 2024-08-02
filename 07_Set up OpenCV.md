@@ -14,6 +14,10 @@
 
     < numpy version is under 1.x >
 
+    pip install numpy/<2
+
+<br/>
+
 # ![image](https://github.com/user-attachments/assets/d5cbfb13-e285-40db-a865-8984ea483158)
 
 <br/>
