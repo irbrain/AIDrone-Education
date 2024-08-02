@@ -99,7 +99,7 @@
 
 <br/>
 
-        ( In the latest Raspberry Pi OS Bookworm, the camera driver works by default without a camera setup in the raspi-config interface.)
+ ### In the latest Raspberry Pi OS Bookworm, the camera driver works by default without a camera setup in the raspi-config interface.
 
 <br/>
 
