@@ -76,6 +76,10 @@
       sudo systemctl start hostapd
       sudo systemctl start dnsmasq
 
+<br/>
+
+###  12.  sudo reboot
+
     
 
   
