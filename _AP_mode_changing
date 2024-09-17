@@ -1,10 +1,12 @@
-#  How to change in AP Mode
+#How to change in AP Mode
 
 <br/>
 
-### 1.  sudo apt install hostapd  dnsmasq
+###1.  sudo apt install hostapd  dnsmasq
 
-2.  sudo mv /etc/dnsmasq.conf    /etc/dnsmasq.conf.orig
+<br/>
+
+###2.  sudo mv /etc/dnsmasq.conf    /etc/dnsmasq.conf.orig
 
 3.  sudo nano  /etc/dnsmasq.conf
 
