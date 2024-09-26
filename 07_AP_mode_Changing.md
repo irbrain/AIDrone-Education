@@ -23,6 +23,7 @@
 
 ### 4.  Create a new dnsmasq.conf file:
         sudo  nano  /etc/dhcpcd.conf
+<br/>
 
      interface wlan0
      static ip_address=192.168.4.1/24
