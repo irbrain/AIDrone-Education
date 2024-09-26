@@ -119,13 +119,10 @@
 
 #!/bin/bash
 
-## wpa_supplicant 중지 (Wi-Fi 클라이언트 모드 중지)
-
 sudo systemctl stop wpa_supplicant
 
 sudo systemctl disable wpa_supplicant
 
-## AP 모드를 위한 고정 IP 설정 적용 (주석 해제)
 
 sudo sed -i 's/^#\(interface wlan0\)/\1/' /etc/dhcpcd.conf
 
@@ -133,7 +130,6 @@ sudo sed -i 's/^#\(static ip_address\)/\1/' /etc/dhcpcd.conf
 
 sudo sed -i 's/^#\(nohook wpa_supplicant\)/\1/' /etc/dhcpcd.conf
 
-## DHCP 및 hostapd 서비스 시작
 
 sudo systemctl start dnsmasq
 
