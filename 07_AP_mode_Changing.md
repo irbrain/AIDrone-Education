@@ -4,7 +4,6 @@
 
 ### 1.  Install the required packages: 
 
-'''bash
              sudo apt install hostapd  dnsmasq
 
 <br/>
