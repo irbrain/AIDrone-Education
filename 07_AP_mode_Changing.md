@@ -14,14 +14,17 @@
 
 <br/>
 
-### 3.  sudo nano  /etc/dnsmasq.conf
+### 3.  Create a new dnsmasq.conf file:
+
+        sudo nano  /etc/dnsmasq.conf
+<br/>
 
      interface=wlan0       
      dhcp-range=192.168.4.2,192.168.4.20,255.255.255.0,24h
 
 <br/>
 
-### 4.  Create a new dnsmasq.conf file:
+### 4. Edit the dhcpcd.conf file:
         sudo  nano  /etc/dhcpcd.conf
 <br/>
 
@@ -31,7 +34,10 @@
 
 <br/>
 
-### 5.  sudo  nano  /etc/hostapd/hostapd.conf
+### 5. Create the hostapd.conf file:
+
+ sudo  nano  /etc/hostapd/hostapd.conf
+<br/>
 
     interface=wlan0
     driver=nl80211
@@ -49,34 +55,49 @@
 
 <br/>
 
-### 6.   sudo nano /etc/default/hostapd
+### 6. Edit the hostapd default file:
+
+      sudo nano /etc/default/hostapd
+<br/>
 
       DAEMON_CONF="/etc/hostapd/hostapd.conf"
 
 <br/>
 
-### 7.  sudo nano /etc/sysctl.conf
+### 7.  Enable IPv4 forwarding:
+
+      sudo nano /etc/sysctl.conf
+<br/>
 
      net.ipv4.ip_forward=1      # Find the following line in the file and uncomment it
 
 <br/>
 
-### 8.  sudo  iptables  -t   nat   -A   POSTROUTING   -o    eth0   -j   MASQUERADE
+### 8.  Set up NAT:
+
+       sudo  iptables  -t   nat   -A   POSTROUTING   -o    eth0   -j   MASQUERADE
 
 <br/>
 
-### 9.  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+### 9. Save the iptables rules:
+
+      sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 <br/>
 
-### 10. sudo nano /etc/rc.local
+### 10.  Edit the rc.local file to restore iptables rules on boot:
+
+   sudo nano /etc/rc.local
+<br/>
 
     iptables-restore < /etc/iptables.ipv4.nat     # Add this 
     exit 0
 
 <br/>
 
-### 11.   sudo systemctl unmask hostapd
+### 11. Enable and start the required services:
+
+      sudo systemctl unmask hostapd
       sudo systemctl enable hostapd
       sudo systemctl enable dnsmasq
       sudo systemctl start hostapd
@@ -84,13 +105,17 @@
 
 <br/>
 
-###  12.  sudo reboot
+###  12.  Reboot the system: 
+   
+        sudo reboot
 
 
 # make ap_mode.sh 
 
-### sudo nano /usr/local/bin/ap_mode.sh
+### Create the script:
 
+   sudo nano /usr/local/bin/ap_mode.sh
+<br/>
 
 #!/bin/bash
 
@@ -114,6 +139,8 @@ echo "AP 모드로 전환되었습니다."
 
 <br/>
 
-###  sudo  chmod +x  /usr/local/bin/ap_mode.sh
+###  Make the script executable:
+
+     sudo  chmod +x  /usr/local/bin/ap_mode.sh
 
 
