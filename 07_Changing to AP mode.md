@@ -115,6 +115,7 @@
 ### Create the script:
 
    sudo nano /usr/local/bin/ap_mode.sh
+   
 <br/>
 
 #!/bin/bash
