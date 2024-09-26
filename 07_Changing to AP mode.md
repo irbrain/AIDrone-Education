@@ -110,9 +110,9 @@
         sudo reboot
 
 
-# make ap_mode.sh 
 
-### Create the script:
+# Create the script:  ap_mode.sh
+
 
    sudo nano /usr/local/bin/ap_mode.sh
    
@@ -135,6 +135,8 @@ sudo sed -i 's/^#\(nohook wpa_supplicant\)/\1/' /etc/dhcpcd.conf
 sudo systemctl start dnsmasq
 
 sudo systemctl start hostapd
+
+<br/>
 
 ## 네트워크 인터페이스 다시 시작
 
