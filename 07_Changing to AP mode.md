@@ -136,10 +136,6 @@ sudo systemctl start dnsmasq
 
 sudo systemctl start hostapd
 
-<br/>
-
-## 네트워크 인터페이스 다시 시작
-
 sudo systemctl restart dhcpcd
 
 echo "AP 모드로 전환되었습니다."
