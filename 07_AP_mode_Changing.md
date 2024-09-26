@@ -8,7 +8,9 @@
 
 <br/>
 
-### 2.  sudo  mv  /etc/dnsmasq.conf    /etc/dnsmasq.conf.orig
+### 2. Move the original dnsmasq config file:
+
+        sudo  mv  /etc/dnsmasq.conf    /etc/dnsmasq.conf.orig
 
 <br/>
 
@@ -19,7 +21,8 @@
 
 <br/>
 
-### 4.  sudo  nano  /etc/dhcpcd.conf
+### 4.  Create a new dnsmasq.conf file:
+        sudo  nano  /etc/dhcpcd.conf
 
      interface wlan0
      static ip_address=192.168.4.1/24
