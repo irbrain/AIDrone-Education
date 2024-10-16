@@ -4,11 +4,11 @@
 
 Steps:
 
-### 1)Capture Video Footage:
+### 1) Capture Video Footage:
 
 Record the video footage of the object you want to recognize. This video should have clear shots from various angles to provide sufficient training data.
 
-### 2)Extract Frames from Video:
+### 2) Extract Frames from Video:
 
 Use video processing tools (e.g., OpenCV) to extract frames from the video. These frames will be saved as individual images to use as training data.
 It is important to save frames periodically to cover different views and conditions of the object.
