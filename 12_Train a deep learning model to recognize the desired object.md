@@ -96,8 +96,6 @@ Deploy the model to recognize the desired object in real-time video footage or i
 
 ## Object Recognition from Video: Step-by-Step Deep Learning Model Creation
 
-   ### Object Recognition from Video: Step-by-Step Deep Learning Model Creation
-
     import cv2 as cv
     import os
     import numpy as np
@@ -107,7 +105,7 @@ Deploy the model to recognize the desired object in real-time video footage or i
     from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
     from sklearn.model_selection import train_test_split
 
-    # Step 1: Capture Video Footage
+    ## Step 1: Capture Video Footage
     SCREEN_WIDTH = 320
     SCREEN_HEIGHT = 240
 
@@ -135,7 +133,7 @@ Deploy the model to recognize the desired object in real-time video footage or i
         frame = cv.rotate(frame, cv.ROTATE_180)
         video_orig.write(frame)  # Save video frame
     
-        # Step 2: Extract Frames from Video
+        ## Step 2: Extract Frames from Video
         if frame_count % 10 == 0:  # Save every 10th frame as an image
             image_path = f'./data/frame_{frame_count}.jpg'
             cv.imwrite(image_path, frame)
@@ -151,10 +149,10 @@ Deploy the model to recognize the desired object in real-time video footage or i
     video_orig.release()
     cv.destroyAllWindows()
     
-    # Step 3: Label Images (Manual Step)
+    ## Step 3: Label Images (Manual Step)
     # Manually label the saved images in the './data' directory using a tool like LabelImg.
     
-    # Step 4: Data Preprocessing
+    ## Step 4: Data Preprocessing
     image_paths = [os.path.join('./data', fname) for fname in os.listdir('./data') if fname.endswith('.jpg')]
     labels = []  # Assuming labels are collected after manual labeling
     images = []
@@ -172,7 +170,7 @@ Deploy the model to recognize the desired object in real-time video footage or i
     X_train, X_temp, y_train, y_temp = train_test_split(images, labels, test_size=0.3, random_state=42)
     X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
     
-    # Step 5: Define and Compile a Deep Learning Model
+    ## Step 5: Define and Compile a Deep Learning Model
     num_classes = len(set(labels))
     model = Sequential([
         Conv2D(32, (3, 3), activation='relu', input_shape=(150, 150, 3)),
@@ -194,16 +192,16 @@ Deploy the model to recognize the desired object in real-time video footage or i
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
     
-    # Step 6: Train the Model
+    ## Step 6: Train the Model
     model.fit(
         X_train, y_train,
         epochs=20,
         validation_data=(X_val, y_val)
     )
     
-    # Step 7: Evaluate the Model
+    ## Step 7: Evaluate the Model
     test_loss, test_acc = model.evaluate(X_test, y_test)
     print(f'Test Accuracy: {test_acc}')
     
-    # Step 8: Save and Deploy the Model
+    ## Step 8: Save and Deploy the Model
     model.save('object_recognition_model.h5')
