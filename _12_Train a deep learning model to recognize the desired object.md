@@ -77,13 +77,13 @@ video_orig = cv.VideoWriter('./data/object_video.avi', fourcc, 20.0, (SCREEN_WID
 while True:
     ret, frame = cap.read()
     if not ret:
-        print("캡쳐 실패")
+        print("Fail Capture")
         break
 
     frame = cv.rotate(frame, cv.ROTATE_180)
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
-    video_orig.write(frame)  # 비디오 프레임 저장
+    video_orig.write(frame)  # Save the video's frame
 
     cv.imshow('Video', frame)
 
@@ -92,7 +92,7 @@ while True:
         break
 
 cap.release()
-video_orig.release()  # 비디오 파일 저장 종료
+video_orig.release() 
 cv.destroyAllWindows()
 
 
