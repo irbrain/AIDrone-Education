@@ -60,7 +60,6 @@ SCREEN_WIDTH = 320
 SCREEN_HEIGHT = 240
 
 cap = cv.VideoCapture("http://[your wifi number]:8091/?action=stream")
-#cap = cv.VideoCapture(0)
 cap.set(3, int(SCREEN_WIDTH))
 cap.set(4, int(SCREEN_HEIGHT))
 
@@ -84,9 +83,7 @@ while True:
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
     video_orig.write(frame)  # Save the video's frame
-
     cv.imshow('Video', frame)
-
     key = cv.waitKey(1)
     if key == 27:
         break
