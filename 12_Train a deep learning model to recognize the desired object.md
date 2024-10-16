@@ -94,7 +94,7 @@ Deploy the model to recognize the desired object in real-time video footage or i
 
 <br/>
 
-## Object Recognition from Video: Step-by-Step Deep Learning Model Creation
+## 3. Object Recognition from Video: Step-by-Step Deep Learning Model Creation
 
     import cv2 as cv
     import os
