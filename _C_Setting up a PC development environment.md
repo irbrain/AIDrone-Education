@@ -66,4 +66,14 @@ https://www.anaconda.com/products/distribution
 
 ## 2) Open the folder created in Anaconda.
 
+![image](https://github.com/user-attachments/assets/812ec115-9564-4ef8-8905-af641df960c7)
+
+## 3) Press Ctrl + Shift + P to select the python interpreter (select the virtual environment created in anaconda)
+
+![image](https://github.com/user-attachments/assets/2b39764b-5d31-454e-8e74-3c921bbf31d1)
+
+![image](https://github.com/user-attachments/assets/00540472-2977-4db5-a85d-aefe0b3f9f4b)
+
+
+
 
