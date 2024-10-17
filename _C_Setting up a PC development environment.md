@@ -74,6 +74,15 @@ https://www.anaconda.com/products/distribution
 
 ![image](https://github.com/user-attachments/assets/00540472-2977-4db5-a85d-aefe0b3f9f4b)
 
+### Check the virtual environment at the bottom of visual studio code
+
+![image](https://github.com/user-attachments/assets/88f71a21-4e14-419e-9d8a-b8a6456f8261)
+
+<br/>
+
+# 7. Let's try practicing the rc.py example.
+
+![image](https://github.com/user-attachments/assets/b919861d-8190-4ba4-94c5-fca4469aaa78)
 
 
 
