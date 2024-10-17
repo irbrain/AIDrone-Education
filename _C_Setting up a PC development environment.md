@@ -58,11 +58,11 @@ https://www.anaconda.com/products/distribution
 
 ![image](https://github.com/user-attachments/assets/45e127f1-69fb-405a-9e42-25926e934e9c)
 
+     python
      Live Server
-    
      open in browser
      
-![image](https://github.com/user-attachments/assets/89d09224-cd60-42b9-908e-5343d0eaa7be)
+<br/>
 
 ## 2) Open the folder created in Anaconda.
 
