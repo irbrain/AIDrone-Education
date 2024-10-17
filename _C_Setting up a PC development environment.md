@@ -11,7 +11,8 @@ https://www.anaconda.com/products/distribution
 
 # 2. Run Anaconda Prompt (run as administrator)
 
-![image](https://github.com/user-attachments/assets/6052695c-e482-4401-8292-3bfa28c4f575)
+![image](https://github.com/user-attachments/assets/14d49a13-196b-4827-b462-c98233705e32)
+
 
 <br/>
 
