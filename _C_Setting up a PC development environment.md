@@ -12,16 +12,15 @@ https://www.anaconda.com/products/distribution
 
 # 2. Run Anaconda Prompt (run as administrator)
 
+![image](https://github.com/user-attachments/assets/01f93f7f-1e7c-4363-a9ad-ca171f56d330)
+
 ![image](https://github.com/user-attachments/assets/8bc10a02-400b-4e4f-89ae-b44668cc3bb5)
-
-
-![image](https://github.com/user-attachments/assets/39b62d1c-5c11-4e40-b154-88de665a6370)
 
 <br/>
 
 # 3. Create a folder to work in where you want (ex: >mkdir aidrone)
 
-![image](https://github.com/user-attachments/assets/7fe75df1-8c30-4562-bf7d-ffecd3344831)
+![image](https://github.com/user-attachments/assets/cfbe62f1-0314-4d3f-8357-00e0f2eab0a9)
 
 <br/>
 
