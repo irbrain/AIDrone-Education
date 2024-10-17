@@ -18,6 +18,11 @@ https://www.anaconda.com/products/distribution
 ![image](https://github.com/user-attachments/assets/39b62d1c-5c11-4e40-b154-88de665a6370)
 
 
+# 3. Create a folder to work in where you want (ex: >mkdir aidrone)
+
+
+![image](https://github.com/user-attachments/assets/7fe75df1-8c30-4562-bf7d-ffecd3344831)
+
 
 # 3. Download and Install Visual Studio Code
 
