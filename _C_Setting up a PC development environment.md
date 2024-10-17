@@ -29,6 +29,9 @@ https://www.anaconda.com/products/distribution
 # 4. Creating a Python Virtual Environment
 
 ###  conda   create    -n     [Virtual Enviroment's name] 
+
+![image](https://github.com/user-attachments/assets/088b4a31-b9b3-4e18-a3d9-9ff8e93ac9fe)
+
 ###  conda   env    list
 
 ![image](https://github.com/user-attachments/assets/fad2be92-ff1a-4af1-a8ff-6853de5ff42c)
