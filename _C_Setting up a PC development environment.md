@@ -29,6 +29,9 @@ https://www.anaconda.com/products/distribution
 ###  conda   create    -n     [Virtual Enviroment's name] 
 ###  conda   env    list
 
+![image](https://github.com/user-attachments/assets/fad2be92-ff1a-4af1-a8ff-6853de5ff42c)
+
+<br/>
 
 # 5. Download and Install Visual Studio Code
 
