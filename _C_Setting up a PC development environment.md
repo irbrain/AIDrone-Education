@@ -26,8 +26,8 @@ https://www.anaconda.com/products/distribution
 
 # 4. Creating a Python Virtual Environment
 
-###  conda  create  -n  [Virtual Enviroment's name] 
-###  conda  env  list
+###  conda   create    -n     [Virtual Enviroment's name] 
+###  conda   env    list
 
 
 # 5. Download and Install Visual Studio Code
