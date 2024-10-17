@@ -40,7 +40,15 @@ https://www.anaconda.com/products/distribution
 
 # 5. Download and Install Visual Studio Code
 
-https://code.visualstudio.com/![image](https://github.com/user-attachments/assets/c713f139-c7d0-4d52-a82c-4253fc6af070)
-
 ![image](https://github.com/user-attachments/assets/4b0160b6-1b79-491c-9deb-ce26c3da0a57)
+
+### 1) Download Visual Studio Code from the following link: https://code.visualstudio.com/download
+### 2) Run the downloaded installer file.
+### 3) The installer file will extract, and the setup program will start.
+### 4) Choose the installation path and click the "Next" button.
+### 5) Select additional options and click the "Next" button.
+### 6) Click the "Install" button to proceed with the installation.
+### 7) When the installation is complete, click the "Finish" button.
+
+# 6. 
 
