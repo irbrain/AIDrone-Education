@@ -49,6 +49,6 @@ https://www.anaconda.com/products/distribution
 ### 5) Select additional options and click the "Next" button.
 ### 6) Click the "Install" button to proceed with the installation.
 ### 7) When the installation is complete, click the "Finish" button.
-
+<br/>
 # 6. 
 
