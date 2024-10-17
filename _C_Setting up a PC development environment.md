@@ -14,6 +14,8 @@ https://www.anaconda.com/products/distribution
 
 ![image](https://github.com/user-attachments/assets/01f93f7f-1e7c-4363-a9ad-ca171f56d330)
 
+<br/>
+
 ![image](https://github.com/user-attachments/assets/8bc10a02-400b-4e4f-89ae-b44668cc3bb5)
 
 <br/>
