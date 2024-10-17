@@ -49,6 +49,21 @@ https://www.anaconda.com/products/distribution
 ### 5) Select additional options and click the "Next" button.
 ### 6) Click the "Install" button to proceed with the installation.
 ### 7) When the installation is complete, click the "Finish" button.
+
 <br/>
-# 6. 
+
+# 6.  visual studio code settings
+
+## 1) Install Python and other programs from Extensions.
+
+![image](https://github.com/user-attachments/assets/45e127f1-69fb-405a-9e42-25926e934e9c)
+
+     Live Server
+    
+     open in browser
+     
+![image](https://github.com/user-attachments/assets/89d09224-cd60-42b9-908e-5343d0eaa7be)
+
+## 2) Open the folder created in Anaconda.
+
 
