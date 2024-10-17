@@ -6,7 +6,12 @@ https://www.anaconda.com/products/distribution
 
 # 2. Run Anaconda Prompt (run as administrator)
 
-![image](https://github.com/user-attachments/assets/62844793-4f1f-476a-b364-98bf2a919dd3)
+![image](https://github.com/user-attachments/assets/6052695c-e482-4401-8292-3bfa28c4f575)
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/39b62d1c-5c11-4e40-b154-88de665a6370)
+
 
 
 # 3. Download and Install Visual Studio Code
