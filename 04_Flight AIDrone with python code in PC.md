@@ -67,7 +67,7 @@
             sleep(2)
             aidrone.motor(3, 20)
             sleep(2)
-            aidrone.close()
+            aidrone.Close()
 
 <br/>
 
