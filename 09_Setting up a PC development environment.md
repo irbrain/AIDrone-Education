@@ -68,6 +68,8 @@ https://www.anaconda.com/products/distribution
 
 ![image](https://github.com/user-attachments/assets/812ec115-9564-4ef8-8905-af641df960c7)
 
+<br/>
+
 ## 3) Press Ctrl + Shift + P to select the python interpreter (select the virtual environment created in anaconda)
 
 ![image](https://github.com/user-attachments/assets/2b39764b-5d31-454e-8e74-3c921bbf31d1)
@@ -79,6 +81,15 @@ https://www.anaconda.com/products/distribution
 ![image](https://github.com/user-attachments/assets/88f71a21-4e14-419e-9d8a-b8a6456f8261)
 
 <br/>
+
+## 4) Press Ctrl + Shift + P to select the default profile of Terminal 
+
+![image](https://github.com/user-attachments/assets/5e0127b4-7ad4-4155-8ed4-91f95bfbb187)
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/09a9a6e1-2605-4aad-836f-b0d6d351d00e)
+
 
 # 7. Let's try practicing the rc.py example.
 
