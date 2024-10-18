@@ -2,7 +2,7 @@
 
 ### ***1. Download Setup.zip***     
 
-[Korea Version]
+[Korean Version]
 
 https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=drive_link
 
