@@ -1,4 +1,4 @@
-# Object Detection and Tracking 
+# Object Detection and Tracking in PC
 
 ### 1) Face detecting
 
