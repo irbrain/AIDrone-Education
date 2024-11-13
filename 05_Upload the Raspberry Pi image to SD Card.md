@@ -5,13 +5,14 @@
      
         https://www.raspberrypi.com/software/
 
-<br/><br/>
+<br/>
 
-### 2) Open the Raspberry Pi imager 
+### 2) Open the Raspberry Pi imager
+<br/>
 
 ![image](https://github.com/user-attachments/assets/53845537-2b47-4b88-baab-b20d724847ad)
 
-<br/><br/>
+<br/>
 
 ### 3) chose Raspberry Pi Device 
 
@@ -19,9 +20,10 @@
 
 <br/><br/>
 
-### 4) Chose the storage position
+### 4) Chose Raspberry Pi OS
 
-![image](https://user-images.githubusercontent.com/122161666/224197821-85ea0d5f-a754-4258-9395-8a9771b5668c.png)
+![image](https://github.com/user-attachments/assets/7fa4089c-8562-4e3b-b00c-8c552886bf8d)
+
 
 <br/><br/>
 
