@@ -1,11 +1,19 @@
 # 1. Raspberry Pi Basic Setup
-### 1) raspi-config setup
+### 1) Raspberry pi update and upgrade
+<br/> 
+       sudo  apt  update 
+       sudo  apt  upgrade  -y 
+
 <br/>
 
+### 2) raspi-config setup
+<br/>
+       sudo 
        sudo  nano   raspi-config
 
 <br/>       
 
+  
 # 2. Install Putty in PC
 
 ### https://www.putty.org   Download Putty 
