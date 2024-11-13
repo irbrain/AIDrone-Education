@@ -29,6 +29,12 @@
 
 <br/>
 
+#### 3) Advanced Options 
+<br/>
+
+![image](https://github.com/user-attachments/assets/4245f56e-95a6-4c91-b6d2-f99a04c23a34)
+
+<br/>
 
 # 2. Install Putty in PC
 
