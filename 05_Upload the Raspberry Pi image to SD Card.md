@@ -38,6 +38,10 @@
 ### 6) Click Next Button and then Edit Settings
 <br/>
 
+![image](https://github.com/user-attachments/assets/ce82bddf-c6f1-46c3-b6b0-94cb20308ad9)
+
+<br/>
+
 ![image](https://github.com/user-attachments/assets/c5f6abee-a97a-48ff-8911-501568b37132)
 
 <br/>
