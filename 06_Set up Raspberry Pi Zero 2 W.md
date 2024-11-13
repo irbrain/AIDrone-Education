@@ -115,17 +115,10 @@
 
 <br/>
 
-     sudo apt install python3-pip   python3-venv
+     sudo apt install python3-pip  
      
-     pip -V
-     
-#### Upgrade Pip
-
 <br/>
 
-     python3 -m pip install --upgrade pip
-
-<br/>
 
 # 6. Create Python Virtual Environment
 
