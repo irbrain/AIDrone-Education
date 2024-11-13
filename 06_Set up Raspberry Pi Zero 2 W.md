@@ -1,5 +1,4 @@
 # 1. Raspberry Pi Basic Setup
-<br/>
 ### 1) raspi-config setup
 <br/>
 
