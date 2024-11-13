@@ -10,11 +10,17 @@
 
 ### 2) raspi-config setup
 <br/>
-       sudo 
+       
        sudo  nano   raspi-config
 
 <br/>       
 
+#### 1) Boot Option
+<br/>
+
+![image](https://github.com/user-attachments/assets/f53304aa-5dc7-4588-808d-fb1c5708475c)
+
+<br/>
   
 # 2. Install Putty in PC
 
