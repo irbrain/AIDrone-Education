@@ -32,7 +32,6 @@
 #### 3) Localisation Options 
 <br/>
 
-![image](https://github.com/user-attachments/assets/1f01e5d7-440d-4e42-ae46-cacf3f2bca16)
 
 <br/>
 
