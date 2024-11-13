@@ -38,50 +38,32 @@
 ### 6) Click Next Button and then Edit Settings
 <br/>
 
-![image](https://github.com/user-attachments/assets/e54bca27-f6f3-43c5-91a2-0da54a7d62f4)
+![image](https://github.com/user-attachments/assets/c5f6abee-a97a-48ff-8911-501568b37132)
 
 <br/>
 
-![image](https://github.com/user-attachments/assets/a061c289-6d19-464c-8193-6707016cb1f0)
+![image](https://github.com/user-attachments/assets/6e7acfbd-59b5-4a4b-93e9-087103e202da)
 
 <br/>
 
-#### b. ssh check
-![image](https://user-images.githubusercontent.com/122161666/224268656-dab385ee-8ff8-48a5-9bb5-1c6239b1351b.png)
-
-#### c. user id and password setup
-![image](https://user-images.githubusercontent.com/122161666/224269613-0788cda1-20ad-44e5-bc1a-bfd1f9c9bf7a.png)
-
-#### d. turn on the hotsopt of your notebook and set up your hotsopt's name and password
-
-![image](https://user-images.githubusercontent.com/122161666/224271786-760439ba-f4bc-4089-a216-dc56679da3ae.png)
-
-#### e. write your hotspot id and password (dont't confuse between user's id and password with hotspot's id and password) 
-
-![image](https://user-images.githubusercontent.com/122161666/224271230-ca6a4516-7c53-4644-a8ac-12af3f71fca1.png)
-
-#### f. set up the local information and then save
-
-![image](https://user-images.githubusercontent.com/122161666/224271505-f72ef45d-c1a8-4095-8cf9-296a207c1404.png)
-
-<br/><br/>
-### 6) Click Imager WRITE  and after Click YES button, continue
-
-![image](https://user-images.githubusercontent.com/122161666/224353244-ee845e82-fb1b-4efe-9704-67956db89fc7.png)
+![image](https://github.com/user-attachments/assets/caabdb49-396c-409e-94b6-7b6ca63442b2)
 
 <br/>
 
-![image](https://user-images.githubusercontent.com/122161666/224353819-6f675175-55d7-44b7-8984-4b0cdf1ba539.png)
-
-### * if pop up asking about format, click the cancle
+### 7) Write
 <br/>
 
+![image](https://github.com/user-attachments/assets/a032f216-b661-4ef1-b360-e21cd62a258d)
 
-## 2. Put SD card into raspberry pi zero 2W and fower on the drone,  if you wait for several minutes, try to check the connection hotspot with drone
 <br/>
 
-![image](https://user-images.githubusercontent.com/122161666/224354860-65f4cb91-d24f-435a-b95e-86579f07462c.png)
+![image](https://github.com/user-attachments/assets/9961da59-25d6-4a5b-85f3-0f2ed74acfc4)
 
+<br/>
+
+![image](https://github.com/user-attachments/assets/eaa06532-2ae4-4194-bfb0-6ba9fe1f47fb)
+
+<br/>
 
 
 
