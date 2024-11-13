@@ -15,17 +15,18 @@
 <br/>
 
 ### 3) chose Raspberry Pi Device 
+<br/>
 
 ![image](https://github.com/user-attachments/assets/b246d343-347b-4cc3-a6ef-47d7405ee8ee)
 
-<br/><br/>
+<br/>
 
 ### 4) Chose Raspberry Pi OS
+<br/>
 
 ![image](https://github.com/user-attachments/assets/7fa4089c-8562-4e3b-b00c-8c552886bf8d)
 
-
-<br/><br/>
+<br/>
 
 ### 5) Click setup button and setup the condition of writting image 
 
