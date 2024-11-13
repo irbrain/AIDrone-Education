@@ -10,7 +10,7 @@
 ### 2) Open the Raspberry Pi imager
 <br/>
 
-![image](https://github.com/user-attachments/assets/53845537-2b47-4b88-baab-b20d724847ad)
+![image](https://github.com/user-attachments/assets/d6adaf82-cb23-4591-a327-02b50e31c1f0)
 
 <br/>
 
@@ -24,14 +24,23 @@
 ### 4) Chose Raspberry Pi OS
 <br/>
 
-![image](https://github.com/user-attachments/assets/7fa4089c-8562-4e3b-b00c-8c552886bf8d)
+![image](https://github.com/user-attachments/assets/3cd69919-bc29-4dbd-9faa-6fc2a3e96f91)
 
 <br/>
 
-### 5) Click setup button and setup the condition of writting image 
+### 5) Chose SD Card
+<br/>
+
+![image](https://github.com/user-attachments/assets/c6fc4541-b942-458b-849f-fecb9c68d80a)
+
+<br/>
+
+### 6) Click Next Button and then Edit Settings
 
 #### a. click setup button
-![image](https://user-images.githubusercontent.com/122161666/224269418-cf7d3c13-1961-400b-8008-55d407553822.png)
+<br/>
+![image](https://github.com/user-attachments/assets/e54bca27-f6f3-43c5-91a2-0da54a7d62f4)
+<br/>
 
 #### b. ssh check
 ![image](https://user-images.githubusercontent.com/122161666/224268656-dab385ee-8ff8-48a5-9bb5-1c6239b1351b.png)
