@@ -36,10 +36,14 @@
 <br/>
 
 ### 6) Click Next Button and then Edit Settings
-
-#### a. click setup button
 <br/>
+
 ![image](https://github.com/user-attachments/assets/e54bca27-f6f3-43c5-91a2-0da54a7d62f4)
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/a061c289-6d19-464c-8193-6707016cb1f0)
+
 <br/>
 
 #### b. ssh check
