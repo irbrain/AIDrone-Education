@@ -1,6 +1,7 @@
 # 1. Raspberry Pi Basic Setup
 ### 1) Raspberry pi update and upgrade
 <br/> 
+
        sudo  apt  update 
        
        sudo  apt  upgrade  -y 
