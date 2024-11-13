@@ -1,4 +1,14 @@
-# 1. Install Putty in PC
+# 1. Raspberry Pi Basic Setup
+<br/>
+
+### 1) raspi-config setup
+<br/>
+
+       sudo  nano   raspi-config
+
+<br/>       
+
+# 2. Install Putty in PC
 
 ### https://www.putty.org   Download Putty 
 
