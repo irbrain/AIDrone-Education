@@ -69,6 +69,15 @@
 
 <br/>
 
+### 8) For more information, please check this link
+<br/>
+
+https://www.raspberrypi.com/documentation/computers/getting-started.html
+
+<br/>
+
+
+
 
 
 
