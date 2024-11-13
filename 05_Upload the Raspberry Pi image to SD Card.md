@@ -9,13 +9,13 @@
 
 ### 2) Open the Raspberry Pi imager 
 
-![image](https://user-images.githubusercontent.com/122161666/224117043-bd2c259e-f43f-4d0c-b747-ffbbe6a11af5.png)
+![image](https://github.com/user-attachments/assets/53845537-2b47-4b88-baab-b20d724847ad)
 
 <br/><br/>
 
-### 3) chose the linux os and iamge storage
+### 3) chose Raspberry Pi Device 
 
-![image](https://user-images.githubusercontent.com/122161666/224123619-1b4cc3d2-98a6-4190-880f-5825aa519ea0.png)
+![image](https://github.com/user-attachments/assets/b246d343-347b-4cc3-a6ef-47d7405ee8ee)
 
 <br/><br/>
 
