@@ -21,7 +21,15 @@
 ![image](https://github.com/user-attachments/assets/f53304aa-5dc7-4588-808d-fb1c5708475c)
 
 <br/>
-  
+
+#### 2) Interface Options 
+<br/>
+
+![image](https://github.com/user-attachments/assets/f7cdf36b-6c40-44d2-a7a1-12979eeb2b63)
+
+<br/>
+
+
 # 2. Install Putty in PC
 
 ### https://www.putty.org   Download Putty 
