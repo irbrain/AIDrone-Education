@@ -52,7 +52,7 @@
 ### 5. Create the hostapd.conf file:
 <br/>
 
- sudo  nano  /etc/hostapd/hostapd.conf
+      sudo  nano  /etc/hostapd/hostapd.conf
 
 <br/>
 
