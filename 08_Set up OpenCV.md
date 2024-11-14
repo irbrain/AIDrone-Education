@@ -6,7 +6,14 @@
        
        sudo nano /etc/dphys-swapfile 
  
+                CONF_SWAPFILE=/var/swap2               
                 CONF_SWAPSIZE =2048 로 변경
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/9b332eef-cdae-4bb2-b2d5-ff4e27fa22b4)
+
+<br/>
 
        sudo  dphys-wapfile  setup
 
