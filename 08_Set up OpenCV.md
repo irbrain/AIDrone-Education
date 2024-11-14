@@ -1,6 +1,6 @@
 # Very Simple Install
 
-### 1. Change SWAPSZIE TO 2048
+### 1. Change SWAPSZIE to 2048
 
        sudo dphys-swapfile swapoff
        
