@@ -20,10 +20,14 @@
 ![image](https://github.com/user-attachments/assets/61930e6e-c545-40e0-b9ee-05e08addcc1a)
        
 <br/>   
+
+#### Add GPS Key        
        
+       sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9 6ED0E7B82643E131 F8D2585B8783D481 54404762BBB6E853 BDE6D2B9216EC7A8
+
        sudo apt update
        
-       sudo apt install libdc1394-22-dev
+       sudo apt install libdc1394-22-dev  libdc1394-dev
        
 <br/> 
 
