@@ -5,17 +5,16 @@
        
        sudo add-apt-repository universe  
 
-<br/>
 #### If an error occurs in the sudo apt-apt-repository universe command,
- <br/>
  
        sudo nano /etc/apt/sources.list
-<br/>
 
 #### Add the following three lines:       
-<br/>
+
        deb http://deb.debian.org/debian/ bookworm main contrib non-free
+       
        deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free
+       
        deb http://security.debian.org/debian-security bookworm-security main contrib non-free
        
 ![image](https://github.com/user-attachments/assets/61930e6e-c545-40e0-b9ee-05e08addcc1a)
