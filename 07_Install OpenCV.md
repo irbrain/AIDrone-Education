@@ -27,7 +27,7 @@
 
 <br/>
 
-### 3. Modify to original Swap size 
+### 3. Modify to original Swap size After Installed
 
 <br/>
 
