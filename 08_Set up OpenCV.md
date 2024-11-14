@@ -150,7 +150,7 @@
 
 #### if detected =1,  Camera is connected
 
-### if detected =0, Please check connection of camera with Raspberry Pi
+#### if detected =0, Please check connection of camera with Raspberry Pi
 
 <br/>
 
