@@ -1,6 +1,15 @@
 # Very Simple Install
+### 1. Instal Package
+<br/>
+       sudo apt install software-properties-common
+       sudo add-apt-repository universe  
+       sudo apt update
+       sudo apt install libdc1394-22-dev
+       
+<br/>
+ 
 
-### 1. Change SWAPSZIE to 2048
+### 2. Change SWAPSZIE to 2048
 
        sudo dphys-swapfile swapoff
        
@@ -27,7 +36,7 @@
 
 <br/>
 
-### 2. Download OpenCV Install Shell File
+### 3. Download OpenCV Install Shell File
       
       wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-10-0.sh
       
@@ -37,7 +46,7 @@
       
 <br/>
 
-### 3. Change back to the original size.
+### 4. Change back to the original size.
   
        Modify it again as you did when increasing the swap size above. 
 
