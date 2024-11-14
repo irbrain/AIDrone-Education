@@ -6,8 +6,9 @@
        sudo dphys-swapfile swapoff
        
        sudo nano /etc/dphys-swapfile
- 
-                CONF_SWAPSIZE =2048 로 변경
+
+                CONF_SWAPFILE=/home/swap  
+                CONF_SWAPSIZE =2048 
 
        sudo  dphys-wapfile  setup
 
