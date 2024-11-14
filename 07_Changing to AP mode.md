@@ -32,13 +32,17 @@
 <br/>
 
 #### if dhcpcd.conf is no file,  try do like this : 
+<br/>
+
         sudo  apt  install  dhcpcd5
         sudo  systemctl  enable  dhcpcd
         sudo  systemctl  start  dhcpcd
+
 <br/>
 
 #### And then  write down at dhcpcd.conf
-             
+<br/>
+
      interface wlan0
      static ip_address=192.168.4.1/24
      nohook wpa_supplicant
@@ -46,8 +50,10 @@
 <br/>
 
 ### 5. Create the hostapd.conf file:
+<br/>
 
  sudo  nano  /etc/hostapd/hostapd.conf
+
 <br/>
 
     interface=wlan0
@@ -67,8 +73,10 @@
 <br/>
 
 ### 6. Edit the hostapd default file:
+<br/>
 
       sudo nano /etc/default/hostapd
+
 <br/>
 
       DAEMON_CONF="/etc/hostapd/hostapd.conf"
@@ -76,8 +84,10 @@
 <br/>
 
 ### 7.  Enable IPv4 forwarding:
+<br/>
 
       sudo nano /etc/sysctl.conf
+
 <br/>
 
      net.ipv4.ip_forward=1      # Find the following line in the file and uncomment it
@@ -85,6 +95,7 @@
 <br/>
 
 ### 8.  Set up NAT:
+<br/>
 
        sudo  iptables  -t   nat   -A   POSTROUTING   -o    eth0   -j   MASQUERADE
 
@@ -100,7 +111,7 @@
 ### 10.  Edit the rc.local file to restore iptables rules on boot:
 <br/>
 
-   sudo nano /etc/rc.local
+      sudo nano /etc/rc.local
 
 <br/>
 
