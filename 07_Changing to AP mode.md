@@ -5,7 +5,7 @@
 <br/>
 
              sudo  apt  update             
-             sudo apt install hostapd  dnsmasq
+             sudo  apt  install  hostapd  dnsmasq
 
 <br/>
 
