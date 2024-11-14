@@ -1,6 +1,20 @@
 # Very Simple Install
 
-## 1. Download OpenCV Install Shell File
+## 1. Change SWAPSZIE TO 2048
+
+       sudo dphys-swapfile swapoff
+       
+       sudo nano /etc/dphys-swapfile 
+ 
+                CONF_SWAPSIZE =2048 로 변경
+
+       sudo  dphys-wapfile  setup
+
+       sudo  dphys-wapfile  swapon
+
+<br/>
+
+## 2. Download OpenCV Install Shell File
       
       wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-10-0.sh
       
