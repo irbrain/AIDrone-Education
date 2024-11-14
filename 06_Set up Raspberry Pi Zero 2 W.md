@@ -83,7 +83,7 @@
 ###  samba set up 
 <br/>
 
-      sudo nano /e   /samba/smb.conf
+      sudo  nano  /etc/samba/smb.conf
 
 <br/>
 
