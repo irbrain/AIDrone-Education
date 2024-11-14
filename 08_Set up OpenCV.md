@@ -1,4 +1,12 @@
-# 1. Install Libraries
+# Very Simple Install
+
+wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-10-0.sh
+
+<br/>
+
+# Other Way Install
+
+## 1. Install Libraries
 
 <br/>
 
@@ -10,7 +18,7 @@
 
 <br/>
 
-# 2. Install python Libraries
+## 2. Install python Libraries
 
     < numpy version is under 1.x >
 
@@ -22,7 +30,7 @@
 
 <br/>
 
-# 3. Change SWAPSIZE to 2048
+## 3. Change SWAPSIZE to 2048
 
 <br/>
 
