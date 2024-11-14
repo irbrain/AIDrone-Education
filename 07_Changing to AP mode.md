@@ -3,7 +3,8 @@
 <br/>
 
 ### 1.  Install the required packages: 
-
+<br/>
+             sudo  apt  update             
              sudo apt install hostapd  dnsmasq
 
 <br/>
@@ -25,9 +26,19 @@
 <br/>
 
 ### 4. Edit the dhcpcd.conf file:
+<br/>
+
         sudo  nano  /etc/dhcpcd.conf
 <br/>
 
+#### if dhcpcd.conf is no file,  try do like this : 
+        sudo  apt  install  dhcpcd5
+        sudo  systemctl  enable  dhcpcd
+        sudo  systemctl  start  dhcpcd
+<br/>
+
+#### And then  write down at dhcpcd.conf
+             
      interface wlan0
      static ip_address=192.168.4.1/24
      nohook wpa_supplicant
