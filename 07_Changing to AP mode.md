@@ -11,7 +11,7 @@
 
 ### 2. Move the original dnsmasq config file:
 
-        sudo  mv  /etc/dnsmasq.conf    /etc/dnsmasq.conf.orig
+        sudo  mv  /etc/dnsmasq.conf    /etc/dnsmasq.conf.backup
 
 <br/>
 
