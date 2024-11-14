@@ -1,13 +1,15 @@
 # Very Simple Install
 ### 1. Instal Package
-<br/>
+
        sudo apt install software-properties-common
+       
        sudo add-apt-repository universe  
+       
        sudo apt update
+       
        sudo apt install libdc1394-22-dev
        
-<br/>
- 
+<br/> 
 
 ### 2. Change SWAPSZIE to 2048
 
