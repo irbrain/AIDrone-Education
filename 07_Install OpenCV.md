@@ -1,39 +1,3 @@
-# Very Simple Install
-
-### 1. Change SWAP SIZE  to 2048
-  <br/>
-
-       sudo dphys-swapfile swapoff
-       
-       sudo nano /etc/dphys-swapfile
-
-                CONF_SWAPFILE=/home/swap  
-                CONF_SWAPSIZE =2048 
-
-       sudo  dphys-wapfile  setup
-
-       sudo  dphys-wapfile  swapon
-       
-<br/>
-
-### 2. Download Install Shell File
-<br/>
-
-       wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-5-0.sh
-
-       sudo chmod 755 ./OpenCV-4-5-0.sh
-
-       ./OpenCV-4-5-0.sh
-
-<br/>
-
-### 3. Modify to original Swap size After Installed
-
-<br/>
-
-# Other Way
-<br/>
-
 ### 1. Install Libraries
 
 <br/>
