@@ -91,6 +91,7 @@
 <br/>
 
 ### 9. Save the iptables rules:
+<br/>
 
       sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
