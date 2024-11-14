@@ -37,6 +37,12 @@
       
 <br/>
 
+## 3. Recovery SWAPSIZE to orginal
+  
+       Modify it again as you did when increasing the swap size above. 
+
+<br/>
+
 # Other Way Install
 
 ## 1. Install Libraries
