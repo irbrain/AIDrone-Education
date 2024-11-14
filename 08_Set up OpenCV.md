@@ -13,13 +13,17 @@
 
 ![image](https://github.com/user-attachments/assets/9b332eef-cdae-4bb2-b2d5-ff4e27fa22b4)
 
-![image](https://github.com/user-attachments/assets/5e4e813d-faf3-4e9a-81c4-acab769d2878)
-
 <br/>
 
        sudo  dphys-wapfile  setup
 
        sudo  dphys-wapfile  swapon
+
+       free -h
+       
+<br/>
+
+![image](https://github.com/user-attachments/assets/5e4e813d-faf3-4e9a-81c4-acab769d2878)
 
 <br/>
 
