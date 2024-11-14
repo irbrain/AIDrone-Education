@@ -1,6 +1,6 @@
 # Very Simple Install
 
-## 1. Change SWAPSZIE TO 2048
+### 1. Change SWAPSZIE TO 2048
 
        sudo dphys-swapfile swapoff
        
@@ -27,7 +27,7 @@
 
 <br/>
 
-## 2. Download OpenCV Install Shell File
+### 2. Download OpenCV Install Shell File
       
       wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-10-0.sh
       
@@ -37,7 +37,7 @@
       
 <br/>
 
-## 3. Change back to the original size.
+### 3. Change back to the original size.
   
        Modify it again as you did when increasing the swap size above. 
 
@@ -45,7 +45,7 @@
 
 # Other Way Install
 
-## 1. Install Libraries
+### 1. Install Libraries
 
 <br/>
 
@@ -57,7 +57,7 @@
 
 <br/>
 
-## 2. Install python Libraries
+### 2. Install python Libraries
 
     < numpy version is under 1.x >
 
@@ -69,7 +69,7 @@
 
 <br/>
 
-## 3. Change SWAPSIZE to 2048
+### 3. Change SWAPSIZE to 2048
 
 <br/>
 
@@ -85,11 +85,11 @@
        
 <br/>
 
-# 4. Install Opencv  (Only for Python) 
+### 4. Install Opencv  (Only for Python) 
 
      sudo apt install python3-opencv
 
-### Setup OpenCV in Virtual Python
+#### Setup OpenCV in Virtual Python
 
      sudo  find  /  -type  f  -name  "cv2*.so"
 
@@ -105,13 +105,13 @@
 
 <br/>
 
-### Check up The OpenCV's version
+#### Check up The OpenCV's version
 
 ![image](https://github.com/user-attachments/assets/24f83ae2-74d2-4950-8dfb-87fd68dec429)
 
 <br/>
 
-# 5. Install OpneCV by Source  (If using  C/C++ and Python )
+### 5. Install OpneCV by Source  (If using  C/C++ and Python )
 
        mkdir opencv
    
@@ -142,23 +142,23 @@
 
 <br/>
 
-# 6. Check Raspberry Camera ( NO use in Bookworm OS version)
+### 6. Check Raspberry Camera ( NO use in Bookworm OS version)
 
 <br/>
 
 ![image](https://user-images.githubusercontent.com/122161666/224483414-ffb3dcab-2260-493f-8f91-f2b3053bea49.png)
 
-### if detected =1,  Camera is connected
+#### if detected =1,  Camera is connected
 
 ### if detected =0, Please check connection of camera with Raspberry Pi
 
 <br/>
 
-# 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
+### 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
 <br/>
 
-###  Build  mjpg-streamer source  
+####  Build  mjpg-streamer source  
 
      sudo apt update && sudo apt upgrade -y      
 
@@ -174,7 +174,7 @@
     
 <br/>  
      
-###  Edit mjpg-streamer.service  
+####  Edit mjpg-streamer.service  
 
      sudo nano /etc/systemd/system/mjpg-streamer.service
  
@@ -201,7 +201,7 @@
 
 <br/>
                
-###  Start  mjpg-streamer service 
+####  Start  mjpg-streamer service 
 
     sudo systemctl daemon-reload
    
@@ -211,7 +211,7 @@
 
 <br/>
 
-###  You can see the camera video in Website on PC
+####  You can see the camera video in Website on PC
 
      [raspberry pi wifi address]:8080/?action=stream
      
@@ -221,19 +221,19 @@
 
 <br/>
 
-# 8. Gstreamer Install in Raspberry Pi 
+### 8. Gstreamer Install in Raspberry Pi 
 
      sudo apt-get install libx264-dev   libjpeg-dev  libgstreamer-plugins-base1.0-dev libgstreamer-bad1.0-dev  gstreamer1.0-plugins-ugly gstreamer1.-=plugins-good gstreamer1.0-tools -y
      
      
 
-# 9. Gstreamer Install in PC
+### 9. Gstreamer Install in PC
 
      https://gstreamer.freedesktop.org/documentation/installing/on-windows.html?gi-language=c
      
 <br/>
 
-### 1) click Gstreamer download page
+#### 1) click Gstreamer download page
 
 <br/>
 
@@ -241,7 +241,7 @@
 
 <br/>
 
-### 2) click 1.22.1 runtime installer
+#### 2) click 1.22.1 runtime installer
 
 <br/>
 
@@ -249,7 +249,7 @@
 
 <br/>
 
-### 3) Install  gstreamer1.0-msvc-x86_64-1.22.1.msi
+#### 3) Install  gstreamer1.0-msvc-x86_64-1.22.1.msi
 
 After double click gstreamer1.0-msvc-x86_64-1.22.1.msi
 
@@ -273,7 +273,7 @@ you show like that
 
 <br/>
 
-### 4) ste up in window's system environment variable
+#### 4) ste up in window's system environment variable
 
 <br/>
 
@@ -290,13 +290,13 @@ you show like that
 <br/>
 
 
-### 5) Test in raspberry pi 
+#### 5) Test in raspberry pi 
 
      $ gst-launch-1.0  v4l2src  device=/dev/video0 ! video/x-raw,width=640,height=480,framerate=30/1 ! videoconvert ! jpegenc ! tcpserversink host=[raspberry pi wifi address]  port=5000
      
 <br/>
 
-### 6) Test in PC
+#### 6) Test in PC
 
      > gst-launch-1.0  tcpclientsrc host=[raspberry pi wifi address] port=5000 ! jpegdec ! videoconvert ! rotate=3.14 ! autovideosink
      
