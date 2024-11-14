@@ -1,5 +1,5 @@
 # Very Simple Install
-### 1. Instal Package
+### 1. Install Package
 
        sudo apt install software-properties-common
        
@@ -7,11 +7,13 @@
 
 <br/>
 #### If an error occurs in the sudo apt-apt-repository universe command,
+ <br/>
  
        sudo nano /etc/apt/sources.list
+<br/>
 
 #### Add the following three lines:       
-
+<br/>
        deb http://deb.debian.org/debian/ bookworm main contrib non-free
        deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free
        deb http://security.debian.org/debian-security bookworm-security main contrib non-free
