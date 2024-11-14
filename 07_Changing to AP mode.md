@@ -97,8 +97,10 @@
 <br/>
 
 ### 10.  Edit the rc.local file to restore iptables rules on boot:
+<br/>
 
    sudo nano /etc/rc.local
+
 <br/>
 
     iptables-restore < /etc/iptables.ipv4.nat     # Add this 
