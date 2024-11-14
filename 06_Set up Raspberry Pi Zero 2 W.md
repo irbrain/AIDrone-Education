@@ -132,21 +132,21 @@
 
 <br/>
 
-### 1)  sudo  nano  ~/.bashrc
+#### 1)  sudo  nano  ~/.bashrc
 
-### 2)  Alt + /   ( cursor move to last line)
+#### 2)  Alt + /   ( cursor move to last line)
 
-### 3)  Write down like this : 
+#### 3)  Write down like this : 
 
             if  [ -d  "$HOME/myvenv" ]; then
                  source  $HOME/myvenv/bin/activate
             fi
 
-### 4)  Ctrl + x  ->  Y   (Saving File)
+#### 4)  Ctrl + x  ->  Y   (Saving File)
 
-### 5)  source  ~/.bashrc  (bashrc's change comment applied )
+#### 5)  source  ~/.bashrc  (bashrc's change comment applied )
 
-### 6)  sudo reboot  
+#### 6)  sudo reboot  
 
 <br/>
 
