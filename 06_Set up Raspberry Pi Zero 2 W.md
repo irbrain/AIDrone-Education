@@ -70,6 +70,7 @@
 <br/>
 
 # 3. Set up Samba service for excahnge files between a PC and raspberry pi
+<br/>
 
      sudo apt install samba  samba-common-bin
      
