@@ -37,7 +37,7 @@
       
 <br/>
 
-## 3. Recovery SWAPSIZE to orginal
+## 3. Change back to the original size.
   
        Modify it again as you did when increasing the swap size above. 
 
