@@ -1,80 +1,33 @@
 # Very Simple Install
-### 1. Install Package
 
-       sudo apt install software-properties-common
-       
-       sudo add-apt-repository universe  
-
-#### If an error occurs in the sudo apt-apt-repository universe command,
- 
-       sudo nano /etc/apt/sources.list
-
-#### Add the following three lines:       
-
-       deb http://deb.debian.org/debian/ bookworm main contrib non-free
-       
-       deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free
-       
-       deb http://security.debian.org/debian-security bookworm-security main contrib non-free
-       
-![image](https://github.com/user-attachments/assets/61930e6e-c545-40e0-b9ee-05e08addcc1a)
-       
-<br/>   
-
-#### Add GPS Key        
-       
-       sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9 6ED0E7B82643E131 F8D2585B8783D481 54404762BBB6E853 BDE6D2B9216EC7A8
-
-       sudo apt update
-       
-       sudo apt install libdc1394-22-dev  libdc1394-dev
-       
-<br/> 
-
-### 2. Change SWAPSZIE to 2048
+### 1. Change SWAP SIZE  to 2048
+  <br/>
 
        sudo dphys-swapfile swapoff
        
-       sudo nano /etc/dphys-swapfile 
+       sudo nano /etc/dphys-swapfile
  
-                CONF_SWAPFILE=/var/swap              
                 CONF_SWAPSIZE =2048 로 변경
-
-<br/>
-
-![image](https://github.com/user-attachments/assets/9b332eef-cdae-4bb2-b2d5-ff4e27fa22b4)
-
-<br/>
 
        sudo  dphys-wapfile  setup
 
        sudo  dphys-wapfile  swapon
-
-       free -h
        
 <br/>
 
-![image](https://github.com/user-attachments/assets/5e4e813d-faf3-4e9a-81c4-acab769d2878)
+### 2. Download Install Shell File
+<br/>
+
+       wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-5-0.sh
+
+       sudo chmod 755 ./OpenCV-4-5-0.sh
+
+       ./OpenCV-4-5-0.sh
 
 <br/>
 
-### 3. Download OpenCV Install Shell File
-      
-      wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-10-0.sh
-      
-      sudo chmod 755  ./OpenCV-4-10-0.sh
-      
-      ./OpenCV-4-10-0.sh
-      
+# Other Way
 <br/>
-
-### 4. Change back to the original size.
-  
-       Modify it again as you did when increasing the swap size above. 
-
-<br/>
-
-# Other Way Install
 
 ### 1. Install Libraries
 
