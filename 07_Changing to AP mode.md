@@ -1,9 +1,9 @@
 # How to change in AP Mode.
-
 <br/>
 
 ### 1.  Install the required packages: 
 <br/>
+
              sudo  apt  update             
              sudo apt install hostapd  dnsmasq
 
