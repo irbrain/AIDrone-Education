@@ -77,11 +77,16 @@
      sudo smbpasswd -a  pi  (When User ID is pi.)
  
      write donw password  two times
-     
+
+<br/>
+
 ###  samba set up 
+<br/>
 
       sudo nano /e   /samba/smb.conf
-      
+
+<br/>
+
       alt + /  -> cursor move to the last line
       
 ####  write like that
@@ -99,6 +104,7 @@
 #### ctrl+x  -> end
 
 #### samba service start
+<br/>
 
       sudo service smbd restart
       
