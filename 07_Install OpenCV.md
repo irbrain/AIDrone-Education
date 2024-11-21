@@ -51,13 +51,6 @@
 <br/>
 
 ### 4. Install OpneCV by Source  (If using  C/C++ and Python )
-
-       wget https://github.com/Qengineering/Install-OpenCV-Raspberry-Pi-32-bits/raw/main/OpenCV-4-8-0.sh
-
-       sudo  chmod  755  ./OpenCV-4-8-0.sh
-
-       ./OpenCV-4-8-0.sh
-
 <br/>
 
        mkdir opencv
