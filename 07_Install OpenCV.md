@@ -36,8 +36,6 @@
 
      sudo apt install python3-opencv
 
-<br/>
-
 #### Check up The OpenCV's version
 
 ![image](https://github.com/user-attachments/assets/24f83ae2-74d2-4950-8dfb-87fd68dec429)
