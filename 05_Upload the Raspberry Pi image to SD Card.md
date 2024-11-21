@@ -21,7 +21,7 @@
 
 <br/>
 
-### 4) Chose Raspberry Pi OS
+### 4) Chose Raspberry Pi OS  (32bit Lite Bookworm)
 <br/>
 
 ![image](https://github.com/user-attachments/assets/3cd69919-bc29-4dbd-9faa-6fc2a3e96f91)
