@@ -5,20 +5,9 @@
      sudo apt update  &&  sudo apt upgrade -y     
      sudo apt install build-essential cmake git pkg-config libjpeg-dev libtiff-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev  libxvidcore-dev libx264-dev  libgtk2.0-dev libgtk-3-dev imagemagick libv4l-dev libatlas-base-dev gfortran python3-dev libopenblas-dev python3-pip
 
-
 <br/>
 
-### 2. Install python Libraries
-
-       pip install  setuptools  wheel  numpy==1.23.5  
-
-<br/>
-
-# ![image](https://github.com/user-attachments/assets/d5cbfb13-e285-40db-a865-8984ea483158)
-
-<br/>
-
-### 3. Change SWAPSIZE to 2048
+### 2. Change SWAPSIZE to 2048
 
 <br/>
 
@@ -34,7 +23,7 @@
        
 <br/>
 
-### 4. Install Opencv  (Only for Python) 
+### 3. Install Opencv  (Only for Python) 
 
      sudo apt install python3-opencv
 
@@ -60,7 +49,7 @@
 
 <br/>
 
-### 5. Install OpneCV by Source  (If using  C/C++ and Python )
+### 4. Install OpneCV by Source  (If using  C/C++ and Python )
 
        mkdir opencv
    
@@ -91,7 +80,7 @@
 
 <br/>
 
-### 6. Check Raspberry Camera ( NO use in Bookworm OS version)
+### 5. Check Raspberry Camera ( NO use in Bookworm OS version)
 
 <br/>
 
@@ -103,7 +92,7 @@
 
 <br/>
 
-### 7. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
+### 6. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
 <br/>
 
@@ -170,7 +159,11 @@
 
 <br/>
 
-### 8. Gstreamer Install in Raspberry Pi 
+# Other way for Video Streaming
+
+<br/>
+
+### 7. Gstreamer Install in Raspberry Pi 
 
      sudo apt-get install libx264-dev   libjpeg-dev  libgstreamer-plugins-base1.0-dev libgstreamer-bad1.0-dev  gstreamer1.0-plugins-ugly gstreamer1.-=plugins-good gstreamer1.0-tools -y
      
@@ -254,3 +247,6 @@ you show like that
 ![image](https://user-images.githubusercontent.com/122161666/227761133-47d129c7-26e1-4a49-aa7f-bca149e3cfd6.png)
 
 <br/>
+
+
+
