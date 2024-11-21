@@ -10,9 +10,7 @@
 
 ### 2. Install python Libraries
 
-    < numpy version is under 1.x >
-
-    pip install  setuptools  wheel  numpy==1.23.5  
+       pip install  setuptools  wheel  numpy==1.23.5  
 
 <br/>
 
