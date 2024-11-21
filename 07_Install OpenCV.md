@@ -17,7 +17,7 @@
 
 <bt/>
 
-![image](https://github.com/user-attachments/assets/c020b4a9-94b1-44ad-ba44-6e01de93727b)
+![image](https://github.com/user-attachments/assets/1beb6134-5fe6-456f-94fe-a48627fcde77)
 
 <br/>
 
@@ -27,7 +27,9 @@
        
 <br/>
 
-### 3. Install Opencv  (Only for Python) 
+       
+
+### 3. Install Opencv  (Simple waw for C00++ and Python) 
 
      sudo apt install python3-opencv
 
