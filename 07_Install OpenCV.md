@@ -14,7 +14,8 @@
        sudo dphys-swapfile swapoff
        
        sudo nano /etc/dphys-swapfile
- 
+       
+                CONF_SWAPFILE=/var/swap   ( #  eliminate )
                 CONF_SWAPSIZE =2048 로 변경
 
        sudo  dphys-wapfile  setup
