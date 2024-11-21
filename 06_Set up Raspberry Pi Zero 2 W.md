@@ -42,7 +42,7 @@
 
 <br/>
 
-# 2. Install Putty in PC
+# 2. Install Putty in PC (If there is no putty in your pc)
 
 ### https://www.putty.org   Download Putty 
 
