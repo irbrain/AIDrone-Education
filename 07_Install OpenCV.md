@@ -19,14 +19,15 @@
 
 ![image](https://github.com/user-attachments/assets/1beb6134-5fe6-456f-94fe-a48627fcde77)
 
-<br/>
-
        sudo  dphys-wapfile  setup
 
        sudo  dphys-wapfile  swapon
        
 <br/>
 
+![image](https://github.com/user-attachments/assets/9e22ae3b-588c-40d1-8732-50a163778078)
+
+<br/>
        
 
 ### 3. Install Opencv  (Simple waw for C00++ and Python) 
