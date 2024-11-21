@@ -86,19 +86,7 @@
 
 <br/>
 
-### 5. Check Raspberry Camera ( NO use in Bookworm OS version)
-
-<br/>
-
-![image](https://user-images.githubusercontent.com/122161666/224483414-ffb3dcab-2260-493f-8f91-f2b3053bea49.png)
-
-#### if detected =1,  Camera is connected
-
-#### if detected =0, Please check connection of camera with Raspberry Pi
-
-<br/>
-
-### 6. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
+### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w 
 
 <br/>
 
@@ -169,13 +157,13 @@
 
 <br/>
 
-### 7. Gstreamer Install in Raspberry Pi 
+### 6. Gstreamer Install in Raspberry Pi 
 
      sudo apt-get install libx264-dev   libjpeg-dev  libgstreamer-plugins-base1.0-dev libgstreamer-bad1.0-dev  gstreamer1.0-plugins-ugly gstreamer1.-=plugins-good gstreamer1.0-tools -y
      
      
 
-### 9. Gstreamer Install in PC
+### 7. Gstreamer Install in PC
 
      https://gstreamer.freedesktop.org/documentation/installing/on-windows.html?gi-language=c
      
