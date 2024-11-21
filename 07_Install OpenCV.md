@@ -70,11 +70,9 @@
 
 <br/>
 
-### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w ( Not Bookworm OS Version)
-
+### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w ( Bookworm OS Version)
 <br/>
-
-####  Build  mjpg-streamer source  
+#### 1) Build  mjpg-streamer source  
 
      sudo apt update && sudo apt upgrade -y      
 
@@ -89,7 +87,10 @@
      cd ~     
     
 <br/>  
-     
+
+#### 2) The latest OS for Raspberry Pi (Bookworm) has libcamera enabled by default. libcamera may be occupying /dev/video0. To disable it:
+
+
 ####  Edit mjpg-streamer.service  
 
      sudo nano /etc/systemd/system/mjpg-streamer.service
