@@ -73,6 +73,7 @@
 ### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w ( Bookworm OS Version)
 
 <br/>
+
 #### 1) Build  mjpg-streamer source  
 
      sudo apt update && sudo apt upgrade -y      
