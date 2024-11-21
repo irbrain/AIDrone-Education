@@ -43,7 +43,6 @@
 <br/>
 
 ### 4. Install OpneCV by Source  (If using  C/C++ and Python )
-<br/>
 
        mkdir opencv
    
