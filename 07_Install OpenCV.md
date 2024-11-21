@@ -12,7 +12,7 @@
 
     < numpy version is under 1.x >
 
-    pip install  setuptools  wheel  numpy==1.23.5   (Caution :  \ ,  not /  )
+    pip install  setuptools  wheel  numpy==1.23.5  
 
 <br/>
 
