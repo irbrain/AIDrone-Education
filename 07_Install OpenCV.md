@@ -30,23 +30,11 @@
 <br/>
        
 
-### 3. Install Opencv  (Simple waw for C00++ and Python) 
+### 3. Install Opencv  (Simple waw for C++ and Python) 
+
+     sudo apt install libopencv-dev
 
      sudo apt install python3-opencv
-
-#### Setup OpenCV in Virtual Python
-
-     sudo  find  /  -type  f  -name  "cv2*.so"
-
-![image](https://github.com/user-attachments/assets/130dc82e-efcd-4d02-b157-5281d6fe9548)
-
-     cp /usr/lib/python3.11/dist-packages/cv2/python-3.11/cv2*.so    ~/myvenv/lib/python3.11/site-packages/
-
-<br/>
-
-      sudo  find  /  -type  f  -name  "cv2*.so"
-
-![image](https://github.com/user-attachments/assets/7814852b-9e1e-458c-8fc9-a6c509e4cc3f)
 
 <br/>
 
