@@ -1,6 +1,5 @@
 # 1. Raspberry Pi Basic Setup
 ### 1) Raspberry pi update and upgrade
-<br/> 
 
        sudo  apt  update        
        sudo  apt  upgrade  -y 
@@ -8,35 +7,30 @@
 <br/>
 
 ### 2) raspi-config setup
-<br/>
        
        sudo  nano   raspi-config
 
 <br/>       
 
 #### 1) Boot Option
-<br/>
 
 ![image](https://github.com/user-attachments/assets/f53304aa-5dc7-4588-808d-fb1c5708475c)
 
 <br/>
 
 #### 2) Interface Options 
-<br/>
 
 ![image](https://github.com/user-attachments/assets/f7cdf36b-6c40-44d2-a7a1-12979eeb2b63)
 
 <br/>
 
 #### 3) Localisation Options 
-<br/>
 
 ![image](https://github.com/user-attachments/assets/045760c3-3b15-4e27-9f3b-1f535b9c3344)
 
 <br/>
 
 #### 4) Advanced Options 
-<br/>
 
 ![image](https://github.com/user-attachments/assets/4245f56e-95a6-4c91-b6d2-f99a04c23a34)
 
@@ -69,7 +63,6 @@
 <br/>
 
 # 3. Set up Samba service for excahnge files between a PC and raspberry pi
-<br/>
 
      sudo apt install samba  samba-common-bin
      
@@ -80,13 +73,12 @@
 <br/>
 
 ###  samba set up 
-<br/>
 
       sudo  nano  /etc/samba/smb.conf
 
-<br/>
-
       alt + /  -> cursor move to the last line
+
+<br/>
       
 ####  write like that
 
