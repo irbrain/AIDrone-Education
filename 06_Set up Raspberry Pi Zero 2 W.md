@@ -20,7 +20,7 @@
 
 #### 2) Interface Options 
 
-![image](https://github.com/user-attachments/assets/f7cdf36b-6c40-44d2-a7a1-12979eeb2b63)
+![image](https://github.com/user-attachments/assets/2cd6db25-bcef-43d1-b211-556e92528a1c)
 
 <br/>
 
