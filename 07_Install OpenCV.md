@@ -30,7 +30,7 @@
 <br/>
        
 
-### 3. Install Opencv  (Simple waw for C++ and Python) 
+### 3. Install Opencv  (Simple waw for C++ and Python) : Recommend this method
 
      sudo apt install libopencv-dev
 
