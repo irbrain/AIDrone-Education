@@ -174,11 +174,7 @@
 
      http://<raspberry pi wifi address>
      
- <br/>
-     
-![image](https://github.com/user-attachments/assets/e0efa18b-4e01-45f3-a7ef-4f2a5a91d4e7)
-
-<br/>
+![image](https://github.com/user-attachments/assets/e9f3a5fb-403b-48a2-8bf2-5143b5beb6e8)
 
 
 
