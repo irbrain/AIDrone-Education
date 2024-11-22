@@ -102,7 +102,7 @@
 
       cd mjpg-streamer/mjpg-streamer-experimental
 
-      ./mjpg_streamer  -i "input_uvc.so" -o "output_http.so -w ./www"
+      ./mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www"
 
 
 ##### Wep page in PC 
@@ -111,9 +111,22 @@
 
 ![image](https://github.com/user-attachments/assets/fd233dcf-a3a0-400d-9f30-4f9a15ec14f6)
 
-      
-       
-        
+<br/>
+
+ # 6. Make Raspberry Pi automatically become MJPG STREAMER when it starts 
+
+#### Change  www's index.html to  stream_simple.html 
+
+      cd mjpg-streamer/mjpg-streamer-experimental/www
+      mv index.html  index.html_backup
+      nano  index.html 
+
+![image](https://github.com/user-attachments/assets/c3c19b79-f056-4f1f-87b0-a5aa60577309)
+
+##### Save index.html 
+
+<br/>      
+ 
 ####  Edit mjpg-streamer.service  
 
      sudo nano /etc/systemd/system/mjpg-streamer.service
@@ -133,7 +146,7 @@
        "/home/user id/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/user id/mjpg-streamer/mjpg-streamer-experimental/www"
      
      Restart=always     
-     User= user id
+     User=root
 
      [Install]
      
@@ -143,11 +156,10 @@
                
 ####  Start  mjpg-streamer service 
 
-    sudo systemctl daemon-reload
-   
-    sudo systemctl enable mjpg-streamer
-
-    sudo systemctl start mjpg-streamer
+   sudo systemctl daemon-reload
+   sudo systemctl enable mjpg-streamer
+   sudo systemctl start mjpg-streamer
+   sudo reboot
 
 <br/>
 
