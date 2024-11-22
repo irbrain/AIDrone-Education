@@ -67,16 +67,18 @@
      sudo apt install samba  samba-common-bin
      
      sudo smbpasswd -a  pi  (When User ID is pi.)
+     
  
-     write donw password  two times
+        =>  write donw password  two times
 
 <br/>
 
 ###  samba set up 
 
       sudo  nano  /etc/samba/smb.conf
+      
 
-      alt + /  -> cursor move to the last line
+         =>  alt + /  -> cursor move to the last line
 
 <br/>
       
