@@ -21,10 +21,10 @@
 
 <br/>
 
-### 4) Chose Raspberry Pi OS  (32bit Lite Bookworm)
+### 4) Chose Raspberry Pi OS  (32bit Lite Bullseye)
 <br/>
 
-![image](https://github.com/user-attachments/assets/3cd69919-bc29-4dbd-9faa-6fc2a3e96f91)
+![image](https://github.com/user-attachments/assets/f1281366-08a0-4369-b96a-878e51597191)
 
 <br/>
 
