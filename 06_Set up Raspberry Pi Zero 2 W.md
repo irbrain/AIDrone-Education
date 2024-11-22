@@ -112,19 +112,13 @@
      
 <br/>
 
-# 6. Install python Libraries
-
-       pip install  setuptools  wheel  numpy==1.23.5  
-
-<br/>
-
-# 7. Create Python Virtual Environment
+# 6. Create Python Virtual Environment
 
      python3  -m  venv  myvenv
 
 <br/>
 
-# 8. Make sure the Python virtual environment starts automatically when the Raspberry Pi starts.
+# 7. Make sure the Python virtual environment starts automatically when the Raspberry Pi starts.
 
 #### 1)  sudo  nano  ~/.bashrc
 
@@ -142,12 +136,15 @@
 
 #### 6)  sudo reboot  
 
-<br/>
-
 ![image](https://github.com/user-attachments/assets/f4480cd5-2670-4328-bb85-20a7a7090933)
 
+<br/>
 
+# 8. Install python Libraries
 
+       pip install  setuptools  wheel  numpy==1.23.5  
+
+<br/>
 
  
     
