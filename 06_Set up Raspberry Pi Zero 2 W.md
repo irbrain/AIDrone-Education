@@ -144,7 +144,7 @@
 
 # 8. Install python Libraries
 
-        pip install setuptolls wheel numpy==1.23.5  flask
+        pip install setuptools wheel numpy==1.23.5  flask
 
 <br/>
 
