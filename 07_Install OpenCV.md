@@ -84,15 +84,26 @@
 
      make
 
-     sudo make install
-
      cd ~     
     
 <br/>  
 
-#### 2) The latest OS for Raspberry Pi (Bookworm) has libcamera enabled by default. libcamera may be occupying /dev/video0. To disable it:
+#### 2) The latest Raspberry Pi OS uses libcamera by default, but you can enable V4L2 compatibility mode to create a /dev/video0 device.
+
+        sudo nano /boot/firmware/config.txt
 
 
+![image](https://github.com/user-attachments/assets/f92c243c-e609-4fdb-87cd-82582f2326f3)
+
+        sudo reboot 
+
+<br/>
+
+#### 3) MJPG-Streamer Test
+
+       
+       
+        
 ####  Edit mjpg-streamer.service  
 
      sudo nano /etc/systemd/system/mjpg-streamer.service
