@@ -78,38 +78,40 @@
 
 <br/>
 
-### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w ( Bookworm OS Version)
+### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w ( Bullseye OS Version)
 
 <br/>
 
 #### 1) Build  mjpg-streamer source  
 
-     sudo apt update && sudo apt upgrade -y      
+     sudo apt update && sudo apt upgrade -y
 
-     git clone https://github.com/jacksonliam/mjpg-streamer.git
+     git clone  https://github.com/jacksonliam/mjpg-streamer.git
 
      cd mjpg-streamer/mjpg-streamer-experimental
 
-     make
+     make CMAKE_BUILD_TYPE=Debug
 
+     sudo make install 
+     
      cd ~     
     
 <br/>  
 
-#### 2) The latest Raspberry Pi OS uses libcamera by default, but you can enable V4L2 compatibility mode to create a /dev/video0 device.
-
-        sudo nano /boot/firmware/config.txt
-
-
-![image](https://github.com/user-attachments/assets/f92c243c-e609-4fdb-87cd-82582f2326f3)
-
-        sudo reboot 
-
-<br/>
-
 #### 3) MJPG-Streamer Test
 
-       
+      cd mjpg-streamer/mjpg-streamer-experimental
+
+      ./mjpg_streamer  -i "input_uvc.so" -o "output_http.so -w ./www"
+
+
+##### Wep page in PC 
+
+      https://<raspberry pi Address>:8080
+
+![image](https://github.com/user-attachments/assets/fd233dcf-a3a0-400d-9f30-4f9a15ec14f6)
+
+      
        
         
 ####  Edit mjpg-streamer.service  
