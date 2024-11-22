@@ -23,7 +23,7 @@
 
        sudo  dphys-wapfile  swapon
        
-<br/>
+<br/>        
 
 ![image](https://github.com/user-attachments/assets/9e22ae3b-588c-40d1-8732-50a163778078)
 
@@ -35,6 +35,17 @@
      sudo apt install libopencv-dev
 
      sudo apt install python3-opencv
+
+#### Move the opencv executable to the python virtual environment
+
+     sudo  find  /  -type  f  -name  "cv2*.so"
+
+![image](https://github.com/user-attachments/assets/6113320f-6d1f-4a84-9098-6b6e8be3ce14)
+
+     cp /usr/lib/python3/dist-packages/cv2.cpython-311-arm-linux-gnueabihf.so    ~/myvenv/lib/python3.11/site-packages/
+
+<br/>
+
 
 #### Check up The OpenCV's version
 
