@@ -42,7 +42,7 @@
 
 ![image](https://github.com/user-attachments/assets/6113320f-6d1f-4a84-9098-6b6e8be3ce14)
 
-     cp /usr/lib/python3/dist-packages/cv2.cpython-311-arm-linux-gnueabihf.so    ~/myvenv/lib/python3.11/site-packages/
+     cp /usr/lib/python3/dist-packages/cv2.cpython-39-arm-linux-gnueabihf.so    ~/myvenv/lib/python3.11/site-packages/
 
 #### Check up The OpenCV's version
 
