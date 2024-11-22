@@ -118,8 +118,11 @@
 #### Change  www's index.html to  stream_simple.html 
 
       cd mjpg-streamer/mjpg-streamer-experimental/www
+      
       mv index.html  index.html_backup
+      
       nano  index.html 
+      
 
 ![image](https://github.com/user-attachments/assets/c3c19b79-f056-4f1f-87b0-a5aa60577309)
 
