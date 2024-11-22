@@ -44,9 +44,6 @@
 
      cp /usr/lib/python3/dist-packages/cv2.cpython-311-arm-linux-gnueabihf.so    ~/myvenv/lib/python3.11/site-packages/
 
-<br/>
-
-
 #### Check up The OpenCV's version
 
 ![image](https://github.com/user-attachments/assets/83d8e0a3-f780-4bc3-95e0-5e7ba8473a99)
