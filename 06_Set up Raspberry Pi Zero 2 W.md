@@ -76,7 +76,7 @@
 
       sudo  nano  /etc/samba/smb.conf
 
-##### =>  alt + /  -> cursor move to the last line
+##### =>  alt + /  :  cursor move to the last line
 
 <br/>
       
