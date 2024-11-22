@@ -157,8 +157,11 @@
 ####  Start  mjpg-streamer service 
 
    sudo systemctl daemon-reload
+   
    sudo systemctl enable mjpg-streamer
+   
    sudo systemctl start mjpg-streamer
+   
    sudo reboot
 
 <br/>
