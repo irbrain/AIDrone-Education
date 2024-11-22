@@ -145,8 +145,8 @@
 
      [Service]
      
-     ExecStart=/home/user id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/user id/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o 
-       "/home/user id/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/user id/mjpg-streamer/mjpg-streamer-experimental/www"
+     ExecStart=/home/user id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/user id/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so" -o 
+       "/home/user id/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/user id/mjpg-streamer/mjpg-streamer-experimental/www -p 80"
      
      Restart=always     
      User=root
@@ -172,7 +172,7 @@
 
 ####  You can see the camera video in Website on PC
 
-     [raspberry pi wifi address]:8080/?action=stream
+     http://<raspberry pi wifi address>
      
  <br/>
      
