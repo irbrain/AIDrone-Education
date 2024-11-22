@@ -118,6 +118,57 @@
 <br/>
 
 
+# 5. Install python Libraries
+
+       pip install  setuptools  wheel  numpy==1.23.5  
+
+<br/>
+
+# ![image](https://github.com/user-attachments/assets/d5cbfb13-e285-40db-a865-8984ea483158)
+
+
+
+# 6. Install pip for python programing
+
+<br/>
+
+     sudo apt install python3-pip  
+     
+<br/>
+
+
+# 7. Create Python Virtual Environment
+
+<br/>
+
+     python3  -m  venv  myvenv
+
+<br/>
+
+# 8. Make sure the Python virtual environment starts automatically when the Raspberry Pi starts.
+
+<br/>
+
+#### 1)  sudo  nano  ~/.bashrc
+
+#### 2)  Alt + /   ( cursor move to last line)
+
+#### 3)  Write down like this : 
+
+            if  [ -d  "$HOME/myvenv" ]; then
+                 source  $HOME/myvenv/bin/activate
+            fi
+
+#### 4)  Ctrl + x  ->  Y   (Saving File)
+
+#### 5)  source  ~/.bashrc  (bashrc's change comment applied )
+
+#### 6)  sudo reboot  
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/f4480cd5-2670-4328-bb85-20a7a7090933)
+
 
 
 
