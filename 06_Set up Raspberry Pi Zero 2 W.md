@@ -103,7 +103,6 @@
 #### ctrl+x  -> end
 
 #### samba service start
-<br/>
 
       sudo service smbd restart
       
@@ -111,39 +110,29 @@
 
 # 4. connecting samba on PC
 
-<br/>
-
 ![image](https://user-images.githubusercontent.com/122161666/224478786-c3a66388-0c7c-4635-ad17-22c3629327f4.png)
 
 <br/>
 
-
-# 5. Install python Libraries
-
-       pip install  setuptools  wheel  numpy==1.23.5  
-
-<br/>
-
-# 6. Install pip for python programing
-
-<br/>
+# 5. Install pip for python programing
 
      sudo apt install python3-pip  
      
 <br/>
 
+# 6. Install python Libraries
 
-# 7. Create Python Virtual Environment
+       pip install  setuptools  wheel  numpy==1.23.5  
 
 <br/>
+
+# 7. Create Python Virtual Environment
 
      python3  -m  venv  myvenv
 
 <br/>
 
 # 8. Make sure the Python virtual environment starts automatically when the Raspberry Pi starts.
-
-<br/>
 
 #### 1)  sudo  nano  ~/.bashrc
 
