@@ -46,7 +46,7 @@
 
 #### Check up The OpenCV's version
 
-![image](https://github.com/user-attachments/assets/83d8e0a3-f780-4bc3-95e0-5e7ba8473a99)
+![image](https://github.com/user-attachments/assets/473ac68a-f880-4d9e-a3f6-503a26e5823e)
 
 <br/>
 
