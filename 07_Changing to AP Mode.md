@@ -149,7 +149,7 @@
 
          sudo nano  /etc/dhcpcd.conf 
 
-<br/>
+##### Write down like that:
 
          # interface wlan0
          # static ip_address=192.168.4.1/24
@@ -158,8 +158,6 @@
 #### 3)  
  
          sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-
-<br/>
 
 #####  Write Down like that:
 
