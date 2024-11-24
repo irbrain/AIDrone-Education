@@ -199,10 +199,11 @@
 
 #### Write down like that:
 
+<br/>
 
 #!/bin/bash
 
-# A script to switch between AP mode and STA mode
+#A script to switch between AP mode and STA mode
 
 if [ "$1" == "AP" ]; then
     echo "Switching to Access Point (AP) mode..."
