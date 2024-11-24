@@ -155,7 +155,7 @@
          # static ip_address=192.168.4.1/24
          # nohook wpa_supplicant
 
-#### 3)  
+#### 3) Wi-Fi network configuration
  
          sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
