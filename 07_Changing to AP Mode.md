@@ -201,12 +201,11 @@
 
 <br/>
 
-#!/bin/bash
-
-#A script to switch between AP mode and STA mode
-
-if [ "$1" == "AP" ]; then
-    echo "Switching to Access Point (AP) mode..."
+    #!/bin/bash
+    #A script to switch between AP mode and STA mode
+    
+    if [ "$1" == "AP" ]; then
+         echo "Switching to Access Point (AP) mode..."
     # Stop STA services
     sudo systemctl stop wpa_supplicant
     sudo systemctl stop dhcpcd
