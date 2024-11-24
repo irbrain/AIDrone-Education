@@ -226,8 +226,8 @@
     sudo systemctl start dnsmasq
     echo "Switched to AP mode."
 
-elif [ "$1" == "STA" ]; then
-    echo "Switching to Station (STA) mode..."
+    elif [ "$1" == "STA" ]; then
+        echo "Switching to Station (STA) mode..."
     # Stop AP services
     sudo systemctl stop hostapd
     sudo systemctl stop dnsmasq
@@ -245,10 +245,10 @@ elif [ "$1" == "STA" ]; then
     sudo systemctl start wpa_supplicant
     echo "Switched to STA mode."
 
-else
-    echo "Usage: $0 [AP|STA]"
+    else
+        echo "Usage: $0 [AP|STA]"
     exit 1
-fi
+    fi
 
 <br/>
 
