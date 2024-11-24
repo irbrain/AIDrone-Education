@@ -134,41 +134,133 @@
    
         sudo reboot
 
-
-
-# Create the script:  ap_mode.sh
-
-
-   sudo nano /usr/local/bin/ap_mode.sh
-   
 <br/>
+
+###  13.  Return to STA mode
+
+#### 1)
+          sudo systemctl stop hostapd
+          sudo systemctl disable hostapd
+          sudo systemctl stop dnsmasq
+          sudo systemctl disable dnsmasq
+
+#### 2) Commnet out or Delete 
+
+         sudo nano  /etc/dhcpcd.conf 
+
+<br/>
+
+         # interface wlan0
+         # static ip_address=192.168.4.1/24
+         # nohook wpa_supplicant
+
+#### 3)  
+ 
+         sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+<br/>
+
+#####  Write Down like that:
+
+        ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+        update_config=1
+        country=US    # Enter the corresponding country code (e.g., South Korea is KR, the United States is US) 
+
+        network={
+            ssid="YourSSID"       # Wi-Fi 네트워크 이름
+            psk="YourPassword"    # Wi-Fi 비밀번호
+            key_mgmt=WPA-PSK
+        }
+
+####  After that, sava and end
+
+<br/>
+
+#### 4) Enable the wpa_supplicant service
+
+         sudo systemctl restart dhcpcd
+         sudo systemctl restart wpa_supplicant
+
+#### 5) Enable Interface
+
+         sudo ip link set wlan0 up
+
+#### 6) Test Wifi Conneting
+
+         ip addr  show  wlan0
+
+         ping -c 4 google.com
+
+<br/>
+
+         
+# Change easy between STA mode and AT mode :
+
+     sudo nano /usr/local/bin/switch_wifi_mode.sh
+
+#### Write down like that:
 
 #!/bin/bash
 
-sudo systemctl stop wpa_supplicant
+# A script to switch between AP mode and STA mode
 
-sudo systemctl disable wpa_supplicant
+if [ "$1" == "AP" ]; then
+    echo "Switching to Access Point (AP) mode..."
+    # Stop STA services
+    sudo systemctl stop wpa_supplicant
+    sudo systemctl stop dhcpcd
 
+    # Set static IP for wlan0
+    sudo sed -i '/^interface wlan0/d' /etc/dhcpcd.conf
+    sudo sed -i '/^static ip_address/d' /etc/dhcpcd.conf
+    sudo sed -i '/^nohook wpa_supplicant/d' /etc/dhcpcd.conf
+    echo -e "interface wlan0\nstatic ip_address=192.168.4.1/24\nnohook wpa_supplicant" | sudo tee -a /etc/dhcpcd.conf
 
-sudo sed -i 's/^#\(interface wlan0\)/\1/' /etc/dhcpcd.conf
+    # Restart networking
+    sudo systemctl restart dhcpcd
 
-sudo sed -i 's/^#\(static ip_address\)/\1/' /etc/dhcpcd.conf
+    # Start AP services
+    sudo systemctl unmask hostapd
+    sudo systemctl enable hostapd
+    sudo systemctl start hostapd
+    sudo systemctl start dnsmasq
+    echo "Switched to AP mode."
 
-sudo sed -i 's/^#\(nohook wpa_supplicant\)/\1/' /etc/dhcpcd.conf
+elif [ "$1" == "STA" ]; then
+    echo "Switching to Station (STA) mode..."
+    # Stop AP services
+    sudo systemctl stop hostapd
+    sudo systemctl stop dnsmasq
 
+    # Remove static IP configuration
+    sudo sed -i '/^interface wlan0/d' /etc/dhcpcd.conf
+    sudo sed -i '/^static ip_address/d' /etc/dhcpcd.conf
+    sudo sed -i '/^nohook wpa_supplicant/d' /etc/dhcpcd.conf
 
-sudo systemctl start dnsmasq
+    # Restart networking
+    sudo systemctl restart dhcpcd
 
-sudo systemctl start hostapd
+    # Start STA services
+    sudo systemctl enable wpa_supplicant
+    sudo systemctl start wpa_supplicant
+    echo "Switched to STA mode."
 
-sudo systemctl restart dhcpcd
-
-echo "AP 모드로 전환되었습니다."
+else
+    echo "Usage: $0 [AP|STA]"
+    exit 1
+fi
 
 <br/>
+
 
 ###  Make the script executable:
 
      sudo  chmod +x  /usr/local/bin/ap_mode.sh
+
+#### 2) How to use:
+
+![image](https://github.com/user-attachments/assets/ef4bcf61-166d-4dea-a110-659d4555998d)
+
+![image](https://github.com/user-attachments/assets/153adfff-799c-4d2e-9911-64ee32178aee)
 
 
