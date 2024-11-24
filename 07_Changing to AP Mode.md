@@ -257,7 +257,7 @@
 
      sudo  chmod +x  /usr/local/bin/ap_mode.sh
 
-#### 2) How to use:
+### How to use:
 
 ![image](https://github.com/user-attachments/assets/ef4bcf61-166d-4dea-a110-659d4555998d)
 
