@@ -166,8 +166,8 @@
         country=US    # Enter the corresponding country code (e.g., South Korea is KR, the United States is US) 
 
         network={
-            ssid="YourSSID"       # Wi-Fi 네트워크 이름
-            psk="YourPassword"    # Wi-Fi 비밀번호
+            ssid="YourSSID"       # Wi-Fi SSID name
+            psk="YourPassword"    # Wi-Fi Password
             key_mgmt=WPA-PSK
         }
 
@@ -198,6 +198,7 @@
      sudo nano /usr/local/bin/switch_wifi_mode.sh
 
 #### Write down like that:
+
 
 #!/bin/bash
 
