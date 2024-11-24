@@ -138,7 +138,8 @@
 
 ###  13.  Return to STA mode
 
-#### 1)
+#### 1) Stop hostapd service
+
           sudo systemctl stop hostapd
           sudo systemctl disable hostapd
           sudo systemctl stop dnsmasq
