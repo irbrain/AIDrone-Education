@@ -83,7 +83,7 @@
 ####  write like that
 
       [UserID]
-              commnet = userID home
+              comment = userID home
               path = /home/userID
               valid users = userID
               guest ok = no
