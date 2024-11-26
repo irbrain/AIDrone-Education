@@ -30,7 +30,7 @@
 <br/>
        
 
-### 3. Install Opencv  (Simple waw for C++ and Python) : Recommend this method
+### 3. Install Opencv  (Simple waw for C++ and Python) 
 
      sudo apt install libopencv-dev
 
@@ -50,7 +50,7 @@
 
 <br/>
 
-### 4. Install OpneCV by Source  (If using  C/C++ and Python )
+### 4. Install OpneCV by Source  (If using  C/C++ and Python )  : Recommend this method
 
        git clone https://github.com/opencv/opencv.git
    
