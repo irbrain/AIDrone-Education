@@ -148,7 +148,7 @@
 
         sudo  rm  /usr/lib/python3/dist-packages/gpg-1.14*
        
-        pip install setuptools wheel numpy==1.23.5  flask
+         myvenv/bin/pip install setuptools wheel numpy==1.23.5  flask
 
 ![image](https://github.com/user-attachments/assets/25cefbf6-dcaf-4465-9830-789605f3b111)
 
