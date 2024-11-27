@@ -146,22 +146,19 @@
     
 <br/> 
 
-     [Unit]
-     
-     Description=mjpg-streamer     
-     After=network-online.target
+[Unit]
+Description=MJPG Streamer Service
+After=network.target
 
-     [Service]
-     
-     ExecStart=/home/user id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/user id/mjpg-streamer/mjpg-streamer-experimental/input_uvc.so" -o 
-       "/home/user id/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /home/user id/mjpg-streamer/mjpg-streamer-experimental/www -p 80"
-     
-     Restart=always     
-     User=root
+[Service]
+ExecStart=/home/aidrone/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www -p 8080"
+WorkingDirectory=/home/aidrone/mjpg-streamer/mjpg-streamer-experimental
+User=aidrone
+Restart=always
 
-     [Install]
+[Install]
+WantedBy=multi-user.target
      
-     WantedBy=multi-user.target
 
 <br/>
                
