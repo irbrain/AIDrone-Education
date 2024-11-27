@@ -4,7 +4,7 @@
 
 [Korean Version]
 
-https://drive.google.com/drive/folders/1BqfAYvlC5yPgOxIQagfW6Y1CDFFgmZtY?usp=drive_link
+https://drive.google.com/file/d/19mDcPZ8vACHmRV8rNDy-l9Iu3M4zK7KA/view?usp=drive_link
 
 [English Version]
 
