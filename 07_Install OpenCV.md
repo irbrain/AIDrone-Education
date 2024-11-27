@@ -142,22 +142,23 @@
 
      sudo nano /etc/systemd/system/mjpg-streamer.service
  
-     < change from user id to your id >
+     < change from user id to your user >
     
 <br/> 
 
-[Unit]
-Description=MJPG Streamer Service
-After=network.target
+     [Unit]
+     Description=MJPG Streamer Service
+     fter=network.target
 
-[Service]
-ExecStart=/home/aidrone/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www -p 8080"
-WorkingDirectory=/home/aidrone/mjpg-streamer/mjpg-streamer-experimental
-User=aidrone
-Restart=always
+     [Service]
+     ExecStart=/home/your id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www -p 80"
+     WorkingDirectory=/home/your id/mjpg-streamer/mjpg-streamer-experimental
+     User=root
+     Restart=always
 
-[Install]
-WantedBy=multi-user.target
+     [Install]
+     WantedBy=multi-user.target
+
      
 
 <br/>
