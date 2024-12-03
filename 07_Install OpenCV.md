@@ -182,5 +182,14 @@
      
 ![image](https://github.com/user-attachments/assets/e9f3a5fb-403b-48a2-8bf2-5143b5beb6e8)
 
+<br/>
 
+####  Stop  mjpg-streamer service 
 
+#####  for stop
+
+     sudo systemctl stop mjpg-streamer
+
+#####  for disalbe if you need
+
+     sudo systemctl disable mjpg-streamer
