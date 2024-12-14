@@ -52,6 +52,10 @@
 
 ![스크린샷 2024-06-06 162202](https://github.com/irbrain/AIDrone/assets/122161666/1aa4401d-37b5-4a20-a894-8ec949b2b144)
 
+<br/>
+
+![image](https://github.com/user-attachments/assets/573b88a6-1286-4bd9-8643-2f95d6eabd56)
+
  
 
 
