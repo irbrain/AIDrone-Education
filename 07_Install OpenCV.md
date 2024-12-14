@@ -151,7 +151,9 @@
      fter=network.target
 
      [Service]
-     ExecStart=/home/your id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www -p 80"
+     ExecStartPre=/usr/bin/v4l2-ctl --set-ctrl=horizontal_flip=1
+     ExecStartPre=/usr/bin/v4l2-ctl --set-ctrl=vertical_flip=1
+     ExecStart=/home/your_id/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www -p 80"
      WorkingDirectory=/home/your id/mjpg-streamer/mjpg-streamer-experimental
      User=root
      Restart=always
