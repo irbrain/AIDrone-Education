@@ -30,7 +30,7 @@ The coding drone competitions and AI drone challenges offer practical project ex
 
 ### 2. Computing Module:
 
-#### Raspberry Pi Zero 2 W:
+##### Raspberry Pi Zero 2 W:
 
      -  CPU: Quad-core ARM Cortex-A53
 
@@ -42,7 +42,7 @@ The coding drone competitions and AI drone challenges offer practical project ex
 
      -  GPIO: Pin expansion support
 
-#### 3. Camera:
+### 3. Camera:
 
      -  Resolution: Up to 1080p HD
 
