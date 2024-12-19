@@ -78,6 +78,7 @@ The coding drone competitions and AI drone challenges offer practical project ex
 
      -  Enhancing Programming and Logical Thinking Skills
 
+<br/>
 
 The AIDrone is the perfect educational tool for combining AI and coding learning experiences!
 
