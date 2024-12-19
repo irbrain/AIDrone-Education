@@ -1,4 +1,4 @@
-# Assemble AIDrone
+# AIDrone Assembly
 
 ### 1. Insert Motors with Propeller in Drone Body 
 
