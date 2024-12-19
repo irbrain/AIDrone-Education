@@ -14,6 +14,8 @@ This makes it accessible for students and hobbyists to code and pilot the drone 
 
 The coding drone competitions and AI drone challenges offer practical project experiences and fun, interactive AI learning opportunities.
 
+<br/>
+
 # AIDrone Specifications
 
 ### 1. Flight Controller (FC) Board:
@@ -78,7 +80,7 @@ Enhancing Programming and Logical Thinking Skills
 
 The AIDrone is the perfect educational tool for combining AI and coding learning experiences!
 
-</br>
+<br/>
 
 ![AI Drone and Controller](https://github.com/irbrain/AIDrone/assets/122161666/f4d34586-f199-49d7-bcbd-c92e747c3076)
 
