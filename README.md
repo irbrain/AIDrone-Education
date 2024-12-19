@@ -32,49 +32,48 @@ ToF Distance Sensor: VL53L0X (Laser-based distance measurement)
 
 #### Raspberry Pi Zero 2 W:
 
-CPU: Quad-core ARM Cortex-A53
+     -  CPU: Quad-core ARM Cortex-A53
 
-RAM: 512MB
+     -  RAM: 512MB
 
-Wi-Fi: 2.4GHz 802.11 b/g/n
+     -  Wi-Fi: 2.4GHz 802.11 b/g/n
 
-Bluetooth: 4.2/BLE
+     -  Bluetooth: 4.2/BLE
 
-GPIO: Pin expansion support
+     -  GPIO: Pin expansion support
 
-Camera:
+#### Camera:
 
-Resolution: Up to 1080p HD
+     -  Resolution: Up to 1080p HD
 
-Video Streaming: Real-time video transmission and AI-based video processing support
+     -  Video Streaming: Real-time video transmission and AI-based video processing support
 
 ### 3. Coding Environment:
 
-Block Coding: Scratch 3-based block coding application support
+     -  Block Coding: Scratch 3-based block coding application support
 
-Text Coding: Python programming support
+     -  Text Coding: Python programming support
 
-App Integration: Bluetooth and Wi-Fi for app control and program uploads
+     -  App Integration: Bluetooth and Wi-Fi for app control and program uploads
 
-Power:
+### 4. Power:  3.7V  25C  1000mAh  LiPo battery
 
-Battery: 3.7V LiPo battery
+### 5. Flight Time: Approximately 6~8 minutes (if using Raspberry pi Zero 2 W, 4 minutes) 
 
-Flight Time: Approximately 10-15 minutes (depending on usage conditions)
+### 6. Educational & Competition Use:
 
-Educational & Competition Use:
+     -  Ideal for Coding Drone Competitions and AI Drone Challenges
 
-Ideal for Coding Drone Competitions and AI Drone Challenges
+     -  Supports AI-based object recognition, autonomous flight, and obstacle avoidance
 
-Supports AI-based object recognition, autonomous flight, and obstacle avoidance
+### 7. Applications:
 
-Applications:
+     -  Coding Education and STEM Learning
 
-Coding Education and STEM Learning
+     -  AI and Robotics Practice
 
-AI and Robotics Practice
+     -  Enhancing Programming and Logical Thinking Skills
 
-Enhancing Programming and Logical Thinking Skills
 
 The AIDrone is the perfect educational tool for combining AI and coding learning experiences!
 
