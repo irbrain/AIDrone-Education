@@ -18,15 +18,15 @@ The coding drone competitions and AI drone challenges offer practical project ex
 
 ### 1. Flight Controller (FC) Board:
 
-     -  Chipset: NRF51822 (Low-power BLE support)
+     -  MCU: NRF51822 
 
-     -  Gyro Sensor: ICM-20602 (6-axis accelerometer and gyroscope)
+     -  6-axis accelerometer and gyroscope Sensor: ICM-20602 
 
-     -  Barometric Sensor: SPL06 (High-precision altitude measurement)
+     -  Barometric Sensor: SPL06 
 
-     -  Optical Flow Sensor: PMW3901MB (Accurate indoor positioning)
+     -  Optical Flow Sensor: PMW3901MB 
 
-     -  ToF Distance Sensor: VL53L0X (Laser-based distance measurement)
+     -  ToF Distance Sensor: VL53L0X
 
 ### 2. Computing Module:
 
@@ -56,9 +56,13 @@ The coding drone competitions and AI drone challenges offer practical project ex
 
      -  App Integration: Bluetooth and Wi-Fi for app control and program uploads
 
-### 5. Power:  3.7V  25C  1000mAh  LiPo battery
+### 5. Power:  
 
-### 6. Flight Time: Approximately 6~8 minutes (if using Raspberry pi Zero 2 W, 4 minutes) 
+      -  3.7V  25C  1000mAh  LiPo battery
+
+### 6. Flight Time: 
+
+      -  Approximately 6~8 minutes (if using Raspberry pi Zero 2 W, 4 minutes) 
 
 ### 7. Educational & Competition Use:
 
