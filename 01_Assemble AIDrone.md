@@ -1,4 +1,4 @@
-# Flight AIDrone with Coding App 
+# Assemble AIDrone
 
 ### 1. Insert Motors with Propeller in Drone Body 
 
