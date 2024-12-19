@@ -2,9 +2,7 @@
 
 The AIDrone is an advanced educational drone designed for coding and AI learning, integrating cutting-edge sensors and computing technology.
 
-The NRF51822-based flight controller (FC) board is equipped with an ICM-20602 (gyro sensor), SPL06 (barometric sensor), PMW3901MB (optical flow sensor), 
-
-and VL53L0X (ToF distance sensor), enabling precise flight control and accurate environmental awareness. 
+The NRF51822-based flight controller (FC) board is equipped with an ICM-20602 (gyro sensor), SPL06 (barometric sensor), PMW3901MB (optical flow sensor), and VL53L0X (ToF distance sensor), enabling precise flight control and accurate environmental awareness. 
 
 Additionally, a Raspberry Pi Zero 2 W with a camera module allows for advanced AI capabilities and video processing.
 
