@@ -30,7 +30,7 @@ ToF Distance Sensor: VL53L0X (Laser-based distance measurement)
 
 ### 2. Computing Module:
 
-Raspberry Pi Zero 2 W:
+#### Raspberry Pi Zero 2 W:
 
 CPU: Quad-core ARM Cortex-A53
 
