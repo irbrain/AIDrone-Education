@@ -263,4 +263,6 @@
 
 ![image](https://github.com/user-attachments/assets/153adfff-799c-4d2e-9911-64ee32178aee)
 
+### Next
 
+     sudo reobot
