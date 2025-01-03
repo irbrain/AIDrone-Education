@@ -1,4 +1,4 @@
-# Find the desired object using YOLO v5
+# Find the desired object using YOLOv9
 
 ### 1. Collecting Images with Drones:
 1) Gather images captured using drones.
