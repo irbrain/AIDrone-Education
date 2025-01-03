@@ -4,7 +4,8 @@
 1) Gather images captured using drones.
 2) Perform labeling for each image to prepare the dataset.
 3) Use tools that support labeling in the YOLO format, such as:
-    LabelImg: https://github.com/heartexlabs/labelImg
+
+     LabelImg: https://github.com/heartexlabs/labelImg
 
 ### 2. Training Optimization:
 #### Adjust the learning rate as needed (default: 0.01).
