@@ -9,18 +9,18 @@
 
 ### 2. Environment Setup:
 
-#### CUDA와 cuDNN 설치 (GPU 사용시)
-##### PyTorch 설치
+#### Installing CUDA and cuDNN (For GPU Usage)
+#### Installing Pytorch
 
       pip3 install torch torchvision torchaudio
 
-#### YOLOv9 저장소 클론
+#### Cloning the YOLOv9 Repository
 
      git clone https://github.com/WongKinYiu/yolov9
      cd yolov9
      pip install -r requirements.txt
      
-#### 기본 가중치 다운로드
+#### Downloading Pre-trained Weights
    
       wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt
 
@@ -37,8 +37,8 @@
 
        train: ./images/train
        val: ./images/val
-       nc: 2  # 클래스 개수
-       names: ['class1', 'class2']  # 클래스 이름들
+       nc: 2  # Number of Classes
+       names: ['class1', 'class2']  # Class Names
 
 <br/>
 
