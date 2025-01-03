@@ -35,13 +35,10 @@
 
 ### 4. dataset.yaml  Setup:
 
-train: ./images/train
-
-val: ./images/val
-
-nc: 2  # 클래스 개수
-
-names: ['class1', 'class2']  # 클래스 이름들
+       train: ./images/train
+       val: ./images/val
+       nc: 2  # 클래스 개수
+       names: ['class1', 'class2']  # 클래스 이름들
 
 <br/>
 
