@@ -7,20 +7,50 @@
 
        LabelImg: https://github.com/heartexlabs/labelImg
 
-### 2. Training Optimization:
-#### Adjust the learning rate as needed (default: 0.01).
-#### Set the batch size according to the available GPU memory.
-#### Use an image resolution of 640x640 as a starting point (can be modified as necessary).
+### 2. Environment Setup:
 
-### 3. Performance Monitoring:
-#### Utilize TensorBoard to monitor the training process in real-time.
-#### Check the mean Average Precision (mAP) to assess model performance.
-#### Regularly evaluate for signs of overfitting to maintain model generalization.
+#### CUDA와 cuDNN 설치 (GPU 사용시)
+##### PyTorch 설치
 
-### 4. Inference and Evaluation:
-#### Use the provided inference.py script for testing and making predictions.
-#### Experiment with different confidence threshold values to find the optimal settings.
-#### Conduct evaluations in real-world scenarios to validate model performance.
+      pip3 install torch torchvision torchaudio
 
+#### YOLOv9 저장소 클론
+
+     git clone https://github.com/WongKinYiu/yolov9
+     cd yolov9
+     pip install -r requirements.txt
+
+#### 기본 가중치 다운로드
+   
+      wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt
+
+### 3. Dataset Structure: 
+
+dataset/
+├── images/
+│   ├── train/
+│   └── val/
+├── labels/
+│   ├── train/
+│   └── val/
+└── dataset.yaml
+      
+
+### 4. dataset.yaml  Setup:
+
+train: ./images/train
+val: ./images/val
+nc: 2  # 클래스 개수
+names: ['class1', 'class2']  # 클래스 이름들
+
+### 5. Training Execution: 
+
+python train.py --weights yolov9-c.pt \
+                --cfg models/yolov9-c.yaml \
+                --data path/to/dataset.yaml \
+                --epochs 100 \
+                --batch-size 16 \
+                --img-size 640 \
+                --device 0  # GPU 사용시
 
 
