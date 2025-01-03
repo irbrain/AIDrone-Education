@@ -1,9 +1,10 @@
 # Find the desired object using YOLO v5
 
-### 1.Dataset Preparation:
-#### Ensure a minimum of 100 images per class to build a robust dataset.
-#### Include images captured under varied environments and conditions to enhance model generalization.
-#### Split the dataset into training and validation sets, with a recommended ratio of 80:20.
+### 1. Collecting Images with Drones:
+1) Gather images captured using drones.
+2) Perform labeling for each image to prepare the dataset.
+3) Use tools that support labeling in the YOLO format, such as:
+    LabelImg: https://github.com/heartexlabs/labelImg
 
 ### 2. Training Optimization:
 #### Adjust the learning rate as needed (default: 0.01).
