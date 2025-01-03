@@ -19,22 +19,20 @@
      git clone https://github.com/WongKinYiu/yolov9
      cd yolov9
      pip install -r requirements.txt
+     
+<br/>
 
 #### 기본 가중치 다운로드
    
       wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt
 
+<br/>
+
 ### 3. Dataset Structure: 
 
-dataset/
-├── images/
-│   ├── train/
-│   └── val/
-├── labels/
-│   ├── train/
-│   └── val/
-└── dataset.yaml
+![image](https://github.com/user-attachments/assets/ba3a3fec-cc0f-4baf-88fa-9007f9f36a79)
       
+<br/>
 
 ### 4. dataset.yaml  Setup:
 
@@ -42,6 +40,8 @@ train: ./images/train
 val: ./images/val
 nc: 2  # 클래스 개수
 names: ['class1', 'class2']  # 클래스 이름들
+
+<br/>
 
 ### 5. Training Execution: 
 
