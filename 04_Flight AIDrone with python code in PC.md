@@ -230,41 +230,39 @@
             aidrone.setOption(0)
             sleep(0.5)
 
-             while not ikey.isKeyEscPressed():        
-        
-            if ikey.isKeyEnterPressed():             
+            while not ikey.isKeyEscPressed():             
+               if ikey.isKeyEnterPressed():             
                   aidrone.takeoff()
-
-            if ikey.isKeySpacePressed():
+               if ikey.isKeySpacePressed():
                   aidrone.landing()
       
-            if ikey.isKeyUpPressed():
+               if ikey.isKeyUpPressed():
                   aidrone.velocity(FRONT, 100)
-            elif ikey.isKeyDownPressed():
+               elif ikey.isKeyDownPressed():
                   aidrone.velocity(BACK, 100)
-            else:
+               else:
                   aidrone.velocity(FRONT, 0)
 
-            if ikey.isKeyRightPressed():
+               if ikey.isKeyRightPressed():
                   aidrone.velocity(RIGHT, 100)
-            elif ikey.isKeyLeftPressed():
+               elif ikey.isKeyLeftPressed():
                   aidrone.velocity(LEFT, 100)
-            else:
+               else:
                   aidrone.velocity(RIGHT, 0) 
         
-            if ikey.isKeyWPressed():
+               if ikey.isKeyWPressed():
                   Height = Height + 10
                   aidrone.altitude(Height)
-            elif ikey.isKeyXPressed():
+               elif ikey.isKeyXPressed():
                   Height = Height - 10
                   aidrone.altitude(Height)
 
-             if ikey.isKeyDPressed():
+               if ikey.isKeyDPressed():
                   Degree = Degree + 10
                   aidrone.rotation(Degree)            
-            elif ikey.isKeyAPressed():
+               elif ikey.isKeyAPressed():
                   Degree = Degree +10
                   aidrone.rotation(-Degree)            
 
-            sleep(0.1)
-      aidrone.Close()
+          sleep(0.1)
+          aidrone.Close()
