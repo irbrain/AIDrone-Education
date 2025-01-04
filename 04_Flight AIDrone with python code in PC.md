@@ -220,8 +220,7 @@
       from pyaidrone.deflib import *
       from pyaidrone.ikeyevent import *
 
-      Height = 70
-      Degree = 0
+      Height = 70     
 
       if __name__ == '__main__':
             aidrone = AIDrone()
@@ -258,11 +257,9 @@
                   aidrone.altitude(Height)
 
                if ikey.isKeyDPressed():
-                  Degree = Degree + 10
-                  aidrone.rotation(Degree)            
+                  aidrone.rotation(10)            
                elif ikey.isKeyAPressed():
-                  Degree = Degree +10
-                  aidrone.rotation(-Degree)            
+                  aidrone.rotation(-10)            
 
             sleep(0.1)
             aidrone.Close()
