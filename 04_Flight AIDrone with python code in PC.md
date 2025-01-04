@@ -264,5 +264,5 @@
                   Degree = Degree +10
                   aidrone.rotation(-Degree)            
 
-          sleep(0.1)
-          aidrone.Close()
+            sleep(0.1)
+            aidrone.Close()
