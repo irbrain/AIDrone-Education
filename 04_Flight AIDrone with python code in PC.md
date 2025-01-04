@@ -257,9 +257,11 @@
                   aidrone.altitude(Height)
 
                if ikey.isKeyDPressed():
-                  aidrone.rotation(10)            
+                  aidrone.rotation(10)    
+                  sleep(0.1)
                elif ikey.isKeyAPressed():
-                  aidrone.rotation(-10)            
+                  aidrone.rotation(-10)
+                  sleep(0.1)
 
             sleep(0.1)
             aidrone.Close()
