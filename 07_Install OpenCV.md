@@ -192,8 +192,29 @@
 
 #####  for stop
 
-     sudo systemctl stop mjpg-streamer
+     sudo systemctl stop mjpg-streamer.service
 
 #####  for disalbe if you need
 
-     sudo systemctl disable mjpg-streamer
+     sudo systemctl disable mjpg-streamer.service
+
+<br/>
+
+###  GST Streamer In CMD of your PC 
+
+      gst-launch-1.0 udpsrc port=5000 ! application/x-rtp,encoding-name=H264 ! rtph264depay ! avdec_h264 ! autovideosink
+
+<br/>
+
+      ![image](https://github.com/user-attachments/assets/af8ab8f4-6de4-48b3-b58a-8cd289dd6d02)
+
+
+####  Stop  gst-streamer service  in Raspberry Pi Zero 2W
+
+#####  for stop
+
+     sudo systemctl stop gst_streamer.service
+     
+#####  for disalbe if you need
+
+     sudo systemctl disable gst_streamer.service
