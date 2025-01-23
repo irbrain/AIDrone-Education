@@ -102,7 +102,7 @@
       
 <br/>
 
-     ./mjpg_streamer -i "input_uvc.so -rot 180" -o "output_http.so -w ./www"
+     ./mjpg_streamer  -i  "input_uvc.so -rot 180 -r 640x480 -f 15 -q 60" -o "output_http.so -w ./www"
 
 
 ##### Wep page in PC 
