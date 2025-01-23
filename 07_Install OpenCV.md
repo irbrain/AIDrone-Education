@@ -99,8 +99,10 @@
 #### 3) MJPG-Streamer Test
 
       cd mjpg-streamer/mjpg-streamer-experimental
+      
+<br/>
 
-      ./mjpg_streamer -i "input_uvc.so" -o "output_http.so -w ./www"
+     ./mjpg_streamer -i "input_uvc.so -rot 180" -o "output_http.so -w ./www"
 
 
 ##### Wep page in PC 
