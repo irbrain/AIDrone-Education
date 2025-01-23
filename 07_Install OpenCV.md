@@ -206,7 +206,7 @@
 
 <br/>
 
-      ![image](https://github.com/user-attachments/assets/af8ab8f4-6de4-48b3-b58a-8cd289dd6d02)
+![image](https://github.com/user-attachments/assets/ade6a51a-f580-47ea-b9ce-ee858e1dce52)
 
 
 ####  Stop  gst-streamer service  in Raspberry Pi Zero 2W
