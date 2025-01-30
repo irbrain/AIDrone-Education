@@ -39,7 +39,11 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 ***[Explain Transmitter ]*** 
 
-![스크린샷 2024-06-06 134620](https://github.com/irbrain/AIDrone/assets/122161666/03ef05de-c4f1-4a2b-8675-04556fdc70c1)
+![image](https://github.com/user-attachments/assets/3f89d0c4-2320-4d79-a366-c60465108c93)
+
+1. Drone Connect Button(Green Light) :  A green light blinking means it is not connected. Press the button for more than 3 seconds, and when the green light stops blinking, it is connected.
+2. Sensor Calibartion Button :  If the green light is off, the drone is not level, so place the drone level and press the Sensor Calibartion button for more than 3 seconds.
+
 
 <br/>
 
