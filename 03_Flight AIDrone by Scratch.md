@@ -41,8 +41,10 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 ![image](https://github.com/user-attachments/assets/3f89d0c4-2320-4d79-a366-c60465108c93)
 
-1. Drone Connect Button(Green Light) :  A green light blinking means it is not connected. Press the button for more than 3 seconds, and when the green light stops blinking, it is connected.
-2. Sensor Calibartion Button :  If the green light is off, the drone is not level, so place the drone level and press the Sensor Calibartion button for more than 3 seconds.
+#### 1. Drone Connect Button(Green Light) :  A green light blinking means it is not connected. Press the button for more than 3 seconds, and when the green light stops blinking, it is connected.
+#### 2. Sensor Calibartion Button :  If the green light is off, the drone is not level, so place the drone level and press the Sensor Calibartion button for more than 3 seconds.
+#### 3. Pitch, Yaw Speed Button : The speed changes each time you press the button.
+#### 4. Optical Flow Sensor On/Off : Pressing button 2 turns the Optical Flow function on and off. When it's off, the drone is not fixed and flows.
 
 
 <br/>
