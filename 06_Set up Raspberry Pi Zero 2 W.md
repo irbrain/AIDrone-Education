@@ -151,6 +151,7 @@
 -  alt + /   : go to the end of bashrc file
 
      alias python='~/myenv/bin/python3'
+   
      alias pip='~/myenv/bin/pip'
 
 -  ctrl + x  ->  y   :  File save
