@@ -148,11 +148,15 @@
 
      sudo nano ~/.bashrc
 
--  alt + /   : go to the end of bashrc file
+-  alt + /     : go to the end of bashrc file
+  
+<br/>
 
      alias python='~/myenv/bin/python3'
    
      alias pip='~/myenv/bin/pip'
+
+<br/>
 
 -  ctrl + x  ->  y   :  File save
 
