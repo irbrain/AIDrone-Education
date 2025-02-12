@@ -118,7 +118,7 @@
 
      sudo apt install python3-venv
      
-     python3  -m  venv  myvenv
+     python3  -m  venv  myenv
 
 <br/>
 
@@ -144,7 +144,22 @@
 
 <br/>
 
-# 8. Install python Libraries
+# 8. Setting up Python3 and pip to run in a virtual environment 
+
+     sudo nano ~/.bashrc
+
+-  alt + /   : go to the end of bashrc file
+
+     alias python='~/myenv/bin/python3'
+     alias pip='~/myenv/bin/pip'
+
+-  ctrl + x  ->  y   :  File save
+
+     source   ~/.bashrc     => Apply the changes made to .bashrc
+
+<br/>    
+
+# 9. Install python Libraries
 
         sudo  rm  /usr/lib/python3/dist-packages/gpg-1.14*
        
