@@ -1,4 +1,3 @@
-
 ## 1. Upload the Raspberry Pi image to SD Card
 
 ### 1) Install Raspberry Pi Imager 
